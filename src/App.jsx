@@ -11,8 +11,8 @@ import {
 	Stats,
 	Testimonials,
 	Hero,
+	Features,
 } from "./components";
-import Features from "./components/Features";
 
 const App = () => (
 	<div className="bg-primary w-full overflow-hidden">

@@ -1,15 +1,18 @@
+import React from "react";
 import { stats } from "../constants";
 import styles, { layout } from "../style";
 
 const FeatureCard = ({ value, title, content, index }) => (
-	<div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
-		<span class="inline-block text-blue-500 dark:text-blue-400">{value}</span>
+	<div className="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl">
+		<span className="inline-block text-blue-500 dark:text-blue-400">
+			{value}
+		</span>
 
-		<h1 class="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+		<h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
 			{title}
 		</h1>
 
-		<p class="text-gray-500 dark:text-gray-300">{content}</p>
+		<p className="text-gray-500 dark:text-gray-300">{content}</p>
 	</div>
 );
 
