@@ -49,9 +49,8 @@
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    rgba(255, 255, 255,10%),
+    rgba(17, 16, 29, 10%)
   );
 }
 
@@ -108,6 +107,11 @@
 }
 
 .feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.feature-card-bg {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
 }
