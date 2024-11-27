@@ -33,9 +33,9 @@ const Business = () => (
 				build.
 			</h2>
 			<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-				With the right credit card, you can improve your financial life by
-				building credit, earning rewards and saving money. But with hundreds of
-				credit cards on the market.
+				Skip the cost and stress of hiring in-house. Our subscription delivers
+				expert software, stunning websites, and creative designs—no hire—fast,
+				reliable, and hassle-free.
 			</p>
 
 			<Button styles={`mt-10`} />

@@ -17,7 +17,17 @@ const FeatureCard = ({ value, title, content, index }) => (
 );
 
 const Features = () => (
-	<section id="features" className={layout.section}>
+	<section
+		id="features"
+		className={`md:flex-row flex-col ${styles.paddingY} ${layout.flexCenter}`}
+	>
+		<div className={`${styles.heading2} ${styles.flexCenter} flex-col`}>
+			<h2>On-Demand Delivery</h2>
+			<p className={`${styles.paragraph} max-w-[470px] mt-6 mb-6 text-center`}>
+				Provide input and see your vision come to life seamlessly. Foster
+				creativity with time-saving tools and adaptable solutions.
+			</p>
+		</div>
 		<div
 			className={`grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-3 sm:grid-cols-2 `}
 		>

@@ -16,10 +16,10 @@ const Hero = () => {
 					</p>
 				</div>
 
-				<h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-					<span className="font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-						<ChangingTextSection />
-					</span>
+				<h1
+					className={`${styles.flexCenter} flex-col text-center font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]`}
+				>
+					<ChangingTextSection />
 					your development team.
 				</h1>
 

@@ -17,20 +17,16 @@ import {
 
 export const navLinks = [
 	{
-		id: "home",
-		title: "Home",
-	},
-	{
 		id: "features",
 		title: "Features",
 	},
 	{
-		id: "product",
-		title: "Product",
+		id: "services",
+		title: "Services",
 	},
 	{
-		id: "clients",
-		title: "Clients",
+		id: "pricing",
+		title: "Pricing",
 	},
 ];
 
@@ -40,21 +36,52 @@ export const features = [
 		icon: star,
 		title: "Software Engineering",
 		content:
-			"The best credit cards offer some tantalizing combinations of promotions and prizes",
+			"Skip hiring bottlenecks; we integrate fast to keep your projects on track for urgent or scaling needs.",
 	},
 	{
 		id: "feature-2",
 		icon: shield,
 		title: "Webites and Landing Pages",
 		content:
-			"We take proactive steps make sure your information and transactions are secure.",
+			"Professional landing pages delivered in 48 hours—ready to launch when you are.",
 	},
 	{
 		id: "feature-3",
 		icon: send,
 		title: "Canva Designs",
 		content:
-			"A balance transfer credit card can save you a lot of money in interest charges.",
+			"Scalable design solutions to keep your marketing fresh and impactful when you need them most.",
+	},
+];
+
+export const workModel = [
+	{
+		id: "model-1",
+		icon: star,
+		title: "Request",
+		content:
+			"Share your vision on what you need—whether it's a complex software solution, a landing page, or a design refresh—freeing you from endless back-and-forths with traditional teams.",
+	},
+	{
+		id: "model-2",
+		icon: shield,
+		title: "Development",
+		content:
+			"Our team jumps into action, crafting a tailored solution with expertise and AI-enhanced precision.",
+	},
+	{
+		id: "model-3",
+		icon: send,
+		title: "Refinement",
+		content:
+			"Collaborate on iterative improvements, ensuring every line of code, design element, or integration aligns with your vision and technical needs.",
+	},
+	{
+		id: "model-4",
+		icon: send,
+		title: "Delivery",
+		content:
+			"Receive a polished, high-quality solution, ready to implement and designed to elevate your business.",
 	},
 ];
 
