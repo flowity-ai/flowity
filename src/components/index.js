@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
+import Ninescode from "./Ninescode";
 import CardDeal from "./CardDeal";
 import Business from "./Business";
 import Clients from "./Clients";
@@ -9,10 +9,12 @@ import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import Features from "./Features";
+import Newsletter from "./Newsletter";
+import AISection from "./AISection";
 
 export {
 	Navbar,
-	Billing,
+	Ninescode,
 	CardDeal,
 	Business,
 	Clients,
@@ -22,4 +24,6 @@ export {
 	Testimonials,
 	Hero,
 	Features,
+	Newsletter,
+	AISection,
 };
