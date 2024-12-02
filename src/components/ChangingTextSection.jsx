@@ -19,7 +19,7 @@ const ChangingTextSection = () => {
 	}, []);
 
 	return (
-		<div>
+		<div className="foundation">
 			<TextTransition springConfig={presets.wobbly}>
 				<GradientText text={TEXTS[index % TEXTS.length]} />
 			</TextTransition>

@@ -6,7 +6,7 @@ import Clients from "./Clients";
 import CTA from "./CTA";
 import Stats from "./Stats";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
+import FAQ from "./FAQ";
 import Hero from "./Hero";
 import Features from "./Features";
 import Newsletter from "./Newsletter";
@@ -21,7 +21,7 @@ export {
 	CTA,
 	Stats,
 	Footer,
-	Testimonials,
+	FAQ,
 	Hero,
 	Features,
 	Newsletter,

@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,6 +15,14 @@
 
 * {
   scroll-behavior: smooth;
+}
+
+.foundation {
+  font-family: "Foundation";
+}
+
+.nav-bg {
+  background-color: rgb(0, 4, 15);
 }
 
 .text-gradient {
@@ -46,12 +53,18 @@
   );
 }
 
-.bg-black-gradient {
+.bg-black-gradient-transparent {
   background: linear-gradient(
     144.39deg,
     rgba(255, 255, 255,10%),
     rgba(17, 16, 29, 10%)
   );
+}
+
+.bg-black-gradient {
+  background-color: #11101d;
+
+  z-index: 1;
 }
 
 .bg-black-gradient-2 {
