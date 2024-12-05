@@ -4,7 +4,7 @@ import TextTransition, { presets } from "react-text-transition";
 const TEXTS = ["Reshaping", "Powering up", "Enhancing", "Speeding up"];
 
 const GradientText = ({ text }) => (
-	<span className="text-gradient">{text}</span>
+	<span className="text-gradient foundation">{text}</span>
 );
 
 const ChangingTextSection = () => {
@@ -19,7 +19,7 @@ const ChangingTextSection = () => {
 	}, []);
 
 	return (
-		<div className="foundation">
+		<div>
 			<TextTransition springConfig={presets.wobbly}>
 				<GradientText text={TEXTS[index % TEXTS.length]} />
 			</TextTransition>

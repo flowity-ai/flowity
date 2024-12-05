@@ -11,6 +11,7 @@ import Hero from "./Hero";
 import Features from "./Features";
 import Newsletter from "./Newsletter";
 import AISection from "./AISection";
+import Switcher from "./Switcher";
 
 export {
 	Navbar,
@@ -26,4 +27,5 @@ export {
 	Features,
 	Newsletter,
 	AISection,
+	Switcher,
 };

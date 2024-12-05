@@ -16,12 +16,13 @@ import {
 	Features,
 	Newsletter,
 	AISection,
+	Switcher,
 } from "./components";
 
 const App = () => (
-	<div className="bg-primary w-full">
+	<div className="bg-primary w-full overflow-clip">
 		<div
-			className={`${styles.paddingX} ${styles.flexCenter} sticky top-0 z-[99999]`}
+			className={`${styles.paddingX} ${styles.flexCenter} sticky top-0 z-[99999] nav-bg`}
 		>
 			<div className={`${styles.boxWidth}`}>
 				<Navbar />
@@ -41,6 +42,7 @@ const App = () => (
 				<CardDeal />
 				<Features />
 				<AISection />
+				<Switcher />
 				<Newsletter />
 				<Ninescode />
 				<FAQ />

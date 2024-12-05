@@ -23,6 +23,12 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import aiVector from "./ai-vector.svg";
+import serviceRequest from "./service-request.svg";
+import serviceDevelopment from "./service-development.svg";
+import serviceDelivery from "./service-delivery.svg";
+import serviceRefinement from "./service-refinement.svg";
+import ninescode from "./ninescode.svg";
 
 export {
 	airbnb,
@@ -50,4 +56,10 @@ export {
 	people01,
 	people02,
 	people03,
+	aiVector,
+	serviceRequest,
+	serviceDevelopment,
+	serviceDelivery,
+	serviceRefinement,
+	ninescode,
 };

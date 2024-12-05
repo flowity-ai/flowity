@@ -26,15 +26,7 @@
 }
 
 .text-gradient {
-  background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
-  );
+  background: radial-gradient(circle, hsla(182, 78%, 49%, 1) 0%, hsla(253, 88%, 74%, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -49,9 +41,55 @@
     #9dedf0 12.19%,
     #7de7eb 29.82%,
     #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    #1CD8DE 90.29%
   );
 }
+
+/* .bg-purple-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #DFDAF7 -43.27%,
+    #D2C9F7 -21.24%,
+    #C4B7F7 12.19%,
+    #B7A6F7 29.82%,
+    #A994F7 51.94%,
+    #9C83F7 90.29%
+  );
+} */
+
+.bg-purple-gradient {
+  background: linear-gradient(157.81deg, hsla(250, 64%, 91%, 1) 0%, hsla(253, 88%, 74%, 1) 45%, hsla(267, 96%, 45%, 1) 100%);
+}
+
+/* .gradient-border-bg {
+  border: 2px solid;
+  border-image: linear-gradient(157.81deg, #d4cef4, #9c83f7) 1;
+  padding: 1rem;
+  background: linear-gradient(157.81deg, hsla(250, 64%, 91%, 1) 0%, hsla(253, 88%, 74%, 1) 45%, hsla(267, 96%, 45%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+} */
+
+.gradient-border-bg {
+  border: 1px solid #1CD8DE;
+  color: #1CD8DE;
+  padding: 1rem;
+}
+
+
+/* .gradient-purple-border {
+  background-image: linear-gradient(157.81deg, hsla(250, 64%, 91%, 1) 0%, hsla(253, 88%, 74%, 1) 45%, hsla(267, 96%, 45%, 1) 100%);
+  border: 16px solid transparent;
+  border-image-slice: 1;
+  height: 120px;
+} */
+
+
+/* .bg-purple-gradient {
+  background: linear-gradient(157.81deg, hsla(0, 0%, 100%, 1) 0%, hsla(253, 88%, 74%, 1) 100%);
+} */
 
 .bg-black-gradient-transparent {
   background: linear-gradient(
@@ -154,4 +192,115 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.etiquet-price {
+  position: relative;
+  width: 14.46rem;
+  padding: .2rem 1.2rem;
+  border-radius: 5px 0 0 5px;
+  left: 2.5rem;
+}
+
+.etiquet-price p {
+  margin: 0;
+  padding-top: .4rem;
+  display: flex;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.etiquet-price p:before {
+  content: "$";
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.etiquet-price p:after {
+  content: "/ month";
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.etiquet-price div{
+  position: absolute;
+  bottom: -23px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid #6604DF;
+  border-bottom: 10px solid transparent;
+  border-right: 13px solid transparent;
+}
+
+.e-card {
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  position: relative;
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  width: 540px;
+  height: 700px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg,#af40ff,#6604DF 60%,#1CD8DE);
+}
+
+.infotop {
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.wave:nth-child(2),
+.wave:nth-child(3) {
+  top: 210px;
+}
+
+.playing .wave {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+.wave {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+.playing .wave:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+.wave:nth-child(2) {
+  animation-duration: 50s;
+}
+
+.playing .wave:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+.wave:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }

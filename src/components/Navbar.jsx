@@ -10,7 +10,7 @@ const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 
 	return (
-		<nav className="w-full py-6 navbar flex nav-bg">
+		<nav className="w-full py-6 navbar flex">
 			<div className="foundation flex flex-1 items-center">
 				<img src={logo} alt="flowity-logo" className="w-[50px] h-[32px]" />
 				<span className="text-white">FLOWITY AI</span>

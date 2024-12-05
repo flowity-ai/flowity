@@ -27,9 +27,11 @@ const Newsletter = () => (
 			<div className="flex flex-row flex-wrap sm:mt-10 mt-6">
 				<button
 					type="button"
-					className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}
+					className={`p-[2px] flex items-center justify-center font-poppins font-light text-[18px] rounded-[10px] outline-none bg-gradient-to-br from-slate-50 to-logoCyan ${styles}`}
 				>
-					Learn more
+					<div className="p-[10px] rounded-[10px] bg-gray-900 h-gull w-full flex items-center justify-center text-logoCyan">
+						Learn more
+					</div>
 				</button>
 			</div>
 		</div>
