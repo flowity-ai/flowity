@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Button from "./Button";
 import styles from "../style";
-import arrowUp from "../assets/arrow-up.svg";
+import { check } from "../assets";
 
 const tabsData = [
 	{
@@ -39,7 +39,7 @@ const tabsData = [
 	},
 ];
 
-const Switcher = () => {
+const Services = () => {
 	const [activeTabIndex, setActiveTabIndex] = useState(0);
 
 	return (
@@ -107,19 +107,35 @@ const Switcher = () => {
 						<p>{tabsData[activeTabIndex].content}</p>
 						<ul className="">
 							<li className="text-[28px] pt-2 font-[500] tracking-wide flex">
-								<img src={arrowUp} />
+								<img
+									src={check}
+									alt="Check Icon"
+									className="w-[15px] mr-[5px]"
+								/>
 								{tabsData[activeTabIndex].feat1}
 							</li>
 							<li className="text-[28px] pt-2 font-[500] tracking-wide flex">
-								<img src={arrowUp} />
+								<img
+									src={check}
+									alt="Check Icon"
+									className="w-[15px] mr-[5px]"
+								/>
 								{tabsData[activeTabIndex].feat2}
 							</li>
 							<li className="text-[28px] pt-2 font-[500] tracking-wide flex">
-								<img src={arrowUp} />
+								<img
+									src={check}
+									alt="Check Icon"
+									className="w-[15px] mr-[5px]"
+								/>
 								{tabsData[activeTabIndex].feat3}
 							</li>
 							<li className="text-[28px] pt-2 font-[500] tracking-wide flex">
-								<img src={arrowUp} />
+								<img
+									src={check}
+									alt="Check Icon"
+									className="w-[15px] mr-[5px]"
+								/>
 								{tabsData[activeTabIndex].feat4}
 							</li>
 						</ul>
@@ -135,4 +151,4 @@ const Switcher = () => {
 	);
 };
 
-export default Switcher;
+export default Services;

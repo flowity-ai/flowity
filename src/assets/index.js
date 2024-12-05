@@ -29,6 +29,7 @@ import serviceDevelopment from "./service-development.svg";
 import serviceDelivery from "./service-delivery.svg";
 import serviceRefinement from "./service-refinement.svg";
 import ninescode from "./ninescode.svg";
+import check from "./check-circle.svg";
 
 export {
 	airbnb,
@@ -62,4 +63,5 @@ export {
 	serviceDelivery,
 	serviceRefinement,
 	ninescode,
+	check,
 };

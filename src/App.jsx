@@ -16,7 +16,7 @@ import {
 	Features,
 	Newsletter,
 	AISection,
-	Switcher,
+	Services,
 } from "./components";
 
 const App = () => (
@@ -42,7 +42,7 @@ const App = () => (
 				<CardDeal />
 				<Features />
 				<AISection />
-				<Switcher />
+				<Services />
 				<Newsletter />
 				<Ninescode />
 				<FAQ />
