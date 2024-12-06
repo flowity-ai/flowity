@@ -76,10 +76,10 @@ const Services = () => {
 			<div className="py-4 text-white flex justify-center">
 				<div className="h-[420px] w-[900px] bg-slate-200 flex rounded-xl">
 					<div className="e-card playing h-full w-[400px] p-7 text-white rounded-l-xl">
-						<div class="image"></div>
-						<div class="wave"></div>
-						<div class="wave"></div>
-						<div class="wave"></div>
+						<div className="image"></div>
+						<div className="wave"></div>
+						<div className="wave"></div>
+						<div className="wave"></div>
 
 						<div className="infotop">
 							<p className="text-[11px] tracking-widest text-[#cccc]">

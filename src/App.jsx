@@ -5,7 +5,6 @@ import styles from "./style";
 import {
 	Ninescode,
 	Business,
-	CardDeal,
 	Clients,
 	CTA,
 	Footer,
@@ -17,6 +16,7 @@ import {
 	Newsletter,
 	AISection,
 	Services,
+	HowWeWork,
 } from "./components";
 
 const App = () => (
@@ -39,7 +39,7 @@ const App = () => (
 			<div className={`${styles.boxWidth}`}>
 				<Clients />
 				<Business />
-				<CardDeal />
+				<HowWeWork />
 				<Features />
 				<AISection />
 				<Services />

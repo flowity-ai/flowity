@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
 import Ninescode from "./Ninescode";
-import CardDeal from "./CardDeal";
 import Business from "./Business";
 import Clients from "./Clients";
 import CTA from "./CTA";
@@ -12,11 +11,11 @@ import Features from "./Features";
 import Newsletter from "./Newsletter";
 import AISection from "./AISection";
 import Services from "./Services";
+import HowWeWork from "./HowWeWork";
 
 export {
 	Navbar,
 	Ninescode,
-	CardDeal,
 	Business,
 	Clients,
 	CTA,
@@ -28,4 +27,5 @@ export {
 	Newsletter,
 	AISection,
 	Services,
+	HowWeWork,
 };

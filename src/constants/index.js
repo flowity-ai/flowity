@@ -13,6 +13,10 @@ import {
 	send,
 	shield,
 	star,
+	serviceDelivery,
+	serviceRequest,
+	serviceDevelopment,
+	serviceRefinement,
 } from "../assets";
 
 export const navLinks = [
@@ -57,6 +61,7 @@ export const features = [
 export const workModel = [
 	{
 		id: "model-1",
+		img: serviceRequest,
 		icon: star,
 		title: "Request",
 		content:
@@ -64,6 +69,7 @@ export const workModel = [
 	},
 	{
 		id: "model-2",
+		img: serviceDevelopment,
 		icon: shield,
 		title: "Development",
 		content:
@@ -71,6 +77,7 @@ export const workModel = [
 	},
 	{
 		id: "model-3",
+		img: serviceRefinement,
 		icon: send,
 		title: "Refinement",
 		content:
@@ -78,6 +85,7 @@ export const workModel = [
 	},
 	{
 		id: "model-4",
+		img: serviceDelivery,
 		icon: send,
 		title: "Delivery",
 		content:
