@@ -8,7 +8,7 @@ const tabsData = [
 	{
 		label: "Software Development",
 		intro: "Why hire when you can subscribe? Ditch the hiring headaches.",
-		price: "2,495",
+		price: "4,995",
 		content: `Flowity AI acts as an extension to a company’s existing team, offering specialized software engineering support when needed.`,
 		feat1: `Project Manager`,
 		feat2: `Front & Back devs`,
@@ -20,7 +20,7 @@ const tabsData = [
 		intro: "Focus on growing your business without limits.",
 		content:
 			"Hassle-free web development, optimized for conversions and speed. Avoid costly agencies; get stunning websites quickly and reliably.",
-		price: "999",
+		price: "1,995",
 		feat1: `Project Manager`,
 		feat2: `Front-end developer`,
 		feat3: `Website development`,

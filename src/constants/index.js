@@ -17,6 +17,11 @@ import {
 	serviceRequest,
 	serviceDevelopment,
 	serviceRefinement,
+	dev,
+	ref,
+	soft,
+	canva,
+	web,
 } from "../assets";
 
 export const navLinks = [
@@ -37,21 +42,21 @@ export const navLinks = [
 export const features = [
 	{
 		id: "feature-1",
-		icon: star,
+		icon: soft,
 		title: "Software Engineering",
 		content:
 			"Skip hiring bottlenecks; we integrate fast to keep your projects on track for urgent or scaling needs.",
 	},
 	{
 		id: "feature-2",
-		icon: shield,
+		icon: web,
 		title: "Webites and Landing Pages",
 		content:
 			"Professional landing pages delivered in 48 hours—ready to launch when you are.",
 	},
 	{
 		id: "feature-3",
-		icon: send,
+		icon: canva,
 		title: "Canva Designs",
 		content:
 			"Scalable design solutions to keep your marketing fresh and impactful when you need them most.",
@@ -70,7 +75,7 @@ export const workModel = [
 	{
 		id: "model-2",
 		img: serviceDevelopment,
-		icon: shield,
+		icon: dev,
 		title: "Development",
 		content:
 			"Our team jumps into action, crafting a tailored solution with expertise and AI-enhanced precision.",
@@ -78,7 +83,7 @@ export const workModel = [
 	{
 		id: "model-3",
 		img: serviceRefinement,
-		icon: send,
+		icon: ref,
 		title: "Refinement",
 		content:
 			"Collaborate on iterative improvements, ensuring every line of code, design element, or integration aligns with your vision and technical needs.",
@@ -136,6 +141,51 @@ export const stats = [
 		content:
 			"Monthly subscription models and customized packages are available to align with various project scopes and company budgets, offering flexibility and value.",
 		value: "6",
+	},
+];
+
+export const faq = [
+	{
+		question: "How to manage my subscription? How to login?",
+		answer:
+			"Our login is exclusively to paying customers. Once the payment is confirmed you can login and access your dashboard to manage it.",
+	},
+	{
+		question: "When can I start requesting my designs?",
+		answer:
+			"Once payment if confirmed you will, within the next 24h, receive an e-mail to access your Trello board where you can start requesting your designs immidiately.",
+	},
+	{
+		question: "How fast is my project going to be ready?",
+		answer:
+			"It usually takes up between 2-3 business days, on average, per design task. The development can take up to a week, on average, then we run a quality assurance testing that can also take up to a week, always depending on the size of the project.",
+	},
+	{
+		question: "Are there any refund options?",
+		answer:
+			"We'll revise your design until 100% satisfaction and if refund is requested, it will be examined case by case but no refunds are guaranteed.",
+	},
+	{
+		question: 'What does "unlimited" really means?',
+		answer:
+			"It means that you will have a backlog list where you can request as many designs as you want, the tasks will enter in a queue and will be done one by one.",
+	},
+	{
+		question: "How do revisions work?",
+		answer:
+			"Revisions are not the same as active requests and will be made over the tasks that are already finished. Revisions entail small changes or fixes on the chosen layout. If you want to completely change the layout it will be a new task, which means it will still be the actice request or it will go back into the queued tasks to be finished later, depending on each situation.",
+	},
+	{
+		question:
+			"What if I'm no longer active and I still have revisions to be made?",
+		answer:
+			"Don't worry, revisions will be made even if you cancel your monthly subscription. However, if your revision needs an update or a new layout is requested, it can only be made by an active subscription.",
+	},
+	{
+		question:
+			"I don't have any design needs anymore. Can I just have monthly maintenance on the development?",
+		answer:
+			"If you have an active subscription you will have maintenance and much more available. Unfortunately, we don't offer just small maintenance of the development process.",
 	},
 ];
 

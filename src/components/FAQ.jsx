@@ -1,33 +1,107 @@
-import React from "react";
-import { feedback } from "../constants";
-import styles from "../style";
-import FeedbackCard from "./FeedbackCard";
+import React, { useState } from "react";
+import { faq } from "../constants";
+import styled from "styled-components";
+import { IconContext } from "react-icons";
+import { FiPlus, FiMinus } from "react-icons/fi";
 
-const Testimonials = () => (
-	<section
-		id="clients"
-		className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
-	>
-		<div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
+const AccordionSection = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+`;
 
-		<div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-			<h2 className={styles.heading2}>
-				What People are <br className="sm:block hidden" /> saying about us
-			</h2>
-			<div className="w-full md:mt-0 mt-6">
-				<p className={`${styles.paragraph} text-left max-w-[450px]`}>
-					Everything you need to accept card payments and grow your business
-					anywhere on the planet.
-				</p>
-			</div>
-		</div>
+const FAQContainer = styled.div`
+	box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
+	width: 100%;
+`;
 
-		<div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
-			{feedback.map((card) => (
-				<FeedbackCard key={card.id} {...card} />
-			))}
-		</div>
-	</section>
-);
+const Wrap = styled.div`
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	text-align: start;
+	cursor: pointer;
 
-export default Testimonials;
+	h1 {
+		padding: 1.5rem;
+		font-size: 1.2rem;
+
+		@media only screen and (max-width: 600px) {
+			padding: 2rem;
+			font-size: 1.5rem;
+		}
+
+		@media only screen and (min-width: 992px) {
+			padding: 2rem;
+			font-size: 1.5rem;
+		}
+	}
+
+	span {
+		margin-right: 1.5rem;
+	}
+`;
+
+const Dropdown = styled.div`
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: start;
+	border-bottom: 1px solid #734dff;
+	border-top: 1px solid #734dff;
+
+	p {
+		font-size: 1.2rem;
+		padding: 10px 40px 10px 40px;
+
+		@media only screen and (min-width: 600px) {
+			font-size: 1.5rem;
+		}
+	}
+`;
+
+const FAQ = () => {
+	const [clicked, setClicked] = useState(false);
+	const toggle = (index) => {
+		if (clicked === index) {
+			//if clicked actiona already active, close it.
+			return setClicked(null);
+		}
+
+		setClicked(index);
+	};
+
+	return (
+		<section className="faq-component mt-5 mb-5" id="faq">
+			<IconContext.Provider value={{ color: "#734dff", size: "25px" }}>
+				<AccordionSection className="container">
+					<FAQContainer>
+						{faq.map((item, index) => {
+							return (
+								<>
+									<Wrap onClick={() => toggle(index)} key={index}>
+										<h1> {item.question} </h1>
+										<span> {clicked === index ? <FiMinus /> : <FiPlus />}</span>
+									</Wrap>
+									{clicked === index ? (
+										<Dropdown className="text-white">
+											<p> {item.answer} </p>
+										</Dropdown>
+									) : null}
+								</>
+							);
+						})}
+					</FAQContainer>
+				</AccordionSection>
+			</IconContext.Provider>
+		</section>
+	);
+};
+
+export default FAQ;

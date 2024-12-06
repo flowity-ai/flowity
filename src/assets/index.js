@@ -30,8 +30,18 @@ import serviceDelivery from "./service-delivery.svg";
 import serviceRefinement from "./service-refinement.svg";
 import ninescode from "./ninescode.svg";
 import check from "./check-circle.svg";
+import soft from "./soft-eng.svg";
+import web from "./websites.svg";
+import canva from "./canva-design.svg";
+import ref from "./refinement.svg";
+import dev from "./development.svg";
 
 export {
+	soft,
+	web,
+	canva,
+	ref,
+	dev,
 	airbnb,
 	bill,
 	binance,

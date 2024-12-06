@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Button from "./Button";
-import styles, { layout } from "../style";
+import styles from "../style";
 import { discount } from "../assets";
 import { workModel } from "../constants";
 
