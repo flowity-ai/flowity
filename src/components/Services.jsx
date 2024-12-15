@@ -2,9 +2,19 @@ import React from "react";
 import { useState } from "react";
 import Button from "./Button";
 import styles from "../style";
-import { check } from "../assets";
+import { check, services } from "../assets";
 
 const tabsData = [
+	{
+		label: "Automation Workflows",
+		intro: "Why hire when you can subscribe? Ditch the hiring headaches.",
+		price: "999",
+		content: `Flowity AI acts as an extension to a company’s existing team, offering specialized software engineering support when needed.`,
+		feat1: `Project Manager`,
+		feat2: `Front & Back devs`,
+		feat3: `Tech Leader`,
+		feat4: `QA Tester`,
+	},
 	{
 		label: "Software Development",
 		intro: "Why hire when you can subscribe? Ditch the hiring headaches.",
@@ -40,11 +50,15 @@ const tabsData = [
 ];
 
 const Services = () => {
-	const [activeTabIndex, setActiveTabIndex] = useState(0);
+	const [activeTabIndex, setActiveTabIndex] = useState(1);
 
 	return (
 		<section className={`md:flex-row flex-col w-full`}>
 			<div className={`${styles.heading2} ${styles.flexCenter} flex-col`}>
+				<div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+					<img src={services} alt="Services" className="w-[22px] h-[22px]" />
+					<p className={`${styles.paragraph} ml-2`}>Our Services</p>
+				</div>
 				<h2>Our Services</h2>
 				<p
 					className={`${styles.paragraph} max-w-[470px] mt-6 mb-6 text-center`}
@@ -61,7 +75,7 @@ const Services = () => {
 							key={idx}
 							className={`py-2 border-b-4 transition-colors duration-300 ${
 								idx === activeTabIndex
-									? "border-teal-500"
+									? "border-logoCyan"
 									: "border-transparent hover:border-gray-200"
 							}`}
 							// Change the active tab on click.

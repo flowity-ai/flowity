@@ -1,6 +1,5 @@
 import React from "react";
-import { aiVector } from "../assets";
-import { discount } from "../assets";
+import { aiVector, aiPower } from "../assets";
 import styles, { layout } from "../style";
 
 const AISection = () => (
@@ -8,7 +7,7 @@ const AISection = () => (
 		<div className={layout.sectionImgReverse}>
 			<img
 				src={aiVector}
-				alt="billing"
+				alt="AI Vector"
 				className="w-[100%] h-[100%] relative z-[5]"
 			/>
 
@@ -20,7 +19,7 @@ const AISection = () => (
 
 		<div className={layout.sectionInfo}>
 			<div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-				<img src={discount} alt="discount" className="w-[32px] h-[32px]" />
+				<img src={aiPower} alt="discount" className="w-[22px] h-[22px]" />
 				<p className={`${styles.paragraph} ml-2`}>AI Powered</p>
 			</div>
 			<h2 className={styles.heading2}>Your Partner in Innovation</h2>

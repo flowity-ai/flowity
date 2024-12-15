@@ -79,7 +79,7 @@ const FAQ = () => {
 
 	return (
 		<section className="faq-component mt-5 mb-5" id="faq">
-			<IconContext.Provider value={{ color: "#734dff", size: "25px" }}>
+			<IconContext.Provider value={{ color: "#9C83F7", size: "25px" }}>
 				<AccordionSection className="container">
 					<FAQContainer>
 						{faq.map((item, index) => {

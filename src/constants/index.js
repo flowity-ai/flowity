@@ -22,6 +22,10 @@ import {
 	soft,
 	canva,
 	web,
+	flow,
+	trello,
+	freepik,
+	adobeIllus,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +46,27 @@ export const navLinks = [
 export const features = [
 	{
 		id: "feature-1",
+		icon: flow,
+		title: "AI Automation Workflows",
+		content:
+			"Implement automation solutions that streamline processes, enhance communication, and improve decision-making within teams.",
+	},
+	{
+		id: "feature-2",
 		icon: soft,
 		title: "Software Engineering",
 		content:
 			"Skip hiring bottlenecks; we integrate fast to keep your projects on track for urgent or scaling needs.",
 	},
 	{
-		id: "feature-2",
+		id: "feature-3",
 		icon: web,
 		title: "Webites and Landing Pages",
 		content:
 			"Professional landing pages delivered in 48 hours—ready to launch when you are.",
 	},
 	{
-		id: "feature-3",
+		id: "feature-4",
 		icon: canva,
 		title: "Canva Designs",
 		content:
@@ -308,15 +319,15 @@ export const socialMedia = [
 export const clients = [
 	{
 		id: "client-1",
-		logo: airbnb,
+		logo: trello,
 	},
 	{
 		id: "client-2",
-		logo: binance,
+		logo: freepik,
 	},
 	{
 		id: "client-3",
-		logo: coinbase,
+		logo: adobeIllus,
 	},
 	{
 		id: "client-4",

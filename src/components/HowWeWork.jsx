@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import styles from "../style";
-import { discount } from "../assets";
+import { work } from "../assets";
 import { workModel } from "../constants";
 
 const WorkModel = ({ icon, title, content, index }) => (
@@ -33,7 +33,7 @@ const Services = () => {
 		<section className={`md:flex-row flex-col w-full`}>
 			<div className={`${styles.heading2} ${styles.flexCenter} flex-col`}>
 				<div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-					<img src={discount} alt="discount" className="w-[32px] h-[32px]" />
+					<img src={work} alt="How we work" className="w-[22px] h-[22px]" />
 					<p className={`${styles.paragraph} ml-2`}>How We Work</p>
 				</div>
 				<h2 className="text-center">
@@ -49,7 +49,7 @@ const Services = () => {
 					stress-free.
 				</p>
 			</div>
-			<div className="flex flex-row">
+			<div className="flex md:flex-row sm:flex-col">
 				{/* Loop through tab data and render button for each. */}
 				<div className="flex flex-col flex-1">
 					{workModel.map((model, index) => {
@@ -68,7 +68,7 @@ const Services = () => {
 					})}
 				</div>
 				{/* Show active tab content. */}
-				<div className="flex flex-1">
+				<div className="flex-1 hidden md:flex">
 					<img src={workModel[activeTabIndex].img} alt="Active Work Model" />
 				</div>
 			</div>

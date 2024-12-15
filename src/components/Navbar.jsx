@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
-
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 import Button from "./Button";
+import styles from "../style";
 
 const Navbar = () => {
 	const [active, setActive] = useState("Home");
@@ -33,7 +33,15 @@ const Navbar = () => {
 			</div>
 
 			<div className="list-none sm:flex hidden flex flex-1 justify-end">
-				<Button />
+				<button
+					type="button"
+					className={`py-3 px-4 font-poppins font-medium text-[16px] text-dimWhite bg-purple-gradient rounded-[10px] outline-none ${styles}`}
+				>
+					Book a Call
+				</button>
+				<button className="text-gradient mx-[10px] font-bold text-[18px]">
+					Log In
+				</button>
 			</div>
 
 			<div className="sm:hidden flex flex-1 justify-end items-center">
@@ -47,7 +55,7 @@ const Navbar = () => {
 				<div
 					className={`${
 						!toggle ? "hidden" : "flex"
-					} p-6 bg-black-gradient absolute top-20 right-0 my-2 min-w-full rounded-xl sidebar`}
+					} p-6 bg-black-gradient absolute top-14 right-0 my-2 min-w-full rounded-xl sidebar`}
 				>
 					<div className="list-none flex justify-end items-start flex-1 flex-col">
 						<ul>
@@ -63,7 +71,15 @@ const Navbar = () => {
 								</li>
 							))}
 						</ul>
-						<Button />
+						<button className="text-gradient my-[10px] font-bold text-[18px]">
+							Log In
+						</button>
+						<button
+							type="button"
+							className={`my-[10px] py-3 px-4 mb-0 font-poppins font-medium text-[16px] text-dimWhite bg-purple-gradient rounded-[10px] outline-none ${styles}`}
+						>
+							Book a Call
+						</button>
 					</div>
 				</div>
 			</div>

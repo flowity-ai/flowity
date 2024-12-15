@@ -1,6 +1,5 @@
 import React from "react";
-import { ninescode } from "../assets";
-import { discount } from "../assets";
+import { ninescode, community } from "../assets";
 import styles, { layout } from "../style";
 
 const Ninescode = () => (
@@ -20,7 +19,7 @@ const Ninescode = () => (
 
 		<div className={layout.sectionInfo}>
 			<div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-				<img src={discount} alt="discount" className="w-[32px] h-[32px]" />
+				<img src={community} alt="Community" className="w-[22px] h-[22px]" />
 				<p className={`${styles.paragraph} ml-2`}>
 					Ninescode Foundation Community
 				</p>

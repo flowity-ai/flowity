@@ -2,7 +2,7 @@ import React from "react";
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
-import { discount } from "../assets";
+import { discount, spark } from "../assets";
 
 const FeatureCard = ({ icon, title, content, index }) => (
 	<div
@@ -18,11 +18,11 @@ const FeatureCard = ({ icon, title, content, index }) => (
 		<div className="flex-1 flex flex-col ml-3">
 			<h4 className="flex items-center font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
 				{title}
-				{index === 0 ? (
-					<div className="flex items-center px-4 bg-discount-gradient rounded-[10px] w-[170px] ml-[1em]">
+				{index === 1 ? (
+					<div className="flex justify-center items-center px-4 bg-discount-gradient rounded-[10px] ml-[1em]">
 						<img src={discount} alt="discount" className="w-[32px] h-[32px]" />
 						<p className={`${styles.paragraph} text-[14px]`}>
-							<span className="text-white">40%</span> Discount
+							<span className="text-white">-40%</span>
 						</p>
 					</div>
 				) : (
@@ -39,6 +39,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const Business = () => (
 	<section id="features" className={layout.section}>
 		<div className={layout.sectionInfo}>
+			<div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+				<img src={spark} alt="Sparkles" className="w-[22px] h-[22px]" />
+				<p className={`${styles.paragraph} ml-2`}>Our Solutions</p>
+			</div>
 			<h2 className={styles.heading2}>
 				Focus on strategy, <br className="sm:block hidden" /> we'll handle the
 				build.

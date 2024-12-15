@@ -35,8 +35,20 @@ import web from "./websites.svg";
 import canva from "./canva-design.svg";
 import ref from "./refinement.svg";
 import dev from "./development.svg";
+import flow from "./flow.svg";
+import work from "./work.svg";
+import delivery from "./delivery.svg";
+import aiPower from "./ai-power.svg";
+import services from "./services.svg";
+import news from "./newsletter.svg";
+import community from "./community.svg";
+import spark from "./sparkles.svg";
+import adobeIllus from "./AdobeIllustrator.svg";
+import trello from "./Trello.svg";
+import freepik from "./Freepik.svg";
 
 export {
+	flow,
 	soft,
 	web,
 	canva,
@@ -74,4 +86,14 @@ export {
 	serviceRefinement,
 	ninescode,
 	check,
+	work,
+	delivery,
+	aiPower,
+	services,
+	news,
+	community,
+	spark,
+	adobeIllus,
+	freepik,
+	trello,
 };
