@@ -39,7 +39,7 @@ const Ninescode = () => (
 					className={`p-[2px] flex items-center justify-center font-poppins font-light text-[18px] rounded-[10px] outline-none bg-gradient-to-br from-slate-50 to-logoCyan ${styles}`}
 				>
 					<div className="p-[10px] rounded-[10px] bg-gray-900 h-gull w-full flex items-center justify-center text-logoCyan">
-						Learn more
+						<span className="text-blue-gradient">Learn More</span>
 					</div>
 				</button>
 			</div>

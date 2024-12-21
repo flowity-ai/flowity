@@ -5,13 +5,13 @@ import { delivery } from "../assets";
 
 const FeatureCard = ({ value, title, content, index }) => (
 	<div className="p-[1.5px] m-1 space-y-3 rounded-[10px] bg-gradient-to-r from-logoPurple to-logoCyan">
-		<div className="bg-primary p-[40px] rounded-[10px] h-full">
+		<div className="bg-primary p-[20px] md:p-[40px] rounded-[10px] h-full">
 			<div className="flex justify-start items-center">
 				<span className="inline-block text-logoCyan text-[30px] mr-[1rem]">
 					{value}
 				</span>
 
-				<h1 className="text-[22px] font-semibold text-gray-700 capitalize dark:text-white">
+				<h1 className="text-[18px] md:text-[22px] font-semibold text-gray-700 capitalize dark:text-white">
 					{title}
 				</h1>
 			</div>

@@ -4,7 +4,7 @@ import "./fonts/foundation.ttf";
 import styles from "./style";
 import {
 	Ninescode,
-	Business,
+	Solutions,
 	Clients,
 	CTA,
 	Footer,
@@ -39,7 +39,7 @@ const App = () => (
 		<div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
 			<div className={`${styles.boxWidth}`}>
 				<Clients />
-				<Business />
+				<Solutions />
 				<HowWeWork />
 				<Features />
 				<AISection />

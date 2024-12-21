@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Ninescode from "./Ninescode";
-import Business from "./Business";
+import Solutions from "./Solutions";
 import Clients from "./Clients";
 import CTA from "./CTA";
 import Stats from "./Stats";
@@ -17,7 +17,7 @@ import FAQ from "./FAQ";
 export {
 	Navbar,
 	Ninescode,
-	Business,
+	Solutions,
 	Clients,
 	CTA,
 	Stats,

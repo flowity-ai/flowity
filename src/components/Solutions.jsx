@@ -36,8 +36,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
 	</div>
 );
 
-const Business = () => (
-	<section id="features" className={layout.section}>
+const Solutions = () => (
+	<section id="solutions" className={layout.section}>
 		<div className={layout.sectionInfo}>
 			<div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
 				<img src={spark} alt="Sparkles" className="w-[22px] h-[22px]" />
@@ -49,11 +49,21 @@ const Business = () => (
 			</h2>
 			<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
 				Skip the cost and stress of hiring in-house. Our subscription delivers
-				expert software, stunning websites, and creative designs—no hire—fast,
-				reliable, and hassle-free.
+				AI automation workflows, expert software, stunning websites, and
+				creative designs—no hire—fast, reliable, and hassle-free.
 			</p>
 
-			<Button styles={`mt-10`} />
+			<div className="flex flex-row flex-wrap mt-[40px]">
+				<Button />
+				<button
+					type="button"
+					className={`hidden ml-2 p-[2px] flex items-center justify-center font-poppins font-light text-[18px] rounded-[10px] outline-none bg-gradient-to-br from-slate-50 to-logoCyan ${styles}`}
+				>
+					<div className="p-[15px] rounded-[10px] bg-gray-900 h-gull w-full flex items-center justify-center text-logoCyan">
+						<span className="text-blue-gradient">Use Cases</span>
+					</div>
+				</button>
+			</div>
 		</div>
 
 		<div className={`${layout.sectionImg} flex-col`}>
@@ -64,4 +74,4 @@ const Business = () => (
 	</section>
 );
 
-export default Business;
+export default Solutions;

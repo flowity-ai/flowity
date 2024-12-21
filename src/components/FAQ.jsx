@@ -10,6 +10,7 @@ const AccordionSection = styled.div`
 	align-items: center;
 	justify-content: center;
 	position: relative;
+	width: 100%;
 `;
 
 const FAQContainer = styled.div`
@@ -26,9 +27,9 @@ const Wrap = styled.div`
 	text-align: start;
 	cursor: pointer;
 
-	h1 {
-		padding: 1.5rem;
-		font-size: 1.2rem;
+	h2 {
+		padding: 1.2rem;
+		font-size: 1.5rem;
 
 		@media only screen and (max-width: 600px) {
 			padding: 2rem;
@@ -51,17 +52,16 @@ const Dropdown = styled.div`
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: start;
 	text-align: start;
-	border-bottom: 1px solid #734dff;
-	border-top: 1px solid #734dff;
+	margin-top: -30px;
 
 	p {
-		font-size: 1.2rem;
+		font-size: 1rem;
 		padding: 10px 40px 10px 40px;
 
 		@media only screen and (min-width: 600px) {
-			font-size: 1.5rem;
+			font-size: 1.2rem;
 		}
 	}
 `;
@@ -80,17 +80,17 @@ const FAQ = () => {
 	return (
 		<section className="faq-component mt-5 mb-5" id="faq">
 			<IconContext.Provider value={{ color: "#9C83F7", size: "25px" }}>
-				<AccordionSection className="container">
+				<AccordionSection>
 					<FAQContainer>
 						{faq.map((item, index) => {
 							return (
 								<>
 									<Wrap onClick={() => toggle(index)} key={index}>
-										<h1> {item.question} </h1>
+										<h2> {item.question} </h2>
 										<span> {clicked === index ? <FiMinus /> : <FiPlus />}</span>
 									</Wrap>
 									{clicked === index ? (
-										<Dropdown className="text-white">
+										<Dropdown className="text-dimWhite">
 											<p> {item.answer} </p>
 										</Dropdown>
 									) : null}

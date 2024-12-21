@@ -33,7 +33,7 @@
   text-fill-color: transparent;
 }
 
-.bg-blue-gradient {
+.text-blue-gradient {
   background: linear-gradient(
     157.81deg,
     #def9fa -43.27%,
@@ -43,6 +43,10 @@
     #5ce1e6 51.94%,
     #1CD8DE 90.29%
   );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 /* .bg-purple-gradient {
@@ -254,11 +258,22 @@
   background: linear-gradient(744deg,#af40ff,#6604DF 60%,#1CD8DE);
 }
 
+@media screen and (max-width: 1060px) {
+  .e-card {
+    width: 900px;
+  }
+  .wave{
+    width: 1200px;
+    height: 700px;
+    margin-left: -40%;
+    margin-top: -10%;
+  }
+}
+
 .infotop {
   font-size: 20px;
   position: absolute;
-  left: 0;
-  right: 0;
+  left: 15px;
   color: rgb(255, 255, 255);
   font-weight: 600;
   padding: 0 10px;

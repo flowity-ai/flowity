@@ -30,12 +30,12 @@ import {
 
 export const navLinks = [
 	{
-		id: "features",
-		title: "Features",
+		id: "solutions",
+		title: "Solutions",
 	},
 	{
-		id: "services",
-		title: "Services",
+		id: "features",
+		title: "Features",
 	},
 	{
 		id: "pricing",
@@ -112,7 +112,7 @@ export const workModel = [
 export const stats = [
 	{
 		id: "stats-1",
-		title: "On-Demand Software Engineering Support:",
+		title: "On-Demand Support:",
 		content:
 			"Flowity AI offers specialized software engineering services that function as an agile extension of a company’s current development team. This model helps businesses tackle projects quickly and flexibly, without needing to onboard new full-time employees.",
 		value: "1",
