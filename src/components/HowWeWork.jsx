@@ -3,6 +3,15 @@ import { useState } from "react";
 import styles from "../style";
 import { work } from "../assets";
 import { workModel } from "../constants";
+import styled from "styled-components";
+
+const StyledWrapper = styled.div`
+	.card {
+		border-radius: 30px;
+		background: #212121;
+		box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+	}
+`;
 
 const WorkModel = ({ icon, title, content, index }) => (
 	<div
@@ -72,6 +81,10 @@ const Services = () => {
 					<img src={workModel[activeTabIndex].img} alt="Active Work Model" />
 				</div>
 			</div>
+			{/* gradient start */}
+			<div className="absolute z-[3] -right-1/2 top-[125em] w-[50%] h-[50%] rounded-full white__gradient" />
+			<div className="absolute z-[0] w-[50%] h-[50%] -right-1/2 bottom-[125em] rounded-full pink__gradient" />
+			{/* gradient end */}
 		</section>
 	);
 };

@@ -11,8 +11,8 @@ const Hero = () => {
 				<div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
 					<img src={discount} alt="discount" className="w-[32px] h-[32px]" />
 					<p className={`${styles.paragraph} ml-2`}>
-						<span className="text-white">40%</span> Discount The{" "}
-						<span className="text-white">1° Month</span>
+						<span className="text-white">50%</span> Discount -{" "}
+						<span className="text-white">Available</span> slots
 					</p>
 				</div>
 
@@ -25,13 +25,22 @@ const Hero = () => {
 				<p
 					className={`${styles.paragraph} max-w-[650px] mt-6 mb-6 text-center`}
 				>
-					Subscription-based for maximizing business efficiency through AI
-					automation workflows, flexible software engineering teams,
-					lightning-fast website and landing page creation, and AI-driven Canva
-					designs to accelerate innovation and growth.
+					We develop NLP-driven AI automation workflows focused in streamline
+					customer support and optimize lead generation, delivering faster, more
+					personalized interactions and providing real-time insights tailored to
+					your business needs.
 				</p>
 
 				<Button />
+
+				{/* gradient start */}
+				<div className="absolute z-[3] -right-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+				<div className="absolute z-[0] w-[50%] h-[50%] -right-1/2 bottom-0 rounded-full blue__gradient" />
+				{/* gradient end */}
+				{/* gradient start */}
+				<div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+				<div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
+				{/* gradient end */}
 			</div>
 		</section>
 	);

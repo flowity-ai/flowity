@@ -46,31 +46,30 @@ export const navLinks = [
 export const features = [
 	{
 		id: "feature-1",
+		sparkle: "Automate and optimize.",
+		h2: "Streamline processes, boost efficiency",
 		icon: flow,
 		title: "AI Automation Workflows",
 		content:
-			"Implement automation solutions that streamline processes, enhance communication, and improve decision-making within teams.",
+			"Unlock seamless efficiency with AI automation workflows. Automate repetitive tasks and boost team's productivity instantly.",
 	},
 	{
 		id: "feature-2",
+		sparkle: "24/7 smart support",
+		h2: "Actionable Insights to support strategies",
 		icon: soft,
-		title: "Software Engineering",
+		title: "Customer Support and Lead Generation",
 		content:
-			"Skip hiring bottlenecks; we integrate fast to keep your projects on track for urgent or scaling needs.",
+			"Enhance your customer support and generate quality leads effortlessly with AI-powered workflows.",
 	},
 	{
 		id: "feature-3",
+		sparkle: "Personalized Interactions.",
+		h2: "Create context-aware, tailored responses",
 		icon: web,
-		title: "Webites and Landing Pages",
+		title: "NLP-driven Solutions",
 		content:
-			"Professional landing pages delivered in 48 hours—ready to launch when you are.",
-	},
-	{
-		id: "feature-4",
-		icon: canva,
-		title: "Canva Designs",
-		content:
-			"Scalable design solutions to keep your marketing fresh and impactful when you need them most.",
+			"NLP-driven solutions utilize the power of language processing to help you understand and respond to your customers more effectively.",
 	},
 ];
 
@@ -81,7 +80,7 @@ export const workModel = [
 		icon: star,
 		title: "Request",
 		content:
-			"Share your vision on what you need—whether it's a complex software solution, a landing page, or a design refresh—freeing you from endless back-and-forths with traditional teams.",
+			"Transform data into actionable insights with cutting-edge NLP. Extract meaning, analyze sentiment, and streamline decision-making effortlessly.",
 	},
 	{
 		id: "model-2",
@@ -112,91 +111,128 @@ export const workModel = [
 export const stats = [
 	{
 		id: "stats-1",
-		title: "On-Demand Support:",
+		title: "Fast Turnaround",
 		content:
-			"Flowity AI offers specialized software engineering services that function as an agile extension of a company’s current development team. This model helps businesses tackle projects quickly and flexibly, without needing to onboard new full-time employees.",
+			"Get results quickly with rapid AI workflow setups—tasks built and running in days, not weeks.",
 		value: "1",
 	},
 	{
 		id: "stats-2",
-		title: "Rapid Project Turnaround:",
+		title: "Flexible Solutions",
 		content:
-			"Our unique managed service approach prioritizes speed without compromising quality, making it possible to complete urgent or high-priority software projects promptly. This includes website and landing page development within 72 hours and other web-based solutions.",
+			"Enjoy customizable AI workflows that adapt to your evolving business needs, without over-complicating your operations.",
 		value: "2",
 	},
 	{
 		id: "stats-3",
-		title: "Enhanced Development Efficiency:",
+		title: "Predictable Pricing",
 		content:
-			"By leveraging AI-driven tools and automations in the software development lifecycle, Flowity AI optimizes coding, testing, and deployment processes. This translates to a smoother, faster, and more efficient workflow for development teams.",
+			"Get all the value you need with a fixed monthly rate—no surprise costs, just reliable and scalable solutions.",
 		value: "3",
 	},
 	{
 		id: "stats-4",
-		title: "Scalable Engineering Resources:",
+		title: "Seamless Integrations",
 		content:
-			"Businesses can scale their development capabilities as needed, accessing Flowity AI’s pool of skilled engineers to meet project demands, seasonal work spikes, or special initiatives. This is ideal for companies looking to scale without the hassle of long-term hiring.",
+			"Integrate with your existing tools effortlessly, creating smooth workflows without disrupting your current operations.",
 		value: "4",
 	},
 	{
 		id: "stats-5",
-		title: "Quality and Consistency:",
+		title: "NLP-Powered Efficiency",
 		content:
-			"Our model emphasizes robust, well-documented code that adheres to industry best practices. We provide consistent output that supports maintenance, scalability, and future enhancements.",
+			"Leveraging natural language processing, turning customer feedback and interactions into actionable insights for better decision-making.",
 		value: "5",
 	},
 
 	{
 		id: "stats-6",
-		title: "Flexible Pricing Packages:",
+		title: "Scalable Solutions",
 		content:
-			"Monthly subscription models and customized packages are available to align with various project scopes and company budgets, offering flexibility and value.",
+			"Whether you're a small business or growing fast, our solutions are built to scale and adapt to your evolving needs.",
 		value: "6",
 	},
 ];
 
 export const faq = [
 	{
-		question: "How to manage my subscription? How to login?",
-		answer:
-			"Our login is exclusively to paying customers. Once the payment is confirmed you can login and access your dashboard to manage it.",
+		question: "What happens after payment?",
+		answer: `After payment, you'll be redirected to fill out a form and then redirected to set up our initial meeting we call Onboarding where we'll address your processes and strategize your automations. After that you'll get an email for you ClickUp workspace and get ready to start adding projects immediately or we'll add them for you as soon as we finish Onboarding.`,
 	},
 	{
-		question: "When can I start requesting my designs?",
-		answer:
-			"Once payment if confirmed you will, within the next 24h, receive an e-mail to access your Trello board where you can start requesting your designs immidiately.",
+		question: "Will I need to pay any extras?",
+		answer: `We only request a Make.com account, so we can manage your processes as collaborators. All of this will be explained in our 15m intro call.`,
 	},
 	{
-		question: "How fast is my project going to be ready?",
-		answer:
-			"It usually takes up between 2-3 business days, on average, per design task. The development can take up to a week, on average, then we run a quality assurance testing that can also take up to a week, always depending on the size of the project.",
+		question: "How many requests can I submit at once?",
+		answer: `You can submit as many requests as you want or we can submit them for you, but active requests at a time will depend on your subscription plan.`,
 	},
 	{
-		question: "Are there any refund options?",
+		question: "What type of workflows are included in the plans?",
 		answer:
-			"We'll revise your design until 100% satisfaction and if refund is requested, it will be examined case by case but no refunds are guaranteed.",
+			"Includes all types of simple workflows, such as task automation and basic integrations to more advanced workflows, including NLP-driven automation.",
 	},
 	{
-		question: 'What does "unlimited" really means?',
+		question: "Can I request customized workflows?",
 		answer:
-			"It means that you will have a backlog list where you can request as many designs as you want, the tasks will enter in a queue and will be done one by one.",
+			"All of our AI automation workflows are tailored to your specific needs but in our Pro Plan you can request more complex processes leveraging natural language processing with low-code environments. Book an intro call with us and make sure we're the best fit.",
 	},
 	{
-		question: "How do revisions work?",
+		question: "How do you ensure the quality and efficiency of workflows?",
 		answer:
-			"Revisions are not the same as active requests and will be made over the tasks that are already finished. Revisions entail small changes or fixes on the chosen layout. If you want to completely change the layout it will be a new task, which means it will still be the actice request or it will go back into the queued tasks to be finished later, depending on each situation.",
+			"We maintain high standards of accuracy and efficiency by testing each workflow thoroughly before delivery.",
+	},
+	{
+		question: "What if I don’t like the solution provided?",
+		answer:
+			"Client satisfaction is our top priority. If you’re not fully satisfied with the initial delivery you can simply leave a comment and we'd continue revising until you are 100% satisfied.",
 	},
 	{
 		question:
 			"What if I'm no longer active and I still have revisions to be made?",
 		answer:
-			"Don't worry, revisions will be made even if you cancel your monthly subscription. However, if your revision needs an update or a new layout is requested, it can only be made by an active subscription.",
+			"Don't worry, revisions will be made even if you cancel your monthly subscription. However, if your revision needs an update, it can only be made by an active subscription.",
+	},
+	{
+		question: "Can these workflows integrate with my existing tools?",
+		answer:
+			"Yes, our workflows are designed to integrate seamlessly with popular business tools and they will be acessed on the Onboarding Call.",
+	},
+	{
+		question: "What industries do you specialize in?",
+		answer:
+			"Our solutions are industry-agnostic but particularly impactful for B2B and B2C eCommerce, SaaS, Small and Medium Businesses and Agencies.",
+	},
+	{
+		question: "What kind of data do you need from us to build the workflows?",
+		answer:
+			"The data we require depends on the workflow. For example, feedback analysis may include customers reviews, surveys, or social media data. Lead Scoring may include website analytics, CRM data, or email engagemnt metrics. Social Media Automation may include content schedules, branding guidelines, and target audience preferences. We will guide you through data preparation during the onboarding process. ",
+	},
+	{
+		question: "Is my data safe with Flowity AI?",
+		answer:
+			"Absolutely. We work as a collaborator with admin access on your platform to ensure you get what you are paying for directly into your account.",
+	},
+	{
+		question: "How do I know if my business needs automation workflows?",
+		answer:
+			"If your team is spending too much time on repetitive tasks, missing opportunities due to delays, or struggling with inefficiencies, automation could be the answer. Book a free consultation, and we’ll help you identify areas where automation can make an immediate impact.",
 	},
 	{
 		question:
-			"I don't have any design needs anymore. Can I just have monthly maintenance on the development?",
+			"What makes Flowity AI different from other automation service providers?",
 		answer:
-			"If you have an active subscription you will have maintenance and much more available. Unfortunately, we don't offer just small maintenance of the development process.",
+			"We stand out by offering tailored solutions that align with your unique business needs. A collaborative approach to ensure the final product is perfect for you. Transparent pricing with no hidden fees. Expertise in NLP-driven automation, allowing us to solve complex problems like customer sentiment analysis.",
+	},
+	{
+		question: "Can I scale my workflows over time?",
+		answer:
+			"Absolutely! Our workflows are built to grow with your business. You can start small and add more advanced automation solutions as your needs evolve. We’ll work with you to adjust and expand workflows as required.",
+	},
+	{
+		question: "What support do you offer after delivering the workflow??",
+		answer:
+			"After the delivered workflows, active accounts can benefit from Flowity AI ensuring the workflows continues to run smothless and seamless to all applications and further analyze how these process can work better together for scalability, updating them as needed.",
 	},
 ];
 
@@ -297,22 +333,17 @@ export const socialMedia = [
 	{
 		id: "social-media-1",
 		icon: instagram,
-		link: "https://www.instagram.com/",
-	},
-	{
-		id: "social-media-2",
-		icon: facebook,
-		link: "https://www.facebook.com/",
+		link: "https://www.instagram.com/ninaneev",
 	},
 	{
 		id: "social-media-3",
 		icon: twitter,
-		link: "https://www.twitter.com/",
+		link: "https://www.twitter.com/ninaneev",
 	},
 	{
 		id: "social-media-4",
 		icon: linkedin,
-		link: "https://www.linkedin.com/",
+		link: "https://www.linkedin.com/in/ninaneev",
 	},
 ];
 
