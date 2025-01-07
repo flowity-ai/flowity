@@ -92,7 +92,7 @@ const Services = () => {
 						</div>
 						<div className="flex-grow"></div>
 						<a
-							href="https://calendly.com/flowityai/intro-call"
+							href="https://calendly.com/ninaneev/intro-call"
 							className="flex justify-start w-[200px] z-10"
 						>
 							<button

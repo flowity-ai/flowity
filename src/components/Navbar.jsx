@@ -34,7 +34,7 @@ const Navbar = () => {
 			</div>
 
 			<div className="list-none md:flex hidden flex flex-1 justify-end">
-				<a href="https://calendly.com/flowityai/intro-call">
+				<a href="https://calendly.com/ninaneev/intro-call">
 					<button
 						type="button"
 						className={`py-3 px-4 mr-3 font-poppins font-medium text-[16px] text-dimWhite bg-purple-gradient rounded-[10px] outline-none ${styles}`}
@@ -98,7 +98,7 @@ const Navbar = () => {
 								</button>
 							</a>
 							<a
-								href="https://calendly.com/flowityai/intro-call"
+								href="https://calendly.com/ninaneev/intro-call"
 								className="w-full mt-3"
 							>
 								<button

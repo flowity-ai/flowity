@@ -256,7 +256,7 @@ export const footerLinks = [
 			},
 			{
 				name: "15m Intro Call",
-				link: "https://calendly.com/flowityai/intro-callhttps://calendly.com/flowityai/intro-call",
+				link: "https://calendly.com/ninaneev/intro-call",
 			},
 			{
 				name: "Privacy Police",
