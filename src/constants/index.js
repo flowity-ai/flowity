@@ -282,7 +282,6 @@ export const footerLinks = [
 		links: [
 			{
 				name: "ceo@flowity.ai",
-				link: "https://www.hoobank.com/our-partner/",
 			},
 		],
 	},

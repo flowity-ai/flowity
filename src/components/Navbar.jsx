@@ -44,10 +44,10 @@ const Navbar = () => {
 				</a>
 				<a href="https://checkout.flowity.ai/p/login/9AQ4hz28q77O8EwfYY">
 					<button
-						class="bg-gradient-to-r from-logoPurple to-logoCyan rounded-[10px] p-[.1em]"
+						className="bg-gradient-to-r from-logoPurple to-logoCyan rounded-[10px] p-[.1em]"
 						type="button"
 					>
-						<span class="flex justify-center w-full bg-gray-900 py-[.6em] font-poppins font-medium text-[16px] rounded-[10px] px-4">
+						<span className="flex justify-center w-full bg-gray-900 py-[.6em] font-poppins font-medium text-[16px] rounded-[10px] px-4">
 							<span className="text-gradient font-semibold">Log In</span>
 						</span>
 					</button>
@@ -89,10 +89,10 @@ const Navbar = () => {
 								className="w-full mt-3"
 							>
 								<button
-									class="bg-gradient-to-r from-logoPurple to-logoCyan rounded-[10px] p-[.1em]"
+									className="bg-gradient-to-r from-logoPurple to-logoCyan rounded-[10px] p-[.1em]"
 									type="button"
 								>
-									<span class="flex justify-center w-full bg-gray-900 py-[.6em] font-poppins font-medium text-[16px] rounded-[10px] px-4">
+									<span className="flex justify-center w-full bg-gray-900 py-[.6em] font-poppins font-medium text-[16px] rounded-[10px] px-4">
 										<span className="text-gradient font-semibold">Log In</span>
 									</span>
 								</button>
