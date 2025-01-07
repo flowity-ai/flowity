@@ -3,6 +3,10 @@
   src: local("Foundation"), url("./fonts/foundation.ttf"), format("truetype");
 }
 
+html, body {
+    overflow-x: clip; /* Prevent horizontal scrolling */
+}
+
 .App {
   text-align: center;
 }

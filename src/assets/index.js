@@ -24,10 +24,6 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import aiVector from "./ai-vector.svg";
-import serviceRequest from "./service-request.svg";
-import serviceDevelopment from "./service-development.svg";
-import serviceDelivery from "./service-delivery.svg";
-import serviceRefinement from "./service-refinement.svg";
 import ninescode from "./ninescode.svg";
 import check from "./check-circle.svg";
 import soft from "./soft-eng.svg";
@@ -46,6 +42,14 @@ import spark from "./sparkles.svg";
 import adobeIllus from "./AdobeIllustrator.svg";
 import trello from "./Trello.svg";
 import freepik from "./Freepik.svg";
+import bolt from "./bolt.svg";
+import flexible from "./flexible.svg";
+import pricing from "./pricing.svg";
+import integrations from "./integrations.svg";
+import nlp from "./nlp-driven.svg";
+import scalable from "./scalable.svg";
+import nlpSolution from "./nlp-solutions.svg";
+import support from "./support.svg";
 
 export {
 	flow,
@@ -80,10 +84,6 @@ export {
 	people02,
 	people03,
 	aiVector,
-	serviceRequest,
-	serviceDevelopment,
-	serviceDelivery,
-	serviceRefinement,
 	ninescode,
 	check,
 	work,
@@ -96,4 +96,12 @@ export {
 	adobeIllus,
 	freepik,
 	trello,
+	bolt,
+	flexible,
+	integrations,
+	pricing,
+	nlp,
+	scalable,
+	nlpSolution,
+	support,
 };

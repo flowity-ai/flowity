@@ -17,7 +17,7 @@ const Hero = () => {
 				</div>
 
 				<h1
-					className={`${styles.flexCenter} flex-col text-center font-poppins font-semibold ss:text-[72px] text-[36px] text-white ss:leading-[75px] md:leading-[100.5px] `}
+					className={`${styles.flexCenter} flex-col text-center font-poppins font-semibold ss:text-[72px] text-[40px] text-white ss:leading-[75px] md:leading-[100.5px] `}
 				>
 					<ChangingTextSection /> Impactful Business Solutions
 				</h1>

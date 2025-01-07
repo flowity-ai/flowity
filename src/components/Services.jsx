@@ -11,6 +11,7 @@ const tabsData = [
 		feat1: `One request at a time`,
 		feat2: `Simple Workflows: 2-3 business days`,
 		feat3: `Advanced Worfklows: 5-7 business days`,
+		url: `https://checkout.flowity.ai/b/bIY7t5eSV5Std5S28b`,
 	},
 	{
 		label: "Pro",
@@ -18,6 +19,7 @@ const tabsData = [
 		feat1: `Two requests at a time`,
 		feat2: `NLP-driven workflows`,
 		feat3: `Advanced Worfklows: 4-5 business days`,
+		url: `https://checkout.flowity.ai/b/dR628L5il94F0j6148`,
 	},
 ];
 
@@ -69,12 +71,11 @@ const Services = () => {
 			</div>
 			{/* Show active tab content. */}
 			<div className="py-4 text-white flex justify-center">
-				<div className="h-[760px] sm:h-[620px] md:h-[420px] w-full md:w-[900px] bg-slate-200 flex rounded-xl flex-col md:flex-row overflow-hidden">
-					<div className="e-card playing min-h-[300px] md:h-full w-full p-7 text-white md:rounded-l-xl">
+				<div className="md:w-[900px] bg-slate-200 flex rounded-xl flex-col md:flex-row overflow-hidden">
+					<div className="e-card playing min-h-[300px] md:h-full min-w-[300px] md:w-full p-7 text-white md:rounded-l-xl flex flex-col relative overflow-hidden">
 						<div className="wave"></div>
 						<div className="wave"></div>
 						<div className="wave"></div>
-
 						<div className="infotop w-[30%] md:w-[60%]">
 							<p className="text-[11px] tracking-widest text-[#cccc]">
 								Service
@@ -84,20 +85,26 @@ const Services = () => {
 									{tabsData[activeTabIndex].label}
 								</h3>{" "}
 								<br />
-								<p className="font-poppins font-medium text-[25px] md:text-[45px] foundation mt-3">
+								<p className="font-poppins font-medium text-[28px] md:text-[45px] foundation mt-3">
 									Join Flowity AI
 								</p>
 							</div>
 						</div>
-						<button
-							type="button"
-							className={`absolute bottom-4 left-6 py-4 px-6 font-poppins font-medium text-[18px] text-dimWhite bg-purple-gradient rounded-[10px] outline-none ${styles}`}
+						<div className="flex-grow"></div>
+						<a
+							href="https://calendly.com/flowityai/intro-call"
+							className="flex justify-start w-[200px] z-10"
 						>
-							Book a Call
-						</button>
+							<button
+								type="button"
+								className={`py-4 px-6 font-poppins font-medium text-[18px] text-dimWhite bg-purple-gradient rounded-[10px] outline-none ${styles} w-full md:w-auto`}
+							>
+								Book Intro Call
+							</button>
+						</a>
 					</div>
 
-					<div className="p-7 bg-black-gradient-2 min-h-[700px] md:h-full w-full md:rounded-r-xl">
+					<div className="p-7 bg-black-gradient-2 min-h-[400px] md:h-full w-full md:rounded-r-xl flex flex-col justify-between">
 						<div className="relative min-w-fit">
 							<div className="flex justify-end">
 								<div className="relative text-[50px] etiquet-price bg-logoPurple">
@@ -105,39 +112,43 @@ const Services = () => {
 									<div></div>
 								</div>
 							</div>
-							<ul className="">
-								<li className="text-[14px] md:text-[16px] pt-2 font-[500] tracking-wide flex items-start">
-									<img
-										src={check}
-										alt="Check Icon"
-										className="w-[15px] mr-[10px] pt-2"
-									/>
-									{tabsData[activeTabIndex].feat1}
-								</li>
-								<li className="text-[14px] md:text-[16px] pt-2 font-[500] tracking-wide flex items-start">
-									<img
-										src={check}
-										alt="Check Icon"
-										className="w-[15px] mr-[10px] pt-2"
-									/>
-									{tabsData[activeTabIndex].feat2}
-								</li>
-								<li className="text-[14px] md:text-[16px] pt-2 font-[500] tracking-wide flex items-start">
-									<img
-										src={check}
-										alt="Check Icon"
-										className="w-[15px] mr-[10px] pt-2"
-									/>
-									{tabsData[activeTabIndex].feat3}
-								</li>
-							</ul>
+							<div>
+								<ul className="mt-10">
+									<li className="text-[18px] md:text-[20px] pt-2 font-[500] tracking-wide flex items-start">
+										<img
+											src={check}
+											alt="Check Icon"
+											className="w-[15px] mr-[10px] pt-2"
+										/>
+										{tabsData[activeTabIndex].feat1}
+									</li>
+									<li className="text-[18px] md:text-[20px] pt-2 font-[500] tracking-wide flex items-start">
+										<img
+											src={check}
+											alt="Check Icon"
+											className="w-[15px] mr-[10px] pt-2"
+										/>
+										{tabsData[activeTabIndex].feat2}
+									</li>
+									<li className="text-[18px] md:text-[20px] pt-2 font-[500] tracking-wide flex items-start">
+										<img
+											src={check}
+											alt="Check Icon"
+											className="w-[15px] mr-[10px] pt-2"
+										/>
+										{tabsData[activeTabIndex].feat3}
+									</li>
+								</ul>
+							</div>
+						</div>
+						<a href={tabsData[activeTabIndex].url} className="w-full">
 							<button
 								type="button"
-								className={`absolute bottom-[-100px] mb-2 py-4 px-6 font-poppins font-medium text-[18px] text-white bg-gradient-to-r from-logoPurple to-logoCyan rounded-[10px] outline-none ${styles}`}
+								className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-gradient-to-r from-logoPurple to-logoCyan rounded-[10px] outline-none ${styles} w-full md:w-auto md:mx-auto`}
 							>
 								Get Started
 							</button>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>

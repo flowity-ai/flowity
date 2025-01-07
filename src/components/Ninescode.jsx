@@ -3,7 +3,7 @@ import { ninescode, community } from "../assets";
 import styles, { layout } from "../style";
 
 const Ninescode = () => (
-	<section id="product" className={layout.sectionReverse}>
+	<section id="community" className={layout.sectionReverse}>
 		<div className={layout.sectionImgReverse}>
 			<img
 				src={ninescode}

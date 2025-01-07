@@ -3,20 +3,21 @@ import { stats } from "../constants";
 import styles, { layout } from "../style";
 import { delivery } from "../assets";
 
-const FeatureCard = ({ value, title, content, index }) => (
+const FeatureCard = ({ icon, title, content, index }) => (
 	<div className="p-[1.5px] m-1 space-y-3 rounded-[10px] bg-gradient-to-r from-logoPurple to-logoCyan">
 		<div className="bg-primary p-[20px] md:p-[40px] rounded-[10px] h-full">
 			<div className="flex justify-start items-center">
-				<span className="inline-block text-logoCyan text-[30px] mr-[1rem]">
-					{value}
-				</span>
+				<img
+					className="inline-block text-logoCyan w-[30px] h-[30px] mr-[1rem] -mt-[10px]"
+					src={icon}
+				/>
 
 				<h1 className="text-[18px] md:text-[22px] font-semibold text-gray-700 capitalize dark:text-white">
 					{title}
 				</h1>
 			</div>
 
-			<p className="text-gray-500 dark:text-gray-300">{content}</p>
+			<p className="text-gray-500 dark:text-gray-300 mt-3">{content}</p>
 		</div>
 	</div>
 );

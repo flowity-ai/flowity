@@ -45,7 +45,6 @@ const App = () => (
 				<AISection />
 				<Services />
 				<Newsletter />
-				<Ninescode />
 				<FAQ />
 				<CTA />
 				<Footer />

@@ -24,9 +24,10 @@ const AISection = () => (
 			</div>
 			<h2 className={styles.heading2}>Your Partner in Innovation</h2>
 			<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-				AI helps us deliver personalized websites, designs, and software
-				solutions faster and more efficiently than ever, without sacrificing
-				quality.
+				Our AI-powered processes leverage NLP-driven workflows to help us
+				streamline processes and optimize customer support, ensuring faster
+				response times, enhanced efficiency, and a more personalized customer
+				experience.
 			</p>
 		</div>
 	</section>

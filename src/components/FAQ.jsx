@@ -27,21 +27,6 @@ const Wrap = styled.div`
 	text-align: start;
 	cursor: pointer;
 
-	h2 {
-		padding: 1.2rem;
-		font-size: 1.5rem;
-
-		@media only screen and (max-width: 600px) {
-			padding: 2rem;
-			font-size: 1.5rem;
-		}
-
-		@media only screen and (min-width: 992px) {
-			padding: 2rem;
-			font-size: 1.5rem;
-		}
-	}
-
 	span {
 		margin-right: 1.5rem;
 	}
@@ -86,7 +71,9 @@ const FAQ = () => {
 							return (
 								<>
 									<Wrap onClick={() => toggle(index)} key={index}>
-										<h2> {item.question} </h2>
+										<h2 className="font-poppins font-semibold text-[22px] md:text-[24px] text-white leading-[30.8px] md:leading-[50.8px] p-[1em]">
+											{item.question}
+										</h2>
 										<span> {clicked === index ? <FiMinus /> : <FiPlus />}</span>
 									</Wrap>
 									{clicked === index ? (

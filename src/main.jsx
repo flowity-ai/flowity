@@ -5,7 +5,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
-		<div className="overflow-clip">
+		<div>
 			<App />
 		</div>
 	</React.StrictMode>

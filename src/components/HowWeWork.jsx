@@ -13,18 +13,20 @@ const StyledWrapper = styled.div`
 	}
 `;
 
-const WorkModel = ({ icon, title, content, index }) => (
+const WorkModel = ({ title, content, index, value }) => (
 	<div
-		className={`flex flex-row p-6 rounded-[20px] ${
+		className={`flex flex-row md:flex-col p-6 rounded-[20px] ${
 			index !== workModel.length - 1 ? "mb-6" : "mb-0"
 		} feature-card`}
 	>
 		<div
-			className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
+			className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue flex items-center`}
 		>
-			<img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
+			<span className="text-logoCyan text-[30px] content-center foundation w-[30px] h-[30px]">
+				{value}
+			</span>
 		</div>
-		<div className="flex-1 flex flex-col ml-3">
+		<div className="flex-1 flex flex-col ml-3 justify-start">
 			<h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
 				{title}
 			</h4>
@@ -36,8 +38,6 @@ const WorkModel = ({ icon, title, content, index }) => (
 );
 
 const Services = () => {
-	const [activeTabIndex, setActiveTabIndex] = useState(0);
-
 	return (
 		<section className={`md:flex-row flex-col w-full`}>
 			<div className={`${styles.heading2} ${styles.flexCenter} flex-col`}>
@@ -49,7 +49,7 @@ const Services = () => {
 					Streamlined Solutions, <br /> Tailored to You
 				</h2>
 				<p
-					className={`${styles.paragraph} max-w-[470px] mt-6 mb-6 text-center`}
+					className={`${styles.paragraph} max-w-[700px] mt-6 mb-6 text-center`}
 				>
 					At Flowity AI, we believe simplicity drives results. Our RDRD
 					Model—Request, Development, Refinement, Delivery—ensures a seamless,
@@ -58,15 +58,13 @@ const Services = () => {
 					stress-free.
 				</p>
 			</div>
-			<div className="flex md:flex-row sm:flex-col">
+			<div className="flex md:flex-row flex-col">
 				{/* Loop through tab data and render button for each. */}
-				<div className="flex flex-col flex-1">
+				<div className="flex flex-col md:flex-row flex-1">
 					{workModel.map((model, index) => {
 						return (
 							<div
 								key={model.id}
-								// Change the active tab on click.
-								onClick={() => setActiveTabIndex(index)}
 								className="flex flex-1 flex-col justify-center space-x-3 text-white"
 							>
 								<div>
@@ -75,10 +73,6 @@ const Services = () => {
 							</div>
 						);
 					})}
-				</div>
-				{/* Show active tab content. */}
-				<div className="flex-1 hidden md:flex">
-					<img src={workModel[activeTabIndex].img} alt="Active Work Model" />
 				</div>
 			</div>
 			{/* gradient start */}

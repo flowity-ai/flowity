@@ -19,12 +19,8 @@ const Newsletter = () => (
 				Guide to Automating Your Business with AI. Subscribe for actionable
 				insights on AI workflows, exclusive offers, workflow tips, AI trends,
 				and success stories. <br />
-				<br />
-				Subscribe <b>NOW</b> and get{" "}
-				<b className="underline">50% OFF FOREVER</b>. <br /> Only <b>19</b>{" "}
-				LIMITED available slots for this promotion.
 			</p>
-			<div className="flex flex-row flex-wrap sm:mt-10">
+			<div className="flex flex-row flex-wrap mt-10">
 				<a href="https://flowity.beehiiv.com/" target="__blank">
 					<button
 						type="button"
@@ -38,8 +34,18 @@ const Newsletter = () => (
 			</div>
 		</div>
 		<div
-			className={`${layout.sectionImgReverse} ${layout.sectionInfo} ml-[100px] w-full`}
+			className={`${layout.sectionImgReverse} ${layout.sectionInfo} w-full text-start md:text-center`}
 		>
+			<div>
+				<p className={`${styles.paragraph1}`}>
+					Subscribe <b>NOW</b> and get{" "}
+					<b className="underline">50% OFF FOREVER</b>.
+				</p>
+				<p className={`${styles.paragraph} mb-6 mt-3`}>
+					Only <b>19</b> LIMITED available slots for this promotion.
+				</p>
+			</div>
+
 			<iframe
 				src="https://embeds.beehiiv.com/3af0aa19-c2bb-42c8-8f96-d62cdb7154e6?slim=true"
 				data-test-id="beehiiv-embed"
