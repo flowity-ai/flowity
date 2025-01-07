@@ -51,11 +51,10 @@ const Services = () => {
 				<p
 					className={`${styles.paragraph} max-w-[700px] mt-6 mb-6 text-center`}
 				>
-					At Flowity AI, we believe simplicity drives results. Our RDRD
-					Model—Request, Development, Refinement, Delivery—ensures a seamless,
-					transparent process. You focus on your goals while we handle the
-					execution, delivering tailored software, websites, and designs,
-					stress-free.
+					At Flowity AI, simplicity powers success. Our process ensures a smooth
+					journey from idea to implementation. You focus on growing your
+					business while we handle the rest, delivering impactful AI-driven
+					automation workflows effortlessly.
 				</p>
 			</div>
 			<div className="flex md:flex-row flex-col">
@@ -75,10 +74,6 @@ const Services = () => {
 					})}
 				</div>
 			</div>
-			{/* gradient start */}
-			<div className="absolute z-[3] -right-1/2 top-[125em] w-[50%] h-[50%] rounded-full white__gradient" />
-			<div className="absolute z-[0] w-[50%] h-[50%] -right-1/2 bottom-[125em] rounded-full pink__gradient" />
-			{/* gradient end */}
 		</section>
 	);
 };

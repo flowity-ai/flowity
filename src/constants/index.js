@@ -83,21 +83,21 @@ export const workModel = [
 		value: "1",
 		title: "Onboarding",
 		content:
-			"Transform data into actionable insights with cutting-edge NLP. Extract meaning, analyze sentiment, and streamline decision-making effortlessly.",
+			"We begin with an in-depth discovery session to understand your needs and tools. Together, we identify repetitive tasks and opportunities for AI-driven automation, setting a strong foundation for impactful solutions.",
 	},
 	{
 		id: "model-2",
 		value: "2",
 		title: "Development",
 		content:
-			"Our team jumps into action, crafting a tailored solution with expertise and AI-enhanced precision.",
+			"Our team gets to work, leveraging cutting-edge AI and NLP technology to craft tailored automation workflows. With a focus on precision and efficiency, we build solutions designed to elevate your operations.",
 	},
 	{
 		id: "model-3",
 		value: "3",
 		title: "Refinement",
 		content:
-			"Collaborate on iterative improvements, ensuring every line of code, design element, or integration aligns with your vision and technical needs.",
+			"After initial implementation, we fine-tune workflows based on your feedback, ensuring the solution integrates seamlessly into your business and delivers maximum impact.",
 	},
 ];
 
