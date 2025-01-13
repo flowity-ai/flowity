@@ -50,6 +50,9 @@ import nlp from "./nlp-driven.svg";
 import scalable from "./scalable.svg";
 import nlpSolution from "./nlp-solutions.svg";
 import support from "./support.svg";
+import heart from "./heart.svg";
+import priority from "./priority.svg";
+import automation from "./automation.svg";
 
 export {
 	flow,
@@ -104,4 +107,7 @@ export {
 	scalable,
 	nlpSolution,
 	support,
+	heart,
+	priority,
+	automation,
 };

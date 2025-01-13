@@ -18,6 +18,7 @@ import {
 	AISection,
 	Services,
 	HowWeWork,
+	TableValue,
 } from "./components";
 
 const App = () => (
@@ -40,6 +41,7 @@ const App = () => (
 			<div className={`${styles.boxWidth}`}>
 				<Clients />
 				<Solutions />
+				<TableValue />
 				<HowWeWork />
 				<Features />
 				<AISection />

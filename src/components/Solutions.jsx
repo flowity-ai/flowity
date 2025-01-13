@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
-import { discount, spark } from "../assets";
+import { spark } from "../assets";
 
 const FeatureCard = ({ icon, title, content, index, onClick }) => (
 	<div
@@ -37,17 +37,21 @@ const Solutions = () => {
 				<div className="text-dimWhite max-w-[470px] mt-5">
 					<ul className="list-disc ml-5">
 						<li>
-							<b>Streamline your operations</b> by automating repetitive tasks
-							and manual processes, so your team can focus on higher-value work.
+							<b>Quickly identifies</b> key themes from customer reviews,
+							surveys, and support tickets to pinpoint areas for improvement.
 						</li>
 						<li>
-							<b>Enhance data consistency</b> across platforms, reducing errors
-							that arise from manual data entry or coordination.
+							<b>Highlights customer satisfaction</b> drivers and pain points to
+							enhance decision-making.
 						</li>
 						<li>
-							<b>Boost productivity</b> by setting up workflows that trigger
-							automatic actions based on real-time inputs—no more waiting for
-							approvals or updates.
+							<b>Boosts customer satisfaction</b> by 40% within 45 days, leading
+							to increased loyalty and retention.
+						</li>
+						<li>
+							<b>Perfect for: </b>Businesses that rely heavily on customer
+							feedback to improve products and services. <br />{" "}
+							<u>e.g. E-commerce brands and SaaS companies.</u>
 						</li>
 					</ul>
 				</div>
@@ -58,16 +62,21 @@ const Solutions = () => {
 				<div className="text-dimWhite max-w-[470px] mt-5">
 					<ul className="list-disc ml-5">
 						<li>
-							<b>Provide 24/7 support</b> ensuring instant, automated responses
-							to customer inquiries.
+							<b>Uses NLP </b>to assess customer interactions and prioritize
+							high-value leads based on sentiment and intent.
 						</li>
 						<li>
-							<b>Automatically qualify leads</b>, saving your sales team time
-							and improving lead conversion rates.
+							<b>Optimizes sales team efforts</b> by focusing on leads most
+							likely to convert.
 						</li>
 						<li>
-							<b>Improve customer satisfaction</b> by resolving issues quickly
-							and efficiently through automated support systems.
+							<b>Increases conversions</b> by 50% and shortens the sales cycle
+							within 60 days.
+						</li>
+						<li>
+							<b>Perfect for: </b>Businesses with sales teams aiming to focus on
+							high-value leads. <br />{" "}
+							<u>e.g. B2B SaaS companies and consulting firms.</u>
 						</li>
 					</ul>
 				</div>
@@ -78,22 +87,51 @@ const Solutions = () => {
 				<div className="text-dimWhite max-w-[470px] mt-5">
 					<ul className="list-disc ml-5">
 						<li>
-							<b>Automatically analyze</b> customer feedback to understand
-							sentiment and identify key issues.
+							<b>Tracks real-time brand sentiment</b> across platforms to
+							provide early detection of potential PR issues.
 						</li>
 						<li>
-							<b>Generate personalized responses</b> based on the context of
-							customer inquiries, improving communication quality.
+							<b>Identifies trends</b> in customer feedback, helping brands
+							proactively address concerns and improve engagement.
 						</li>
 						<li>
-							<b>Extract valuable insights</b> from customer interactions and
-							use them to enhance products, services, and support.
+							<b>Enhances reputation</b> management and increases positive
+							sentiment by 30% in just 30 days.
+						</li>
+						<li>
+							<b>Perfect for: </b>Businesses looking to manage their online
+							reputation and understand customer sentiment. <br />{" "}
+							<u>e.g. Marketing agencies and retail brands.</u>
 						</li>
 					</ul>
 				</div>
 			),
 		},
-		// Add more features as needed
+		{
+			content: (
+				<div className="text-dimWhite max-w-[470px] mt-5">
+					<ul className="list-disc ml-5">
+						<li>
+							<b>Delivers hyper-relevant content</b> by analyzing user
+							preferences and behaviors through NLP workflows.
+						</li>
+						<li>
+							<b>Enhances the customer experience</b> by tailoring email
+							campaigns, product recommendations, and web content.
+						</li>
+						<li>
+							<b>Improves marketing</b> ROI by 35% and boosts engagement within
+							30 days.
+						</li>
+						<li>
+							<b>Perfect for: </b>Businesses focused on increasing engagement
+							through targeted content. <br />{" "}
+							<u>e.g. E-commerce businesses and digital marketing agencies.</u>
+						</li>
+					</ul>
+				</div>
+			),
+		},
 	];
 
 	useEffect(() => {

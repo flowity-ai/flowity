@@ -13,6 +13,7 @@ import AISection from "./AISection";
 import Services from "./Services";
 import HowWeWork from "./HowWeWork";
 import FAQ from "./FAQ";
+import TableValue from "./TableValue";
 
 export {
 	Navbar,
@@ -30,4 +31,5 @@ export {
 	Services,
 	HowWeWork,
 	FAQ,
+	TableValue,
 };

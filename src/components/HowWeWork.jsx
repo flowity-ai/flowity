@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import styles from "../style";
 import { work } from "../assets";
 import { workModel } from "../constants";
@@ -15,25 +14,23 @@ const StyledWrapper = styled.div`
 
 const WorkModel = ({ title, content, index, value }) => (
 	<div
-		className={`flex flex-row md:flex-col p-6 rounded-[20px] ${
-			index !== workModel.length - 1 ? "mb-6" : "mb-0"
-		} feature-card`}
+		className={`flex flex-col p-6 rounded-[20px] feature-card md:min-h-[250px]`}
 	>
-		<div
-			className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue flex items-center`}
-		>
-			<span className="text-logoCyan text-[30px] content-center foundation w-[30px] h-[30px]">
-				{value}
-			</span>
-		</div>
-		<div className="flex-1 flex flex-col ml-3 justify-start">
-			<h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
+		<div className="flex items-center">
+			<div
+				className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue flex items-start mb-2`}
+			>
+				<span className="text-logoCyan text-[30px] foundation w-[30px] h-[30px]">
+					{value}
+				</span>
+			</div>
+			<h4 className="flex font-poppins font-semibold text-white text-[18px] leading-[23.4px]">
 				{title}
 			</h4>
-			<p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
-				{content}
-			</p>
 		</div>
+		<p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
+			{content}
+		</p>
 	</div>
 );
 

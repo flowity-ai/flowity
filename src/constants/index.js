@@ -30,6 +30,9 @@ import {
 	scalable,
 	nlpSolution,
 	support,
+	heart,
+	priority,
+	automation,
 } from "../assets";
 
 export const navLinks = [
@@ -52,28 +55,37 @@ export const features = [
 		id: "feature-1",
 		sparkle: "Automate and optimize.",
 		h2: "Streamline processes, boost efficiency",
-		icon: flow,
-		title: "AI Automation Workflows",
+		icon: support,
+		title: "Customer Feedback Sentiment Analysis",
 		content:
-			"Unlock seamless efficiency with AI automation workflows. Automate repetitive tasks and boost team's productivity instantly.",
+			"NLP workflows to analyze reviews, surveys, and support tickets, extracting sentiment trends to identify customer satisfaction drivers.",
 	},
 	{
 		id: "feature-2",
 		sparkle: "24/7 smart support",
 		h2: "Actionable Insights to support strategies",
-		icon: support,
-		title: "Customer Support and Lead Generation",
+		icon: priority,
+		title: "Lead Scoring and Prioritization",
 		content:
-			"Enhance your customer support and generate quality leads effortlessly with AI-powered workflows.",
+			"AI workflows to analyze customer interactions, segment high-value leads, and prioritize outreach for sales teams.",
 	},
 	{
 		id: "feature-3",
 		sparkle: "Personalized Interactions.",
 		h2: "Create context-aware, tailored responses",
-		icon: nlpSolution,
-		title: "NLP-driven Solutions",
+		icon: heart,
+		title: "Social Media Sentiment Monitoring",
 		content:
-			"NLP-driven solutions utilize the power of language processing to help you understand and respond to your customers more effectively.",
+			"Real-time monitoring tools to track brand mentions, sentiment, and customer perceptions across platforms.",
+	},
+	{
+		id: "feature-4",
+		sparkle: "Personalized Interactions.",
+		h2: "Create context-aware, tailored responses",
+		icon: automation,
+		title: "Automated Content Personalization",
+		content:
+			"NLP-powered workflows to tailor email campaigns, product recommendations, and web content based on user behavior and preferences.",
 	},
 ];
 
@@ -171,9 +183,10 @@ export const faq = [
 			"All of our AI automation workflows are tailored to your specific needs but in our Pro Plan you can request more complex processes leveraging natural language processing with low-code environments. Book a 15m Intro Call with us and make sure we're the best fit.",
 	},
 	{
-		question: "How do you ensure the quality and efficiency of workflows?",
+		question:
+			"Difference between Standard NLP automation from Pro Custom NLP automation?",
 		answer:
-			"We maintain high standards of accuracy and efficiency by testing each workflow thoroughly before delivery.",
+			"Standard NLP Automation is ideal for businesses needing quick, affordable solutions for simple workflows. Pro Custom NLP Automation is perfect for companies seeking bespoke workflows tailored to their unique industry, offering greater flexibility and scalability for long-term value.",
 	},
 	{
 		question: "What if I don’t like the solution provided?",
@@ -272,7 +285,7 @@ export const footerLinks = [
 		title: "Community",
 		links: [
 			{
-				name: "Flowy Nexus Newsletter",
+				name: "Flow Nexus Newsletter",
 				link: "https://flowity.beehiiv.com",
 			},
 		],

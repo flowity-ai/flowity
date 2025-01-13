@@ -25,10 +25,10 @@ const Hero = () => {
 				<p
 					className={`${styles.paragraph} max-w-[650px] mt-6 mb-6 text-center`}
 				>
-					We develop NLP-driven AI automation workflows focused in streamline
-					customer support and optimize lead generation, delivering faster, more
-					personalized interactions and providing real-time insights tailored to
-					your business needs.
+					We develop NLP-driven AI automation workflows focused in streamlining
+					customer support and optimizing lead generation, delivering faster,
+					more personalized interactions and providing real-time insights
+					tailored to your business needs.
 				</p>
 
 				<Button />

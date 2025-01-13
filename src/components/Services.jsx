@@ -8,17 +8,19 @@ const tabsData = [
 	{
 		label: "Standard",
 		price: "1,999",
-		feat1: `One request at a time`,
-		feat2: `Simple Workflows: 2-3 business days`,
-		feat3: `Advanced Worfklows: 5-7 business days`,
+		feat1: `Weekly Strategy Call`,
+		feat2: `1 Monthly Priority Plan`,
+		feat3: `1 Monthly Minor Workflow`,
+		feat4: `Old Projects Maintenance`,
 		url: `https://checkout.flowity.ai/b/bIY7t5eSV5Std5S28b`,
 	},
 	{
 		label: "Pro",
 		price: "3,499",
-		feat1: `Two requests at a time`,
-		feat2: `NLP-driven workflows`,
-		feat3: `Advanced Worfklows: 4-5 business days`,
+		feat1: `Everything from Standard +`,
+		feat2: `Custom NLP-Driven Workflows`,
+		feat3: `2 Monthly Minor Workflows`,
+		feat4: `2h Team Training Session`,
 		url: `https://checkout.flowity.ai/b/dR628L5il94F0j6148`,
 	},
 ];
@@ -137,6 +139,14 @@ const Services = () => {
 											className="w-[15px] mr-[10px] pt-2"
 										/>
 										{tabsData[activeTabIndex].feat3}
+									</li>
+									<li className="text-[18px] md:text-[20px] pt-2 font-[500] tracking-wide flex items-start">
+										<img
+											src={check}
+											alt="Check Icon"
+											className="w-[15px] mr-[10px] pt-2"
+										/>
+										{tabsData[activeTabIndex].feat4}
 									</li>
 								</ul>
 							</div>
