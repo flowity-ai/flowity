@@ -216,7 +216,7 @@
 }
 
 .etiquet-price p:before {
-  content: "$";
+  content: "£";
   margin-right: 5px;
   font-size: 15px;
   font-weight: 300;

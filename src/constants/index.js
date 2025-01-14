@@ -272,7 +272,7 @@ export const footerLinks = [
 				link: "https://calendly.com/ninaneev/intro-call",
 			},
 			{
-				name: "Privacy Police",
+				name: "Privacy Policy",
 				link: "https://www.notion.so/ninacressoni/Privacy-policy-of-FLOWITY-AI-6f22759a4a7e4e91b47483c8dbf6d9ca?pvs=4",
 			},
 			{
@@ -291,10 +291,11 @@ export const footerLinks = [
 		],
 	},
 	{
-		title: "Contact",
+		title: "Collaborations",
 		links: [
 			{
-				name: "ceo@flowity.ai",
+				name: "Freepik",
+				link: "https://www.freepik.com/",
 			},
 		],
 	},
