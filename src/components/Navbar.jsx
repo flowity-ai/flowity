@@ -11,8 +11,13 @@ const Navbar = () => {
 	return (
 		<nav className="w-full py-6 navbar flex">
 			<div className="foundation flex flex-1 items-center content-center">
-				<img src={logo} alt="flowity-logo" className="w-[50px] h-[45px]" />
-				<span className="text-white hidden sm:flex">FLOWITY AI</span>
+				<a
+					href="https://flowity.ai"
+					className="flex items-center content-center"
+				>
+					<img src={logo} alt="flowity-logo" className="w-[50px] h-[45px]" />
+					<span className="text-white hidden sm:flex">FLOWITY AI</span>
+				</a>
 			</div>
 
 			<div className="list-none md:flex hidden justify-center items-center flex-1">

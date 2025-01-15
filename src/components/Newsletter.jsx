@@ -10,16 +10,12 @@ const Newsletter = () => (
 		<div className={`${layout.sectionInfo}`}>
 			<div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
 				<img src={news} alt="Newsletter" className="w-[22px] h-[22px]" />
-				<p className={`${styles.paragraph} ml-2`}>FlowNexus Newsletter</p>
+				<p className={`${styles.paragraph} ml-2`}>Flow Nexus AI Newsletter</p>
 			</div>
 			<h2 className={styles.heading2}>
 				Automate Smarter with Flowity Insights
 			</h2>
-			<p className={`${styles.paragraph} max-w-[470px] mt-6  text-start`}>
-				Guide to Automating Your Business with AI. Subscribe for actionable
-				insights on AI workflows, exclusive offers, workflow tips, AI trends,
-				and success stories. <br />
-			</p>
+
 			<div className="flex flex-row flex-wrap mt-10">
 				<a href="https://flowity.beehiiv.com/" target="__blank">
 					<button
@@ -33,26 +29,22 @@ const Newsletter = () => (
 				</a>
 			</div>
 		</div>
-		<div
-			className={`${layout.sectionImgReverse} ${layout.sectionInfo} w-full text-start md:text-center`}
-		>
-			<div>
-				<p className={`${styles.paragraph1}`}>
-					Subscribe <b>NOW</b> and get{" "}
-					<b className="underline">50% OFF FOREVER</b>.
-				</p>
-				<p className={`${styles.paragraph} mb-6 mt-3`}>
-					Only <b>19</b> LIMITED available slots for this promotion.
-				</p>
-			</div>
 
-			<iframe
-				src="https://embeds.beehiiv.com/3af0aa19-c2bb-42c8-8f96-d62cdb7154e6?slim=true"
-				data-test-id="beehiiv-embed"
-				height="52"
-				frameborder="0"
-				scrolling="no"
-			></iframe>
+		<div className={`${layout.sectionInfo} px-6 mb-3`}>
+			<p className={`${styles.paragraph} mt-6 text-start`}>
+				<b>Guide to Automating Your Business with AI.</b> Subscribe for
+				actionable insights on AI workflows, exclusive offers, workflow tips, AI
+				trends, and success stories. <br />
+			</p>
+			<div className="flex flex-row flex-wrap mt-10">
+				<iframe
+					src="https://embeds.beehiiv.com/3af0aa19-c2bb-42c8-8f96-d62cdb7154e6?slim=true"
+					data-test-id="beehiiv-embed"
+					height="52"
+					frameborder="0"
+					scrolling="no"
+				></iframe>
+			</div>
 		</div>
 	</section>
 );

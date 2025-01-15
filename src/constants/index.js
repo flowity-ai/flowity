@@ -71,8 +71,8 @@ export const features = [
 	},
 	{
 		id: "feature-3",
-		sparkle: "Personalized Interactions.",
-		h2: "Create context-aware, tailored responses",
+		sparkle: "Sentiment Analysis",
+		h2: "Streamline operations by analyzing feedback",
 		icon: heart,
 		title: "Social Media Sentiment Monitoring",
 		content:

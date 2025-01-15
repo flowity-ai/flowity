@@ -39,10 +39,14 @@ const Services = () => {
 				<p
 					className={`${styles.paragraph} max-w-[470px] mt-6 mb-6 text-center`}
 				>
-					<a href="#newsletter" className="text-logoCyan underline">
-						Subscribe
+					Book a{" "}
+					<a
+						href="https://calendly.com/ninaneev/intro-call"
+						className="text-logoCyan underline"
+					>
+						15m Intro Call
 					</a>{" "}
-					NOW and GET <b>50%</b> discount.
+					<b className="uppercase">now</b> and GET <b>50%</b> discount.
 				</p>
 			</div>
 
