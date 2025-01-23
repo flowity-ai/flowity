@@ -23,6 +23,15 @@ const tabsData = [
 		feat4: `2h Team Training Session`,
 		url: `https://checkout.flowity.ai/b/dR628L5il94F0j6148`,
 	},
+	{
+		label: "AI Agentic Workflow",
+		price: "499",
+		feat1: `Flowise + N8N`,
+		feat2: `Customer Support AI Team`,
+		feat3: `Marketing Automation AI Team`,
+		feat4: `Complex Automations 10x faster`,
+		url: `https://checkout.flowity.ai/b/00g9Bdh133KlaXK28d`,
+	},
 ];
 
 const Services = () => {
@@ -50,7 +59,7 @@ const Services = () => {
 				</p>
 			</div>
 
-			<div className="flex flex-1 justify-center space-x-3 text-white">
+			<div className="flex flex-1 justify-center space-x-10 text-white">
 				{/* Loop through tab data and render button for each. */}
 				{tabsData.map((tab, idx) => {
 					return (
@@ -160,7 +169,9 @@ const Services = () => {
 								type="button"
 								className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-gradient-to-r from-logoPurple to-logoCyan rounded-[10px] outline-none ${styles} w-full md:w-auto md:mx-auto`}
 							>
-								Get Started
+								{tabsData[activeTabIndex].label === "AI Agentic Workflow"
+									? "Become Beta Tester"
+									: "Get Started"}
 							</button>
 						</a>
 					</div>
