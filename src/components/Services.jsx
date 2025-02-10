@@ -50,7 +50,7 @@ const Services = () => {
 				>
 					Book a{" "}
 					<a
-						href="https://calendly.com/ninaneev/intro-call"
+						href="https://calendly.com/nina-neev/15m-intro-call"
 						className="text-logoCyan underline"
 					>
 						15m Intro Call
@@ -107,7 +107,7 @@ const Services = () => {
 						</div>
 						<div className="flex-grow"></div>
 						<a
-							href="https://calendly.com/ninaneev/intro-call"
+							href="https://calendly.com/nina-neev/15m-intro-call"
 							className="flex justify-start w-[200px] z-10"
 						>
 							<button

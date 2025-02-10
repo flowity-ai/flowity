@@ -269,7 +269,7 @@ export const footerLinks = [
 			},
 			{
 				name: "15m Intro Call",
-				link: "https://calendly.com/ninaneev/intro-call",
+				link: "https://calendly.com/nina-neev/15m-intro-call",
 			},
 			{
 				name: "Privacy Policy",
