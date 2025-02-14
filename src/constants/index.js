@@ -166,7 +166,7 @@ export const faq = [
 	},
 	{
 		question: "Will I need to pay any extras?",
-		answer: `We only request a automation account like Make.com, Zapier, Latenode, etc.. so we can manage your processes as collaborators. All of this can be explained in our 15m Intro Call.`,
+		answer: `We only request a automation account like N8N, Make.com, Zapier, etc.. so we can manage your processes as collaborators. All of this can be explained in our 15m Intro Call.`,
 	},
 	{
 		question: "How many requests can I submit at once?",
@@ -175,7 +175,7 @@ export const faq = [
 	{
 		question: "What type of workflows are included in the plans?",
 		answer:
-			"Includes all types of workflows, from simple ones such as task automation and basic integrations to more advanced workflows, including NLP-driven automation.",
+			"Includes all types of workflows, from simple ones such as task automation and basic integrations to more advanced workflows, including NLP-driven automation, chatbots & voice assistants (will require chatbot tool like Rasa, etc), and AI Agents.",
 	},
 	{
 		question: "Can I request customized workflows?",

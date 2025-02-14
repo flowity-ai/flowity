@@ -25,12 +25,12 @@ const tabsData = [
 	},
 	{
 		label: "AI Agentic Workflow",
-		price: "499",
+		price: "5,799",
 		feat1: `Flowise + N8N`,
 		feat2: `Customer Support AI Team`,
 		feat3: `Marketing Automation AI Team`,
 		feat4: `Complex Automations 10x faster`,
-		url: `https://checkout.flowity.ai/b/00g9Bdh133KlaXK28d`,
+		url: `https://checkout.flowity.ai/b/00g00DaCFft3aXKeV0`,
 	},
 ];
 

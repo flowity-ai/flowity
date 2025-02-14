@@ -19,6 +19,7 @@ import {
 	Services,
 	HowWeWork,
 	TableValue,
+	Store,
 } from "./components";
 
 const App = () => (
@@ -46,7 +47,7 @@ const App = () => (
 				<Features />
 				<AISection />
 				<Services />
-				<Newsletter />
+				<Store />
 				<FAQ />
 				<CTA />
 				<Footer />

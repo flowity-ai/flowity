@@ -14,6 +14,7 @@ import Services from "./Services";
 import HowWeWork from "./HowWeWork";
 import FAQ from "./FAQ";
 import TableValue from "./TableValue";
+import Store from "./Store";
 
 export {
 	Navbar,
@@ -32,4 +33,5 @@ export {
 	HowWeWork,
 	FAQ,
 	TableValue,
+	Store,
 };
