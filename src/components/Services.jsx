@@ -169,9 +169,7 @@ const Services = () => {
 								type="button"
 								className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-gradient-to-r from-logoPurple to-logoCyan rounded-[10px] outline-none ${styles} w-full md:w-auto md:mx-auto`}
 							>
-								{tabsData[activeTabIndex].label === "AI Agentic Workflow"
-									? "Become Beta Tester"
-									: "Get Started"}
+								Get Started
 							</button>
 						</a>
 					</div>
