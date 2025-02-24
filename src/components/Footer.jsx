@@ -21,7 +21,8 @@ const Footer = () => (
 					Intelligent flows, effortless grows.
 				</p>
 				<p className={`${styles.paragraph} mt-4 max-w-[312px] mt-6`}>
-					ceo@flowity.ai
+					ceo@flowity.ai <br />
+					support@flowity.ai
 				</p>
 			</div>
 

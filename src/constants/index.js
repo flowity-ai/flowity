@@ -56,9 +56,9 @@ export const features = [
 		sparkle: "Automate and optimize.",
 		h2: "Streamline processes, boost efficiency",
 		icon: support,
-		title: "Customer Feedback Sentiment Analysis",
+		title: "Marketing & Lead Generation Automation",
 		content:
-			"NLP workflows to analyze reviews, surveys, and support tickets, extracting sentiment trends to identify customer satisfaction drivers.",
+			"Automate lead capture and nurturing with AI workflows that engage visitors, qualify prospects, and trigger follow-ups—boosting conversions immediately.",
 	},
 	{
 		id: "feature-2",
@@ -74,9 +74,9 @@ export const features = [
 		sparkle: "Sentiment Analysis",
 		h2: "Streamline operations by analyzing feedback",
 		icon: heart,
-		title: "Social Media Sentiment Monitoring",
+		title: "Sales Outreach & Personalized Communication",
 		content:
-			"Real-time monitoring tools to track brand mentions, sentiment, and customer perceptions across platforms.",
+			"Enhance sales performance with AI that delivers tailored outreach and automates follow-ups—accelerating deal closures and driving revenue",
 	},
 	{
 		id: "feature-4",
@@ -284,6 +284,10 @@ export const footerLinks = [
 	{
 		title: "Community",
 		links: [
+			{
+				name: "Ebook Store",
+				link: "https://store.flowity.ai",
+			},
 			{
 				name: "Flow Nexus Newsletter",
 				link: "https://flowity.beehiiv.com",

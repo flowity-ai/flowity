@@ -4,11 +4,11 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 import { spark } from "../assets";
 
-const FeatureCard = ({ icon, title, content, index, onClick }) => (
+const FeatureCard = ({ icon, title, content, index, onClick, isActive }) => (
 	<div
 		className={`flex flex-row p-6 rounded-[20px] ${
-			index !== features.length - 1 ? "mb-6" : "mb-0"
-		} feature-card`}
+			isActive ? "bg-active" : ""
+		} feature-card ${isActive ? "hover:bg-active" : ""}`}
 		onClick={onClick}
 	>
 		<div
@@ -37,46 +37,27 @@ const Solutions = () => {
 				<div className="text-dimWhite max-w-[470px] mt-5">
 					<ul className="list-disc ml-5">
 						<li>
-							<b>Quickly identifies</b> key themes from customer reviews,
-							surveys, and support tickets to pinpoint areas for improvement.
+							<b>Uses NLP</b> to engage website visitors in real time, capturing
+							interactions and transforming them into actionable leads.
 						</li>
 						<li>
-							<b>Highlights customer satisfaction</b> drivers and pain points to
-							enhance decision-making.
+							<b>Automates personalized</b> follow-ups that nurture prospects
+							and drive higher conversion rates.
 						</li>
 						<li>
-							<b>Boosts customer satisfaction</b> by 40% within 45 days, leading
-							to increased loyalty and retention.
+							<b>Boosts revenue</b> by converting idle traffic into
+							high-quality, qualified leads with minimal manual effort.
 						</li>
 						<li>
-							<b>Perfect for: </b>Businesses that rely heavily on customer
-							feedback to improve products and services. <br />{" "}
-							<u>e.g. E-commerce brands and SaaS companies.</u>
-						</li>
-					</ul>
-				</div>
-			),
-		},
-		{
-			content: (
-				<div className="text-dimWhite max-w-[470px] mt-5">
-					<ul className="list-disc ml-5">
-						<li>
-							<b>Uses NLP </b>to assess customer interactions and prioritize
-							high-value leads based on sentiment and intent.
+							<b>Increases conversion rates</b> by 45% within 45 days, rapidly
+							transforming interest into revenue.{" "}
 						</li>
 						<li>
-							<b>Optimizes sales team efforts</b> by focusing on leads most
-							likely to convert.
-						</li>
-						<li>
-							<b>Increases conversions</b> by 50% and shortens the sales cycle
-							within 60 days.
-						</li>
-						<li>
-							<b>Perfect for: </b>Businesses with sales teams aiming to focus on
-							high-value leads. <br />{" "}
-							<u>e.g. B2B SaaS companies and consulting firms.</u>
+							<b>Perfect for:</b>{" "}
+							<u>
+								E-commerce companies, SaaS providers, digital marketing
+								agencies, and B2B service providers.
+							</u>
 						</li>
 					</ul>
 				</div>
@@ -87,12 +68,46 @@ const Solutions = () => {
 				<div className="text-dimWhite max-w-[470px] mt-5">
 					<ul className="list-disc ml-5">
 						<li>
-							<b>Tracks real-time brand sentiment</b> across platforms to
-							provide early detection of potential PR issues.
+							<b>Uses NLP </b> to analyze customer interactions, assessing
+							sentiment and intent to identify high-value leads.
 						</li>
 						<li>
-							<b>Identifies trends</b> in customer feedback, helping brands
-							proactively address concerns and improve engagement.
+							<b>Automates lead scoring</b> so that your sales team can focus on
+							prospects most likely to convert.
+						</li>
+						<li>
+							<b>Enhances conversion rates</b> by efficiently filtering and
+							prioritizing leads for targeted outreach.
+						</li>
+						<li>
+							<b>Boosts conversion efficiency</b> by 50% within 60 days,
+							ensuring top leads receive priority attention.
+						</li>
+						<li>
+							<b>Perfect for:</b> Businesses with high-volume lead generation,
+							such as
+							<u>B2B SaaS companies and consulting firms.</u>
+						</li>
+					</ul>
+				</div>
+			),
+		},
+		{
+			content: (
+				<div className="text-dimWhite max-w-[470px] mt-5">
+					<ul className="list-disc ml-5">
+						<li>
+							<b>Leverages data insights</b> and NLP to craft tailored,
+							conversational outreach messages across email, SMS, and social
+							media.
+						</li>
+						<li>
+							<b>Streamlines follow-up processes</b> to ensure every prospect
+							receives timely, relevant communications.
+						</li>
+						<li>
+							<b>Accelerates sales cycles</b> and improves close rates by
+							delivering highly targeted, personalized interactions.
 						</li>
 						<li>
 							<b>Enhances reputation</b> management and increases positive
@@ -100,8 +115,8 @@ const Solutions = () => {
 						</li>
 						<li>
 							<b>Perfect for: </b>Businesses looking to manage their online
-							reputation and understand customer sentiment. <br />{" "}
-							<u>e.g. Marketing agencies and retail brands.</u>
+							reputation and organizations with outbound sales. <br />{" "}
+							<u>e.g. B2B companies, real estate firms, financial services.</u>
 						</li>
 					</ul>
 				</div>
@@ -116,17 +131,24 @@ const Solutions = () => {
 							preferences and behaviors through NLP workflows.
 						</li>
 						<li>
-							<b>Enhances the customer experience</b> by tailoring email
-							campaigns, product recommendations, and web content.
+							<b>Automates real-time content</b> adjustments to ensure messaging
+							is always relevant and engaging.
 						</li>
 						<li>
-							<b>Improves marketing</b> ROI by 35% and boosts engagement within
-							30 days.
+							<b>Improves engagement</b> and drives higher click-through rates
+							by delivering truly personalized experiences.
 						</li>
 						<li>
-							<b>Perfect for: </b>Businesses focused on increasing engagement
-							through targeted content. <br />{" "}
-							<u>e.g. E-commerce businesses and digital marketing agencies.</u>
+							<b>Enhances engagement metrics</b> by 35% within 30 days, driving
+							higher click-through rates and improved brand loyalty.
+						</li>
+						<li>
+							<b>Perfect for: </b>Businesses aiming to elevate customer
+							engagement through targeted content. <br />{" "}
+							<u>
+								e.g. Digital marketing teams, e-commerce brands, media
+								platforms.
+							</u>
 						</li>
 					</ul>
 				</div>
@@ -177,12 +199,11 @@ const Solutions = () => {
 							AI-driven solutions
 						</h2>
 						<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-							Enhancing customer support and lead generation through AI
-							automation workflows powered by NLP, enabling faster, more
-							efficient interactions. Our intelligent workflows seamlessly
-							integrate with your operations, optimizing response times and
-							delivering personalized experiences that scale with your business
-							needs.
+							Boost efficiency, maximize revenue, and streamline operations with
+							AI-powered automation. Our intelligent workflows eliminate
+							repetitive tasks, enhance customer engagement, and drive faster,
+							data-backed decisions—helping businesses work smarter, reduce
+							costs, and maximize impact with minimal effort..
 						</p>
 					</>
 				)}
@@ -208,6 +229,7 @@ const Solutions = () => {
 						{...feature}
 						index={index}
 						onClick={() => setActiveFeatureIndex(index)}
+						isActive={activeFeatureIndex === index}
 					/>
 				))}
 			</div>

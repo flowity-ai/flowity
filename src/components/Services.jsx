@@ -23,15 +23,6 @@ const tabsData = [
 		feat4: `2h Team Training Session`,
 		url: `https://checkout.flowity.ai/b/dR628L5il94F0j6148`,
 	},
-	{
-		label: "AI Agentic Workflow",
-		price: "5,799",
-		feat1: `Flowise + N8N`,
-		feat2: `Customer Support AI Team`,
-		feat3: `Marketing Automation AI Team`,
-		feat4: `Complex Automations 10x faster`,
-		url: `https://checkout.flowity.ai/b/00g00DaCFft3aXKeV0`,
-	},
 ];
 
 const Services = () => {

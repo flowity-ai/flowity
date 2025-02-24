@@ -32,10 +32,10 @@ const TableValue = () => {
 								Operational Efficiency
 							</th>
 							<th scope="col" className="px-6 py-3 text-logoCyan">
-								Revenue Growth
+								Marketing Efficiency
 							</th>
 							<th scope="col" className="px-6 py-3 text-logoCyan">
-								Brand Reputation
+								Revenue Growth
 							</th>
 							<th scope="col" className="px-6 py-3 text-logoCyan">
 								Employee Productivity
@@ -48,27 +48,27 @@ const TableValue = () => {
 								scope="row"
 								className="px-6 py-4 font-medium text-logoPurple whitespace-nowrap foundation"
 							>
-								Customer Feedback <br /> Sentiment Analysis
+								Marketing & Lead <br /> Generation Automation
 							</th>
 							<td className="px-6 py-4">
-								Enhances CX by identifying customer likes, dislikes, and pain
-								points for targeted improvements.
+								Engages visitors with personalized interactions that boost
+								satisfaction.
 							</td>
 							<td className="px-6 py-4">
-								Automates analysis of large datasets, saving time for support
-								and marketing teams.
+								Automates lead capture & follow-up processes, reducing manual
+								effort.
 							</td>
 							<td className="px-6 py-4">
-								Informs product/service improvements that increase loyalty and
-								repeat purchases.
+								Drives targeted campaigns with dynamic, real-time lead
+								nurturing.
 							</td>
 							<td className="px-6 py-4">
-								Identifies recurring issues, enabling companies to address them
-								and show responsiveness.
+								Increases conversion rates by turning clicks into high-quality
+								leads.
 							</td>
 							<td className="px-6 py-4">
-								Reduces manual workload for feedback processing, allowing focus
-								on actionable solutions.
+								Frees staff from routine tasks, allowing focus on strategic
+								initiatives.
 							</td>
 						</tr>
 						<tr className="odd:bg-white odd:dark:bg-gray-900/50 even:bg-gray-50/50 even:dark:bg-gray-800/50 border-b dark:border-gray-700/50">
@@ -79,24 +79,23 @@ const TableValue = () => {
 								Lead Scoring and <br /> Prioritization
 							</th>
 							<td className="px-6 py-4">
-								Ensures leads are prioritized based on intent, creating a
-								seamless and personalized sales experience.
+								Improves CX by ensuring high-intent leads receive priority
+								attention.
 							</td>
 							<td className="px-6 py-4">
-								Reduces time spent on low-potential leads, enabling efficient
-								use of sales resources.
+								Automates data analysis to quickly identify and rank leads.
 							</td>
 							<td className="px-6 py-4">
-								Boosts conversions by prioritizing high-value leads, increasing
-								revenue per deal.
+								Supports targeted marketing efforts with actionable lead
+								insights.
 							</td>
 							<td className="px-6 py-4">
-								Ensures personalized and timely client interactions, enhancing
-								brand credibility.
+								Drives revenue growth by focusing resources on the hottest
+								prospects.
 							</td>
 							<td className="px-6 py-4">
-								Streamlines workflows, enabling teams to focus on high-impact
-								tasks.
+								Minimizes manual lead filtering, allowing sales teams to work
+								more efficiently.
 							</td>
 						</tr>
 						<tr className="odd:bg-white odd:dark:bg-gray-900/50 even:bg-gray-50/50 even:dark:bg-gray-800/50 border-b dark:border-gray-700/50">
@@ -104,27 +103,25 @@ const TableValue = () => {
 								scope="row"
 								className="px-6 py-4 font-medium whitespace-nowrap text-logoPurple foundation"
 							>
-								Social Media <br /> Sentiment Monitoring
+								Sales Outreach & <br /> Personalized <br /> Communication
 							</th>
 							<td className="px-6 py-4">
-								Improves CX by enabling timely responses to customer concerns
-								and engagement opportunities.
+								Creates tailored communications that build trust and enhance CX.
 							</td>
 							<td className="px-6 py-4">
-								Automates real-time brand sentiment tracking, reducing manual
-								monitoring efforts.
+								Streamlines multi-channel outreach, ensuring consistent
+								follow-ups.
 							</td>
 							<td className="px-6 py-4">
-								Proactively addresses negative sentiment or PR crises,
-								maintaining revenue by protecting brand trust.
+								Optimizes messaging with data-driven insights for better
+								engagement.
 							</td>
 							<td className="px-6 py-4">
-								Helps maintain a positive public image by addressing concerns
-								quickly.
+								Accelerates deal cycles, boosting conversion rates and sales
+								revenue.
 							</td>
 							<td className="px-6 py-4">
-								Frees marketing and PR teams to focus on strategy instead of
-								repetitive monitoring tasks.
+								Reduces repetitive outreach tasks, enhancing focus on strategy.
 							</td>
 						</tr>
 						<tr className="odd:bg-white odd:dark:bg-gray-900/50 even:bg-gray-50/50 even:dark:bg-gray-800/50 border-b dark:border-gray-700/50">
@@ -135,24 +132,24 @@ const TableValue = () => {
 								Automated Content <br /> Personalization
 							</th>
 							<td className="px-6 py-4">
-								Tailors content to user preferences, delivering a more engaging
-								and relevant experience.
+								Delivers dynamic, personalized content that enhances user
+								satisfaction.
 							</td>
 							<td className="px-6 py-4">
-								Streamlines content delivery processes, reducing manual
-								segmentation and campaign setup.
+								Automates content creation and scheduling, reducing manual
+								intervention.
 							</td>
 							<td className="px-6 py-4">
-								Drives higher engagement and click-through rates, improving
-								marketing ROI and increasing sales.
+								Tailors marketing messages to individual audience segments
+								effectively.
 							</td>
 							<td className="px-6 py-4">
-								Creates a customer-focused image by delivering hyper-relevant,
-								personalized content.
+								Boosts revenue through higher engagement, conversion, and
+								retention rates.
 							</td>
 							<td className="px-6 py-4">
-								Simplifies content management, enabling faster execution of
-								campaigns.
+								Streamlines creative processes so teams can focus on strategic
+								content planning.
 							</td>
 						</tr>
 					</tbody>
