@@ -53,39 +53,30 @@ export const navLinks = [
 export const features = [
 	{
 		id: "feature-1",
-		sparkle: "Automate and optimize.",
-		h2: "Streamline processes, boost efficiency",
+		sparkle: "Not just automation",
+		h2: "ROI-driven AI Efficiency",
 		icon: support,
 		title: "Marketing & Lead Generation Automation",
 		content:
-			"Automate lead capture and nurturing with AI workflows that engage visitors, qualify prospects, and trigger follow-ups—boosting conversions immediately.",
-	},
-	{
-		id: "feature-2",
-		sparkle: "24/7 smart support",
-		h2: "Actionable Insights to support strategies",
-		icon: priority,
-		title: "Lead Scoring and Prioritization",
-		content:
-			"AI workflows to analyze customer interactions, segment high-value leads, and prioritize outreach for sales teams.",
+			"We automate your lead capture, segmentation, and nurturing workflows—so you generate more high-quality leads on autopilot, without spending more on ads.",
 	},
 	{
 		id: "feature-3",
-		sparkle: "Sentiment Analysis",
-		h2: "Streamline operations by analyzing feedback",
+		sparkle: "Not just AI workflows",
+		h2: "Growth & Peace of mMnd",
 		icon: heart,
 		title: "Sales Outreach & Personalized Communication",
 		content:
-			"Enhance sales performance with AI that delivers tailored outreach and automates follow-ups—accelerating deal closures and driving revenue",
+			"We supercharge your outbound with AI-crafted, hyper-personalized messages at scale. Book more meetings and close more deals with less effort.",
 	},
 	{
 		id: "feature-4",
-		sparkle: "Personalized Interactions.",
-		h2: "Create context-aware, tailored responses",
+		sparkle: "Not just tools",
+		h2: "Business Transformation",
 		icon: automation,
 		title: "Automated Content Personalization",
 		content:
-			"NLP-powered workflows to tailor email campaigns, product recommendations, and web content based on user behavior and preferences.",
+			"We deliver real-time, AI-personalized content across email, landing pages, and campaigns to engage each prospect with precision—boosting conversions and retention.",
 	},
 ];
 

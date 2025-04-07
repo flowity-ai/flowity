@@ -34,30 +34,26 @@ const Solutions = () => {
 	const featureContents = [
 		{
 			content: (
-				<div className="text-dimWhite max-w-[470px] mt-5">
-					<ul className="list-disc ml-5">
+				<div className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] max-w-[470px] mt-5">
+					<ul>
 						<li>
 							<b>Uses NLP</b> to engage website visitors in real time, capturing
 							interactions and transforming them into actionable leads.
-						</li>
+						</li>{" "}
+						<br />
 						<li>
 							<b>Automates personalized</b> follow-ups that nurture prospects
 							and drive higher conversion rates.
-						</li>
+						</li>{" "}
+						<br />
 						<li>
 							<b>Boosts revenue</b> by converting idle traffic into
 							high-quality, qualified leads with minimal manual effort.
-						</li>
+						</li>{" "}
+						<br />
 						<li>
 							<b>Increases conversion rates</b> by 45% within 45 days, rapidly
-							transforming interest into revenue.{" "}
-						</li>
-						<li>
-							<b>Perfect for:</b>{" "}
-							<u>
-								E-commerce companies, SaaS providers, digital marketing
-								agencies, and B2B service providers.
-							</u>
+							transforming interest into revenue.
 						</li>
 					</ul>
 				</div>
@@ -65,58 +61,27 @@ const Solutions = () => {
 		},
 		{
 			content: (
-				<div className="text-dimWhite max-w-[470px] mt-5">
-					<ul className="list-disc ml-5">
-						<li>
-							<b>Uses NLP </b> to analyze customer interactions, assessing
-							sentiment and intent to identify high-value leads.
-						</li>
-						<li>
-							<b>Automates lead scoring</b> so that your sales team can focus on
-							prospects most likely to convert.
-						</li>
-						<li>
-							<b>Enhances conversion rates</b> by efficiently filtering and
-							prioritizing leads for targeted outreach.
-						</li>
-						<li>
-							<b>Boosts conversion efficiency</b> by 50% within 60 days,
-							ensuring top leads receive priority attention.
-						</li>
-						<li>
-							<b>Perfect for:</b> Businesses with high-volume lead generation,
-							such as
-							<u>B2B SaaS companies and consulting firms.</u>
-						</li>
-					</ul>
-				</div>
-			),
-		},
-		{
-			content: (
-				<div className="text-dimWhite max-w-[470px] mt-5">
-					<ul className="list-disc ml-5">
+				<div className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] max-w-[470px] mt-5">
+					<ul>
 						<li>
 							<b>Leverages data insights</b> and NLP to craft tailored,
 							conversational outreach messages across email, SMS, and social
 							media.
-						</li>
+						</li>{" "}
+						<br />
 						<li>
 							<b>Streamlines follow-up processes</b> to ensure every prospect
 							receives timely, relevant communications.
-						</li>
+						</li>{" "}
+						<br />
 						<li>
 							<b>Accelerates sales cycles</b> and improves close rates by
 							delivering highly targeted, personalized interactions.
-						</li>
+						</li>{" "}
+						<br />
 						<li>
 							<b>Enhances reputation</b> management and increases positive
 							sentiment by 30% in just 30 days.
-						</li>
-						<li>
-							<b>Perfect for: </b>Businesses looking to manage their online
-							reputation and organizations with outbound sales. <br />{" "}
-							<u>e.g. B2B companies, real estate firms, financial services.</u>
 						</li>
 					</ul>
 				</div>
@@ -124,31 +89,26 @@ const Solutions = () => {
 		},
 		{
 			content: (
-				<div className="text-dimWhite max-w-[470px] mt-5">
-					<ul className="list-disc ml-5">
+				<div className="font-poppins font-normal text-dimWhite text-[17px] leading-[24px] max-w-[470px] mt-5">
+					<ul>
 						<li>
 							<b>Delivers hyper-relevant content</b> by analyzing user
 							preferences and behaviors through NLP workflows.
-						</li>
+						</li>{" "}
+						<br />
 						<li>
 							<b>Automates real-time content</b> adjustments to ensure messaging
 							is always relevant and engaging.
-						</li>
+						</li>{" "}
+						<br />
 						<li>
 							<b>Improves engagement</b> and drives higher click-through rates
 							by delivering truly personalized experiences.
-						</li>
+						</li>{" "}
+						<br />
 						<li>
 							<b>Enhances engagement metrics</b> by 35% within 30 days, driving
 							higher click-through rates and improved brand loyalty.
-						</li>
-						<li>
-							<b>Perfect for: </b>Businesses aiming to elevate customer
-							engagement through targeted content. <br />{" "}
-							<u>
-								e.g. Digital marketing teams, e-commerce brands, media
-								platforms.
-							</u>
 						</li>
 					</ul>
 				</div>
@@ -195,15 +155,13 @@ const Solutions = () => {
 							<p className={`${styles.paragraph} ml-2`}>Our Solutions</p>
 						</div>
 						<h2 className={styles.heading2}>
-							Simplify operations <br className="sm:block hidden" /> with
-							AI-driven solutions
+							A Personalized AI Sales & Marketing Machine
 						</h2>
 						<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-							Boost efficiency, maximize revenue, and streamline operations with
-							AI-powered automation. Our intelligent workflows eliminate
-							repetitive tasks, enhance customer engagement, and drive faster,
-							data-backed decisions—helping businesses work smarter, reduce
-							costs, and maximize impact with minimal effort..
+							We help B2B SaaS and marketing-driven companies scale faster,
+							smarter, and leaner through intelligent automation. Our systems
+							are built to eliminate manual work, increase conversions, and
+							accelerate revenue—without growing your team.
 						</p>
 					</>
 				)}

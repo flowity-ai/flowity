@@ -76,33 +76,6 @@ const TableValue = () => {
 								scope="row"
 								className="px-6 py-4 font-medium whitespace-nowrap text-logoPurple foundation"
 							>
-								Lead Scoring and <br /> Prioritization
-							</th>
-							<td className="px-6 py-4">
-								Improves CX by ensuring high-intent leads receive priority
-								attention.
-							</td>
-							<td className="px-6 py-4">
-								Automates data analysis to quickly identify and rank leads.
-							</td>
-							<td className="px-6 py-4">
-								Supports targeted marketing efforts with actionable lead
-								insights.
-							</td>
-							<td className="px-6 py-4">
-								Drives revenue growth by focusing resources on the hottest
-								prospects.
-							</td>
-							<td className="px-6 py-4">
-								Minimizes manual lead filtering, allowing sales teams to work
-								more efficiently.
-							</td>
-						</tr>
-						<tr className="odd:bg-white odd:dark:bg-gray-900/50 even:bg-gray-50/50 even:dark:bg-gray-800/50 border-b dark:border-gray-700/50">
-							<th
-								scope="row"
-								className="px-6 py-4 font-medium whitespace-nowrap text-logoPurple foundation"
-							>
 								Sales Outreach & <br /> Personalized <br /> Communication
 							</th>
 							<td className="px-6 py-4">
