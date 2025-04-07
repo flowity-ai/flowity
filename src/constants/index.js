@@ -157,27 +157,21 @@ export const faq = [
 	},
 	{
 		question: "Will I need to pay any extras?",
-		answer: `We only request a automation account like N8N, Make.com, Zapier, etc.. so we can manage your processes as collaborators. All of this can be explained in our 15m Intro Call.`,
+		answer: `We only request an automation account like N8N, Make.com, Zapier, etc.. so we can manage your processes as collaborators. All can be explained in our 15m Intro Call.`,
 	},
 	{
 		question: "How many requests can I submit at once?",
-		answer: `You can submit as many requests as you want or we can submit them for you, but active requests at a time will depend on your subscription plan.`,
+		answer: `You can submit as many requests as you want or we can submit them for you. For our Standard Package you can have up to 1 active request at a time and for our Pro Package you can have up to 2 active requests at a time.`,
 	},
 	{
 		question: "What type of workflows are included in the plans?",
 		answer:
-			"Includes all types of workflows, from simple ones such as task automation and basic integrations to more advanced workflows, including NLP-driven automation, chatbots & voice assistants (will require chatbot tool like Rasa, etc), and AI Agents.",
+			"Our Standard Package include simple workflows with basic integrations to minor intermediate ones and our Pro Package include Intermediate to minor advanced ones, including NLP-driven automation, and AI Agents.",
 	},
 	{
 		question: "Can I request customized workflows?",
 		answer:
-			"All of our AI automation workflows are tailored to your specific needs but in our Pro Plan you can request more complex processes leveraging natural language processing with low-code environments. Book a 15m Intro Call with us and make sure we're the best fit.",
-	},
-	{
-		question:
-			"Difference between Standard NLP automation from Pro Custom NLP automation?",
-		answer:
-			"Standard NLP Automation is ideal for businesses needing quick, affordable solutions for simple workflows. Pro Custom NLP Automation is perfect for companies seeking bespoke workflows tailored to their unique industry, offering greater flexibility and scalability for long-term value.",
+			"All of our AI automation workflows are tailored to your specific needs but in our Pro Package you can request more complex processes leveraging natural language processing with low-code environments. Book a 15m Intro Call with us and make sure we're the best fit.",
 	},
 	{
 		question: "What if I don’t like the solution provided?",
@@ -198,18 +192,18 @@ export const faq = [
 	{
 		question: "What kind of data do you need from us to build the workflows?",
 		answer:
-			"The data we require depends on the workflow. For example, feedback analysis may include customers reviews, surveys, or social media data. Lead Scoring may include website analytics, CRM data, or email engagemnt metrics. Social Media Automation may include content schedules, branding guidelines, and target audience preferences. We will guide you through data preparation during the onboarding process. ",
+			"The data we require depends on the workflow. For example, feedback analysis may include customers reviews, surveys, or social media data. Social Media Automation may include content schedules, branding guidelines, and target audience preferences. We will guide you through data preparation during the onboarding process. ",
 	},
 	{
 		question: "How do I know if my business needs automation workflows?",
 		answer:
-			"If your team is spending too much time on repetitive tasks, missing opportunities due to delays, or struggling with inefficiencies, automation could be the answer. Book a free consultation, and we’ll help you identify areas where automation can make an immediate impact.",
+			"If your team is spending too much time on repetitive tasks, missing opportunities due to delays, or struggling with inefficiencies, automation could be the answer. Book a 15m free consultation, and we’ll help you identify areas where automation can make an immediate impact.",
 	},
 	{
 		question:
 			"What makes Flowity AI different from other automation service providers?",
 		answer:
-			"We stand out by offering tailored solutions that align with your unique business needs. A collaborative approach to ensure the final product is perfect for you. Transparent pricing with no hidden fees. Expertise in NLP-driven automation, allowing us to solve complex problems like customer sentiment analysis.",
+			"Flowity AI is your AI growth system in action. The ultimate growth partner for B2B Saas and Marketing & Sales companies, not just another automation provider. Your go-to high-value solution for industries that need results fast.",
 	},
 	{
 		question: "Can I scale my workflows over time?",
