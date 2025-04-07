@@ -19,16 +19,18 @@ const Hero = () => {
 				<h1
 					className={`${styles.flexCenter} flex-col text-center font-poppins font-semibold ss:text-[72px] text-[40px] text-white ss:leading-[75px] md:leading-[100.5px] `}
 				>
-					<ChangingTextSection /> Impactful Business Solutions
+					Your AI-Powered <ChangingTextSection />
 				</h1>
 
 				<p
 					className={`${styles.paragraph} max-w-[650px] mt-6 mb-6 text-center`}
 				>
-					We create NLP-driven AI workflows that transform how businesses engage
-					with customers and manage operations, delivering faster, more
-					personalized interactions while providing actionable insights to drive
-					smarter decisions and long-term growth.
+					A growth partner that drives revenue, efficiency, and peace of mind.{" "}
+					<br />
+					We help B2B SaaS and Marketing & Sales companies turn leads into loyal
+					customers on autopilot with AI-driven outreach, automated content
+					systems, and hyper-personalized engagement — driving 5-10X ROI
+					effortlessly.
 				</p>
 
 				<Button />

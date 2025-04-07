@@ -1,7 +1,12 @@
 import React from "react";
 import TextTransition, { presets } from "react-text-transition";
 
-const TEXTS = ["Automating", "Empowering", "Scaling", "Reshaping"];
+const TEXTS = [
+	"Growth Partner",
+	"Renevue Engine",
+	"Strategic System",
+	"Automation Workflow",
+];
 
 const GradientText = ({ text }) => (
 	<span className="text-gradient foundation">{text}</span>
