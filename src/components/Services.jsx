@@ -2,27 +2,36 @@ import React from "react";
 import { useState } from "react";
 import Button from "./Button";
 import styles from "../style";
-import { check, services, star } from "../assets";
+import { check, services, bolt } from "../assets";
 
 const tabsData = [
 	{
 		label: "Standard",
 		price: "1,999",
 		feat1: `Weekly Strategy Call`,
-		feat2: `1 Monthly Priority Plan`,
-		feat3: `1 Monthly Minor Workflow`,
-		feat4: `Old Projects Maintenance`,
+		feat2: `Priority Basic Plan`,
+		feat3: `1 Extra Workflow`,
+		feat4: `On-going Maintenance`,
 		url: `https://checkout.flowity.ai/b/bIY7t5eSV5Std5S28b`,
 	},
 	{
 		label: "Pro",
 		price: "3,499",
-		feat1: `Everything from Standard +`,
-		feat2: `Custom NLP-Driven Workflows`,
-		feat3: `2 Monthly Minor Workflows`,
-		feat4: `2h Team Training Session`,
+		feat1: `Weekly Strategy Call`,
+		feat2: `Priority Medium Plan`,
+		feat3: `2 Extra Workflows`,
+		feat4: `2h Training + On-going Maintenance`,
 		url: `https://checkout.flowity.ai/b/dR628L5il94F0j6148`,
 	},
+	// {
+	// 	label: "Ignite",
+	// 	price: "999",
+	// 	feat1: `From our ready-to-go library`,
+	// 	feat2: `1 workflow implementation`,
+	// 	feat3: `Add/remove up to 2 modules`,
+	// 	feat4: `On-going Maintenance`,
+	// 	url: `https://checkout.flowity.ai/b/bIY7t5eSV5Std5S28b`,
+	// },
 ];
 
 const Services = () => {
@@ -35,10 +44,8 @@ const Services = () => {
 					<img src={services} alt="Services" className="w-[22px] h-[22px]" />
 					<p className={`${styles.paragraph} ml-2`}>Our Services</p>
 				</div>
-				<h2>Our Services</h2>
-				<p
-					className={`${styles.paragraph} max-w-[470px] mt-6 mb-6 text-center`}
-				>
+				<h2>Unlock Scalable Growth </h2>
+				<p className={`${styles.paragraph} max-w-[470px] mt-6 text-center`}>
 					Book a{" "}
 					<a
 						href="https://calendly.com/nina-neev/15m-intro-call"
@@ -48,9 +55,19 @@ const Services = () => {
 					</a>{" "}
 					<b className="uppercase">now</b> and GET <b>50%</b> discount.
 				</p>
+				{/* <p className={`${styles.paragraph} max-w-[470px] text-center`}>
+					or <b>check</b> our{" "}
+					<a
+						href="https://store.flowity.ai"
+						className="text-logoCyan underline"
+					>
+						ready-to-go
+					</a>{" "}
+					<b>library</b>
+				</p> */}
 			</div>
 
-			<div className="flex flex-1 justify-center space-x-10 text-white">
+			<div className="flex flex-1 justify-center space-x-10 text-white mt-[50px]">
 				{/* Loop through tab data and render button for each. */}
 				{tabsData.map((tab, idx) => {
 					return (
@@ -65,7 +82,7 @@ const Services = () => {
 							onClick={() => setActiveTabIndex(idx)}
 						>
 							<img
-								src={star}
+								src={bolt}
 								className={`${
 									idx === 1 ? "flex" : "hidden"
 								} w-[15px] mr-1 pt-1`}
