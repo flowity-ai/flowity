@@ -63,7 +63,7 @@ export const features = [
 	{
 		id: "feature-3",
 		sparkle: "Not just AI workflows",
-		h2: "Growth & Peace of mMnd",
+		h2: "Growth & Peace of Mind",
 		icon: heart,
 		title: "Sales Outreach & Personalized Communication",
 		content:
@@ -254,7 +254,7 @@ export const footerLinks = [
 			},
 			{
 				name: "15m Intro Call",
-				link: "https://calendly.com/nina-neev/15m-intro-call",
+				link: "https://calendly.com/ninaneev/intro-call",
 			},
 			{
 				name: "Privacy Policy",
@@ -292,14 +292,19 @@ export const footerLinks = [
 
 export const socialMedia = [
 	{
-		id: "social-media-3",
+		id: "social-media-1",
+		icon: instagram,
+		link: "https://www.instagram.com/flowity.ai",
+	},
+	{
+		id: "social-media-2",
 		icon: twitter,
 		link: "https://www.twitter.com/ninaneev",
 	},
 	{
-		id: "social-media-4",
+		id: "social-media-3",
 		icon: linkedin,
-		link: "https://www.linkedin.com/in/ninaneev",
+		link: "https://www.linkedin.com/company/flowityai",
 	},
 ];
 

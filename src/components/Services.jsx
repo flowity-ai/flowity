@@ -8,20 +8,20 @@ const tabsData = [
 	{
 		label: "Standard",
 		price: "1,999",
-		feat1: `Weekly Strategy Call`,
-		feat2: `Priority Basic Plan`,
-		feat3: `1 Extra Workflow`,
-		feat4: `On-going Maintenance`,
-		url: `https://checkout.flowity.ai/b/bIY7t5eSV5Std5S28b`,
+		feat1: `Unlimited system requests`,
+		feat2: `Private Slack channel`,
+		feat3: `Make.com AI automations`,
+		feat4: `On-going maintenance`,
+		url: `https://checkout.flowity.ai/b/8x2fZg1Xj3iL7q6fnAdjO08`,
 	},
 	{
 		label: "Pro",
-		price: "3,499",
-		feat1: `Weekly Strategy Call`,
-		feat2: `Priority Medium Plan`,
-		feat3: `2 Extra Workflows`,
-		feat4: `2h Training + On-going Maintenance`,
-		url: `https://checkout.flowity.ai/b/dR628L5il94F0j6148`,
+		price: "4,499",
+		feat1: `Unlimited system requests`,
+		feat2: `Private Slack channel`,
+		feat3: `N8N & AI agents`,
+		feat4: `2h training + on-going maintenance`,
+		url: `https://checkout.flowity.ai/b/eVa00D2693Klfe08wD`,
 	},
 	// {
 	// 	label: "Ignite",
@@ -48,7 +48,7 @@ const Services = () => {
 				<p className={`${styles.paragraph} max-w-[470px] mt-6 text-center`}>
 					Book a{" "}
 					<a
-						href="https://calendly.com/nina-neev/15m-intro-call"
+						href="https://calendly.com/ninaneev/intro-call"
 						className="text-logoCyan underline"
 					>
 						15m Intro Call
@@ -115,7 +115,7 @@ const Services = () => {
 						</div>
 						<div className="flex-grow"></div>
 						<a
-							href="https://calendly.com/nina-neev/15m-intro-call"
+							href="https://calendly.com/ninaneev/intro-call"
 							className="flex justify-start w-[200px] z-10"
 						>
 							<button
