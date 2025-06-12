@@ -39,7 +39,7 @@ const Navbar = () => {
 			</div>
 
 			<div className="list-none md:flex hidden flex flex-1 justify-end">
-				<a href="https://calendly.com/ninaneev/intro-call">
+				<a href="https://form.typeform.com/to/E4q8bAdg">
 					<button
 						type="button"
 						className={`py-3 px-4 mr-3 font-poppins font-medium text-[16px] text-dimWhite bg-purple-gradient rounded-[10px] outline-none ${styles}`}
@@ -103,7 +103,7 @@ const Navbar = () => {
 								</button>
 							</a>
 							<a
-								href="https://calendly.com/ninaneev/intro-call"
+								href="https://form.typeform.com/to/E4q8bAdg"
 								className="w-full mt-3"
 							>
 								<button

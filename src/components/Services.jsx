@@ -48,7 +48,7 @@ const Services = () => {
 				<p className={`${styles.paragraph} max-w-[470px] mt-6 text-center`}>
 					Book a{" "}
 					<a
-						href="https://calendly.com/ninaneev/intro-call"
+						href="https://form.typeform.com/to/E4q8bAdg"
 						className="text-logoCyan underline"
 					>
 						15m Intro Call
@@ -115,7 +115,7 @@ const Services = () => {
 						</div>
 						<div className="flex-grow"></div>
 						<a
-							href="https://calendly.com/ninaneev/intro-call"
+							href="https://form.typeform.com/to/E4q8bAdg"
 							className="flex justify-start w-[200px] z-10"
 						>
 							<button
