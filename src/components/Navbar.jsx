@@ -39,7 +39,7 @@ const Navbar = () => {
 			</div>
 
 			<div className="list-none md:flex hidden flex flex-1 justify-end">
-				<a href="https://form.typeform.com/to/E4q8bAdg">
+				<a href="https://meetings.hubspot.com/nina-neev">
 					<button
 						type="button"
 						className={`py-3 px-4 mr-3 font-poppins font-medium text-[16px] text-dimWhite bg-purple-gradient rounded-[10px] outline-none ${styles}`}
@@ -103,7 +103,7 @@ const Navbar = () => {
 								</button>
 							</a>
 							<a
-								href="https://form.typeform.com/to/E4q8bAdg"
+								href="https://meetings.hubspot.com/nina-neev"
 								className="w-full mt-3"
 							>
 								<button

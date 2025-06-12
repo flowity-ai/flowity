@@ -254,7 +254,7 @@ export const footerLinks = [
 			},
 			{
 				name: "15m Intro Call",
-				link: "https://form.typeform.com/to/E4q8bAdg",
+				link: "https://meetings.hubspot.com/nina-neev",
 			},
 			{
 				name: "Privacy Policy",
