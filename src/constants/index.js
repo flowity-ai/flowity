@@ -254,7 +254,7 @@ export const footerLinks = [
 			},
 			{
 				name: "15m Intro Call",
-				link: "https://meetings.hubspot.com/nina-neev",
+				link: "https://cal.com/flowityai/intro-call",
 			},
 			{
 				name: "Privacy Policy",
