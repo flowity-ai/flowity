@@ -54,29 +54,38 @@ export const features = [
 	{
 		id: "feature-1",
 		sparkle: "Not just automation",
-		h2: "ROI-driven AI Efficiency",
+		h2: "Insightful auto-replies that sound like you",
 		icon: support,
-		title: "Marketing & Lead Generation Automation",
+		title: "Branded Instant Replies",
 		content:
-			"We automate your lead capture, segmentation, and nurturing workflows—so you generate more high-quality leads on autopilot, without spending more on ads.",
+			"Turn inbound messages (from forms, emails, and DMs) into human-like responses, written in your brand voice — instantly.",
 	},
 	{
 		id: "feature-3",
 		sparkle: "Not just AI workflows",
-		h2: "Growth & Peace of Mind",
+		h2: "Smart summaries and reports for decision-making",
 		icon: heart,
-		title: "Sales Outreach & Personalized Communication",
+		title: "Feedback Intelligence Engine",
 		content:
-			"We supercharge your outbound with AI-crafted, hyper-personalized messages at scale. Book more meetings and close more deals with less effort.",
+			"Whispr collects customer feedback (from forms, chat, NPS, support tickets) and generates structured insights and sentiment-based reports in seconds.",
 	},
 	{
 		id: "feature-4",
 		sparkle: "Not just tools",
-		h2: "Business Transformation",
+		h2: "Social content, emails, and support replies on-brand",
 		icon: automation,
-		title: "Automated Content Personalization",
+		title: "Content-from-Conversations",
 		content:
-			"We deliver real-time, AI-personalized content across email, landing pages, and campaigns to engage each prospect with precision—boosting conversions and retention.",
+			"Whispr repurposes customer language and inquiries into LinkedIn posts, newsletters, blog intros, and support docs — all in your tone.",
+	},
+	{
+		id: "feature-4",
+		sparkle: "Not just tools",
+		h2: "A feedback loop that gets smarter every time",
+		icon: automation,
+		title: "Self-Learning Loop",
+		content:
+			"The more messages Whispr processes, the better it becomes at matching tone, intent, and user needs — through auto-finetuning and tagging.",
 	},
 ];
 
