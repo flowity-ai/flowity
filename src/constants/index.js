@@ -13,94 +13,207 @@ import {
 	send,
 	shield,
 	star,
+	dev,
+	ref,
+	soft,
+	canva,
+	web,
+	flow,
+	trello,
+	freepik,
+	adobeIllus,
+	bolt,
+	flexible,
+	pricing,
+	integrations,
+	nlp,
+	scalable,
+	nlpSolution,
+	support,
+	heart,
+	priority,
+	automation,
 } from "../assets";
 
 export const navLinks = [
 	{
-		id: "home",
-		title: "Home",
+		id: "solutions",
+		title: "Solutions",
 	},
 	{
 		id: "features",
 		title: "Features",
 	},
 	{
-		id: "product",
-		title: "Product",
-	},
-	{
-		id: "clients",
-		title: "Clients",
+		id: "pricing",
+		title: "Pricing",
 	},
 ];
 
 export const features = [
 	{
 		id: "feature-1",
-		icon: star,
-		title: "Software Engineering",
+		sparkle: "Not just automation",
+		h2: "ROI-driven AI Efficiency",
+		icon: support,
+		title: "Marketing & Lead Generation Automation",
 		content:
-			"The best credit cards offer some tantalizing combinations of promotions and prizes",
-	},
-	{
-		id: "feature-2",
-		icon: shield,
-		title: "Webites and Landing Pages",
-		content:
-			"We take proactive steps make sure your information and transactions are secure.",
+			"We automate your lead capture, segmentation, and nurturing workflows—so you generate more high-quality leads on autopilot, without spending more on ads.",
 	},
 	{
 		id: "feature-3",
-		icon: send,
-		title: "Canva Designs",
+		sparkle: "Not just AI workflows",
+		h2: "Growth & Peace of Mind",
+		icon: heart,
+		title: "Sales Outreach & Personalized Communication",
 		content:
-			"A balance transfer credit card can save you a lot of money in interest charges.",
+			"We supercharge your outbound with AI-crafted, hyper-personalized messages at scale. Book more meetings and close more deals with less effort.",
+	},
+	{
+		id: "feature-4",
+		sparkle: "Not just tools",
+		h2: "Business Transformation",
+		icon: automation,
+		title: "Automated Content Personalization",
+		content:
+			"We deliver real-time, AI-personalized content across email, landing pages, and campaigns to engage each prospect with precision—boosting conversions and retention.",
+	},
+];
+
+export const workModel = [
+	{
+		id: "model-1",
+		value: "1",
+		title: "Onboarding",
+		content:
+			"We begin with an in-depth discovery session to understand your needs and tools. Together, we identify repetitive tasks and opportunities for AI-driven automation, setting a strong foundation for impactful solutions.",
+	},
+	{
+		id: "model-2",
+		value: "2",
+		title: "Development",
+		content:
+			"Our team gets to work, leveraging cutting-edge AI and NLP technology to craft tailored automation workflows. With a focus on precision and efficiency, we build solutions designed to elevate your operations.",
+	},
+	{
+		id: "model-3",
+		value: "3",
+		title: "Refinement",
+		content:
+			"After initial implementation, we fine-tune workflows based on your feedback, ensuring the solution integrates seamlessly into your business and delivers maximum impact.",
 	},
 ];
 
 export const stats = [
 	{
 		id: "stats-1",
-		title: "On-Demand Software Engineering Support:",
+		title: "Fast Turnaround",
 		content:
-			"Flowity AI offers specialized software engineering services that function as an agile extension of a company’s current development team. This model helps businesses tackle projects quickly and flexibly, without needing to onboard new full-time employees.",
-		value: "1",
+			"Get results quickly with rapid AI workflow setups—tasks built and running in days, not weeks.",
+		icon: bolt,
 	},
 	{
 		id: "stats-2",
-		title: "Rapid Project Turnaround:",
+		title: "Flexible Solutions",
 		content:
-			"Our unique managed service approach prioritizes speed without compromising quality, making it possible to complete urgent or high-priority software projects promptly. This includes website and landing page development within 72 hours and other web-based solutions.",
-		value: "2",
+			"Enjoy customizable AI workflows that adapt to your evolving business needs, without over-complicating your operations.",
+		icon: flexible,
 	},
 	{
 		id: "stats-3",
-		title: "Enhanced Development Efficiency:",
+		title: "Predictable Pricing",
 		content:
-			"By leveraging AI-driven tools and automations in the software development lifecycle, Flowity AI optimizes coding, testing, and deployment processes. This translates to a smoother, faster, and more efficient workflow for development teams.",
-		value: "3",
+			"Get all the value you need with a fixed monthly rate—no surprise costs, just reliable and scalable solutions.",
+		icon: pricing,
 	},
 	{
 		id: "stats-4",
-		title: "Scalable Engineering Resources:",
+		title: "Seamless Integrations",
 		content:
-			"Businesses can scale their development capabilities as needed, accessing Flowity AI’s pool of skilled engineers to meet project demands, seasonal work spikes, or special initiatives. This is ideal for companies looking to scale without the hassle of long-term hiring.",
-		value: "4",
+			"Integrate with your existing tools effortlessly, creating smooth workflows without disrupting your current operations.",
+		icon: integrations,
 	},
 	{
 		id: "stats-5",
-		title: "Quality and Consistency:",
+		title: "NLP-Powered Efficiency",
 		content:
-			"Our model emphasizes robust, well-documented code that adheres to industry best practices. We provide consistent output that supports maintenance, scalability, and future enhancements.",
-		value: "5",
+			"Leveraging natural language processing, turning customer feedback and interactions into actionable insights for better decision-making.",
+		icon: nlp,
 	},
 
 	{
 		id: "stats-6",
-		title: "Flexible Pricing Packages:",
+		title: "Scalable Solutions",
 		content:
-			"Monthly subscription models and customized packages are available to align with various project scopes and company budgets, offering flexibility and value.",
-		value: "6",
+			"Whether you're a small business or growing fast, our solutions are built to scale and adapt to your evolving needs.",
+		icon: scalable,
+	},
+];
+
+export const faq = [
+	{
+		question: "What happens after payment?",
+		answer: `After payment, you'll be redirected to fill out a small form and set up our Onboarding meeting where we'll address your processes and strategize your automations. After Onboarding we'll send you an email for you ClickUp space and get ready to start adding projects immediately or we'll add them for you.`,
+	},
+	{
+		question: "Will I need to pay any extras?",
+		answer: `We only request an automation account like N8N, Make.com, Zapier, etc.. so we can manage your processes as collaborators. All can be explained in our 15m Intro Call.`,
+	},
+	{
+		question: "How many requests can I submit at once?",
+		answer: `You can submit as many requests as you want or we can submit them for you. For our Standard Package you can have up to 1 active request at a time and for our Pro Package you can have up to 2 active requests at a time.`,
+	},
+	{
+		question: "What type of workflows are included in the plans?",
+		answer:
+			"Our Standard Package include simple workflows with basic integrations to minor intermediate ones and our Pro Package include Intermediate to minor advanced ones, including NLP-driven automation, and AI Agents.",
+	},
+	{
+		question: "Can I request customized workflows?",
+		answer:
+			"All of our AI automation workflows are tailored to your specific needs but in our Pro Package you can request more complex processes leveraging natural language processing with low-code environments. Book a 15m Intro Call with us and make sure we're the best fit.",
+	},
+	{
+		question: "What if I don’t like the solution provided?",
+		answer:
+			"Client satisfaction is our top priority. If you’re not fully satisfied with the initial delivery you can simply leave a comment and we'd continue revising until you are 100% satisfied.",
+	},
+	{
+		question:
+			"What if I'm no longer active and I still have revisions to be made?",
+		answer:
+			"Don't worry, revisions will be made even if you cancel your monthly subscription. However, if your revision needs an update, it can only be made by an active subscription.",
+	},
+	{
+		question: "Can these workflows integrate with my existing tools?",
+		answer:
+			"Yes, our workflows are designed to integrate seamlessly with popular business tools and they will be acessed on the Onboarding Call.",
+	},
+	{
+		question: "What kind of data do you need from us to build the workflows?",
+		answer:
+			"The data we require depends on the workflow. For example, feedback analysis may include customers reviews, surveys, or social media data. Social Media Automation may include content schedules, branding guidelines, and target audience preferences. We will guide you through data preparation during the onboarding process. ",
+	},
+	{
+		question: "How do I know if my business needs automation workflows?",
+		answer:
+			"If your team is spending too much time on repetitive tasks, missing opportunities due to delays, or struggling with inefficiencies, automation could be the answer. Book a 15m free consultation, and we’ll help you identify areas where automation can make an immediate impact.",
+	},
+	{
+		question:
+			"What makes Flowity AI different from other automation service providers?",
+		answer:
+			"Flowity AI is your AI growth system in action. The ultimate growth partner for B2B Saas and Marketing & Sales companies, not just another automation provider. Your go-to high-value solution for industries that need results fast.",
+	},
+	{
+		question: "Can I scale my workflows over time?",
+		answer:
+			"Absolutely! Our workflows are built to grow with your business. You can start small and add more advanced automation solutions as your needs evolve. We’ll work with you to adjust and expand workflows as required.",
+	},
+	{
+		question: "What support do you offer after delivering the workflow?",
+		answer:
+			"After the delivered workflows, active accounts can benefit from Flowity AI ensuring the workflows continues to run smothless and seamless to all applications and further analyze how these process can work better together for scalability, updating them as needed.",
 	},
 ];
 
@@ -136,24 +249,20 @@ export const footerLinks = [
 		title: "Useful Links",
 		links: [
 			{
-				name: "Content",
-				link: "https://www.hoobank.com/content/",
+				name: "Client Login",
+				link: "https://checkout.flowity.ai/p/login/9AQ4hz28q77O8EwfYY",
 			},
 			{
-				name: "How it Works",
-				link: "https://www.hoobank.com/how-it-works/",
+				name: "15m Intro Call",
+				link: "https://cal.com/flowityai/intro-call",
 			},
 			{
-				name: "Create",
-				link: "https://www.hoobank.com/create/",
-			},
-			{
-				name: "Explore",
-				link: "https://www.hoobank.com/explore/",
+				name: "Privacy Policy",
+				link: "https://www.notion.so/ninacressoni/Privacy-policy-of-FLOWITY-AI-6f22759a4a7e4e91b47483c8dbf6d9ca?pvs=4",
 			},
 			{
 				name: "Terms & Services",
-				link: "https://www.hoobank.com/terms-and-services/",
+				link: "https://www.notion.so/ninacressoni/Terms-and-conditions-of-FLOWITY-AI-f8b6e82af20a40ebbb8b5630e7bd45b3?pvs=4",
 			},
 		],
 	},
@@ -161,37 +270,21 @@ export const footerLinks = [
 		title: "Community",
 		links: [
 			{
-				name: "Help Center",
-				link: "https://www.hoobank.com/help-center/",
+				name: "Ebook Store",
+				link: "https://store.flowity.ai",
 			},
 			{
-				name: "Partners",
-				link: "https://www.hoobank.com/partners/",
-			},
-			{
-				name: "Suggestions",
-				link: "https://www.hoobank.com/suggestions/",
-			},
-			{
-				name: "Blog",
-				link: "https://www.hoobank.com/blog/",
-			},
-			{
-				name: "Newsletters",
-				link: "https://www.hoobank.com/newsletters/",
+				name: "Flow Nexus Newsletter",
+				link: "https://flowity.beehiiv.com",
 			},
 		],
 	},
 	{
-		title: "Partner",
+		title: "Collaborations",
 		links: [
 			{
-				name: "Our Partner",
-				link: "https://www.hoobank.com/our-partner/",
-			},
-			{
-				name: "Become a Partner",
-				link: "https://www.hoobank.com/become-a-partner/",
+				name: "Freepik",
+				link: "https://www.freepik.com/",
 			},
 		],
 	},
@@ -201,37 +294,32 @@ export const socialMedia = [
 	{
 		id: "social-media-1",
 		icon: instagram,
-		link: "https://www.instagram.com/",
+		link: "https://www.instagram.com/flowity.ai",
 	},
 	{
 		id: "social-media-2",
-		icon: facebook,
-		link: "https://www.facebook.com/",
+		icon: twitter,
+		link: "https://www.twitter.com/ninaneev",
 	},
 	{
 		id: "social-media-3",
-		icon: twitter,
-		link: "https://www.twitter.com/",
-	},
-	{
-		id: "social-media-4",
 		icon: linkedin,
-		link: "https://www.linkedin.com/",
+		link: "https://www.linkedin.com/company/flowityai",
 	},
 ];
 
 export const clients = [
 	{
 		id: "client-1",
-		logo: airbnb,
+		logo: trello,
 	},
 	{
 		id: "client-2",
-		logo: binance,
+		logo: freepik,
 	},
 	{
 		id: "client-3",
-		logo: coinbase,
+		logo: adobeIllus,
 	},
 	{
 		id: "client-4",

@@ -1,10 +1,15 @@
 import React from "react";
 import TextTransition, { presets } from "react-text-transition";
 
-const TEXTS = ["Reshaping", "Powering up", "Enhancing", "Speeding up"];
+const TEXTS = [
+	"Growth Partner",
+	"Renevue Engine",
+	"Strategic System",
+	"Automation Workflow",
+];
 
 const GradientText = ({ text }) => (
-	<span className="text-gradient">{text}</span>
+	<span className="text-gradient foundation">{text}</span>
 );
 
 const ChangingTextSection = () => {

@@ -23,8 +23,44 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import aiVector from "./ai-vector.svg";
+import ninescode from "./ninescode.svg";
+import check from "./check-circle.svg";
+import soft from "./soft-eng.svg";
+import web from "./websites.svg";
+import canva from "./canva-design.svg";
+import ref from "./refinement.svg";
+import dev from "./development.svg";
+import flow from "./flow.svg";
+import work from "./work.svg";
+import delivery from "./delivery.svg";
+import aiPower from "./ai-power.svg";
+import services from "./services.svg";
+import news from "./newsletter.svg";
+import community from "./community.svg";
+import spark from "./sparkles.svg";
+import adobeIllus from "./AdobeIllustrator.svg";
+import trello from "./Trello.svg";
+import freepik from "./Freepik.svg";
+import bolt from "./bolt.svg";
+import flexible from "./flexible.svg";
+import pricing from "./pricing.svg";
+import integrations from "./integrations.svg";
+import nlp from "./nlp-driven.svg";
+import scalable from "./scalable.svg";
+import nlpSolution from "./nlp-solutions.svg";
+import support from "./support.svg";
+import heart from "./heart.svg";
+import priority from "./priority.svg";
+import automation from "./automation.svg";
 
 export {
+	flow,
+	soft,
+	web,
+	canva,
+	ref,
+	dev,
 	airbnb,
 	bill,
 	binance,
@@ -50,4 +86,28 @@ export {
 	people01,
 	people02,
 	people03,
+	aiVector,
+	ninescode,
+	check,
+	work,
+	delivery,
+	aiPower,
+	services,
+	news,
+	community,
+	spark,
+	adobeIllus,
+	freepik,
+	trello,
+	bolt,
+	flexible,
+	integrations,
+	pricing,
+	nlp,
+	scalable,
+	nlpSolution,
+	support,
+	heart,
+	priority,
+	automation,
 };

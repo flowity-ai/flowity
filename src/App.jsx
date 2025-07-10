@@ -1,22 +1,32 @@
 import React from "react";
+import "./App.css";
+import "./fonts/foundation.ttf";
 import styles from "./style";
 import {
-	Billing,
-	Business,
-	CardDeal,
+	Ninescode,
+	Solutions,
 	Clients,
 	CTA,
 	Footer,
 	Navbar,
 	Stats,
 	Testimonials,
+	FAQ,
 	Hero,
 	Features,
+	Newsletter,
+	AISection,
+	Services,
+	HowWeWork,
+	TableValue,
+	Store,
 } from "./components";
 
 const App = () => (
-	<div className="bg-primary w-full overflow-hidden">
-		<div className={`${styles.paddingX} ${styles.flexCenter}`}>
+	<div className="bg-primary w-full overflow-clip">
+		<div
+			className={`${styles.paddingX} ${styles.flexCenter} sticky top-0 z-[99999] nav-bg`}
+		>
 			<div className={`${styles.boxWidth}`}>
 				<Navbar />
 			</div>
@@ -30,12 +40,15 @@ const App = () => (
 
 		<div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
 			<div className={`${styles.boxWidth}`}>
-				<Business />
-				<Features />
-				<Billing />
-				<CardDeal />
-				<Testimonials />
 				<Clients />
+				<Solutions />
+				<TableValue />
+				<HowWeWork />
+				<Features />
+				<AISection />
+				<Services />
+				<Store />
+				<FAQ />
 				<CTA />
 				<Footer />
 			</div>
