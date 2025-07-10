@@ -35,25 +35,26 @@ const Solutions = () => {
 		{
 			content: (
 				<div className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] max-w-[470px] mt-5">
-					<ul>
-						<li>
-							<b>Uses NLP</b> to engage website visitors in real time, capturing
-							interactions and transforming them into actionable leads.
-						</li>{" "}
+					<p>
+						<b>Use Case:</b> B2B SaaS startup with daily inbound demo requests
+						and product questions. <br />
+						<b>Before:</b> A human VA sent templated replies after 4–6 hours.{" "}
+						<br />
+						<b>After:</b> Whispr answered within 2 minutes, personalized to
+						sender profile and query intent.
+					</p>{" "}
+					<br />
+					<ul className="list-disc ml-5">
+						<li className="">
+							<b>50% faster reply time</b>
+						</li>
 						<br />
 						<li>
-							<b>Automates personalized</b> follow-ups that nurture prospects
-							and drive higher conversion rates.
-						</li>{" "}
+							<b>35% increase in qualified call bookings</b>
+						</li>
 						<br />
 						<li>
-							<b>Boosts revenue</b> by converting idle traffic into
-							high-quality, qualified leads with minimal manual effort.
-						</li>{" "}
-						<br />
-						<li>
-							<b>Increases conversion rates</b> by 45% within 45 days, rapidly
-							transforming interest into revenue.
+							<b>$2K saved/month on support labor</b>
 						</li>
 					</ul>
 				</div>
@@ -62,26 +63,28 @@ const Solutions = () => {
 		{
 			content: (
 				<div className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] max-w-[470px] mt-5">
-					<ul>
-						<li>
-							<b>Leverages data insights</b> and NLP to craft tailored,
-							conversational outreach messages across email, SMS, and social
-							media.
-						</li>{" "}
+					<p>
+						<b>Use Case:</b> Product team at a Series A SaaS was drowning in
+						untagged user feedback. <br />
+						<b>Before:</b> A PM manually read and summarized feedback once a
+						month. <br />
+						<b>After:</b> Whispr auto-tags sentiment, trends, and topic
+						frequency weekly.
+					</p>{" "}
+					<br />
+					<ul className="list-disc ml-5">
+						<li className="">
+							<b>90% time saved in feedback processing</b>
+						</li>
 						<br />
 						<li>
-							<b>Streamlines follow-up processes</b> to ensure every prospect
-							receives timely, relevant communications.
-						</li>{" "}
+							<b>
+								Released 2 features driven by voice-of-customer in 1 quarter
+							</b>
+						</li>
 						<br />
 						<li>
-							<b>Accelerates sales cycles</b> and improves close rates by
-							delivering highly targeted, personalized interactions.
-						</li>{" "}
-						<br />
-						<li>
-							<b>Enhances reputation</b> management and increases positive
-							sentiment by 30% in just 30 days.
+							<b>Increased NPS by +16</b>
 						</li>
 					</ul>
 				</div>
@@ -89,26 +92,51 @@ const Solutions = () => {
 		},
 		{
 			content: (
-				<div className="font-poppins font-normal text-dimWhite text-[17px] leading-[24px] max-w-[470px] mt-5">
-					<ul>
-						<li>
-							<b>Delivers hyper-relevant content</b> by analyzing user
-							preferences and behaviors through NLP workflows.
-						</li>{" "}
+				<div className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] max-w-[470px] mt-5">
+					<p>
+						<b>Use Case:</b> Founder-led agency had no time to post on LinkedIn
+						or send email updates. <br />
+						<b>Whispr</b> turned client calls and emails into polished
+						thought-leadership posts.
+					</p>{" "}
+					<br />
+					<ul className="list-disc ml-5">
+						<li className="">
+							<b>Weekly posts with 2K+ impressions</b>
+						</li>
 						<br />
 						<li>
-							<b>Automates real-time content</b> adjustments to ensure messaging
-							is always relevant and engaging.
-						</li>{" "}
+							<b>Email open rates increased by 38%</b>
+						</li>
 						<br />
 						<li>
-							<b>Improves engagement</b> and drives higher click-through rates
-							by delivering truly personalized experiences.
-						</li>{" "}
+							<b>2 inbound clients per month just from content</b>
+						</li>
+					</ul>
+				</div>
+			),
+		},
+		{
+			content: (
+				<div className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] max-w-[470px] mt-5">
+					<p>
+						<b>Use Case:</b> Tech support team at a CRM platform saw repeated
+						questions. <br />
+						<b>Whispr</b> began to learn and adapt responses based on feedback
+						on answers. <br />
+					</p>{" "}
+					<br />
+					<ul className="list-disc ml-5">
+						<li className="">
+							<b>20% drop in repeat tickets</b>
+						</li>
 						<br />
 						<li>
-							<b>Enhances engagement metrics</b> by 35% within 30 days, driving
-							higher click-through rates and improved brand loyalty.
+							<b>5 hours/week saved in training support reps</b>
+						</li>
+						<br />
+						<li>
+							<b>Increased customer satisfaction score by 25%</b>
 						</li>
 					</ul>
 				</div>
@@ -154,14 +182,12 @@ const Solutions = () => {
 							<img src={spark} alt="Sparkles" className="w-[22px] h-[22px]" />
 							<p className={`${styles.paragraph} ml-2`}>Our Solutions</p>
 						</div>
-						<h2 className={styles.heading2}>
-							A Personalized AI Sales & Marketing Machine
-						</h2>
+						<h2 className={styles.heading2}>Why Whispr?</h2>
 						<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-							We help B2B SaaS and marketing-driven companies scale faster,
-							smarter, and leaner through intelligent automation. Our systems
-							are built to eliminate manual work, increase conversions, and
-							accelerate revenue—without growing your team.
+							Because you deserve more than just automation. You get
+							lightning-fast setup, zero bloat, LLMs that sound like you,
+							seamless plug-and-play with your stack, and a fixed price that
+							scales your revenue, not your stress.
 						</p>
 					</>
 				)}

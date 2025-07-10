@@ -54,29 +54,38 @@ export const features = [
 	{
 		id: "feature-1",
 		sparkle: "Not just automation",
-		h2: "ROI-driven AI Efficiency",
+		h2: "Insightful auto-replies that sound like you",
 		icon: support,
-		title: "Marketing & Lead Generation Automation",
+		title: "Branded Instant Replies",
 		content:
-			"We automate your lead capture, segmentation, and nurturing workflows—so you generate more high-quality leads on autopilot, without spending more on ads.",
+			"Turn inbound messages (from forms, emails, and DMs) into human-like responses, written in your brand voice — instantly.",
 	},
 	{
 		id: "feature-3",
 		sparkle: "Not just AI workflows",
-		h2: "Growth & Peace of Mind",
+		h2: "Smart summaries and reports for decision-making",
 		icon: heart,
-		title: "Sales Outreach & Personalized Communication",
+		title: "Feedback Intelligence Engine",
 		content:
-			"We supercharge your outbound with AI-crafted, hyper-personalized messages at scale. Book more meetings and close more deals with less effort.",
+			"Whispr collects customer feedback (from forms, chat, NPS, support tickets) and generates structured insights and sentiment-based reports in seconds.",
 	},
 	{
 		id: "feature-4",
 		sparkle: "Not just tools",
-		h2: "Business Transformation",
+		h2: "Social content, emails, and support replies on-brand",
 		icon: automation,
-		title: "Automated Content Personalization",
+		title: "Content-from-Conversations",
 		content:
-			"We deliver real-time, AI-personalized content across email, landing pages, and campaigns to engage each prospect with precision—boosting conversions and retention.",
+			"Whispr repurposes customer language and inquiries into LinkedIn posts, newsletters, blog intros, and support docs — all in your tone.",
+	},
+	{
+		id: "feature-4",
+		sparkle: "Not just tools",
+		h2: "A feedback loop that gets smarter every time",
+		icon: priority,
+		title: "Self-Learning Loop",
+		content:
+			"The more messages Whispr processes, the better it becomes at matching tone, intent, and user needs — through auto-finetuning and tagging.",
 	},
 ];
 
@@ -84,60 +93,59 @@ export const workModel = [
 	{
 		id: "model-1",
 		value: "1",
-		title: "Onboarding",
+		title: "Discovery Intro Call",
 		content:
-			"We begin with an in-depth discovery session to understand your needs and tools. Together, we identify repetitive tasks and opportunities for AI-driven automation, setting a strong foundation for impactful solutions.",
+			"We walk you through how Whispr works, review your current systems, and determine if you're a strong fit for what we offer. No fluff, just clarity. Deployment in days, not months. No dev or analyst team needed.",
 	},
 	{
 		id: "model-2",
 		value: "2",
-		title: "Development",
+		title: "Onboarding & Strategy Setup",
 		content:
-			"Our team gets to work, leveraging cutting-edge AI and NLP technology to craft tailored automation workflows. With a focus on precision and efficiency, we build solutions designed to elevate your operations.",
+			"Once aligned, we collect your brand assets, workflows, and preferred channels. Then we map the feedback loops and define the content or insights Whispr will automate for you.",
 	},
 	{
 		id: "model-3",
 		value: "3",
-		title: "Refinement",
+		title: "Build, Deliver, Refine",
 		content:
-			"After initial implementation, we fine-tune workflows based on your feedback, ensuring the solution integrates seamlessly into your business and delivers maximum impact.",
+			"We build your Whispr system using LLM, N8N, and NLP, test in your environment, and refine based on your team’s feedback, ensuring it feels like your voice and fits your ops.",
 	},
 ];
 
 export const stats = [
 	{
 		id: "stats-1",
-		title: "Fast Turnaround",
-		content:
-			"Get results quickly with rapid AI workflow setups—tasks built and running in days, not weeks.",
+		title: "Rapid Setup",
+		content: "Get your automation launched in 5–7 days, not weeks.",
 		icon: bolt,
 	},
 	{
 		id: "stats-2",
-		title: "Flexible Solutions",
+		title: "Smart Output Actions",
 		content:
-			"Enjoy customizable AI workflows that adapt to your evolving business needs, without over-complicating your operations.",
+			"Automatically creates: branded replies, content snippets, summaries, or tags into CRM.",
 		icon: flexible,
 	},
 	{
 		id: "stats-3",
-		title: "Predictable Pricing",
+		title: "Predictable Subscription",
 		content:
-			"Get all the value you need with a fixed monthly rate—no surprise costs, just reliable and scalable solutions.",
+			"One flat monthly rate with all updates, refinements, and support included.",
 		icon: pricing,
 	},
 	{
 		id: "stats-4",
-		title: "Seamless Integrations",
+		title: "Input Channel Integrations",
 		content:
-			"Integrate with your existing tools effortlessly, creating smooth workflows without disrupting your current operations.",
+			"Collects feedback and messages from: forms, email, Typeform, Google Sheets, etc.",
 		icon: integrations,
 	},
 	{
 		id: "stats-5",
 		title: "NLP-Powered Efficiency",
 		content:
-			"Leveraging natural language processing, turning customer feedback and interactions into actionable insights for better decision-making.",
+			"Sentiment analysis, intent detection, and tone-aware content generation using your favorite LLM.",
 		icon: nlp,
 	},
 
@@ -145,44 +153,42 @@ export const stats = [
 		id: "stats-6",
 		title: "Scalable Solutions",
 		content:
-			"Whether you're a small business or growing fast, our solutions are built to scale and adapt to your evolving needs.",
+			"Connects seamless with your tools for smooth worfklow automations.",
 		icon: scalable,
 	},
 ];
 
 export const faq = [
 	{
+		question: "What’s included in the 7-day trial?",
+		answer: `You get a fully functional mini-version of Whispr tailored to your business: 1 live automation workflow (e.g., replies or feedback insights), 1 branded reply or content examples, 1 customer feedback summary report, Temporary access to a Microsoft Teams channel for communication.`,
+	},
+	{
+		question: "Is it really free?",
+		answer: `Yes, only put credits for your own LLM. There’s no charge during the 7-day period. If you decide not to continue, you pay nothing.`,
+	},
+	{
 		question: "What happens after payment?",
-		answer: `After payment, you'll be redirected to fill out a small form and set up our Onboarding meeting where we'll address your processes and strategize your automations. After Onboarding we'll send you an email for you ClickUp space and get ready to start adding projects immediately or we'll add them for you.`,
+		answer: `After payment, you'll be redirected to fill out a small form and book our Onboarding meeting where we'll address your processes and strategize your automations.`,
+	},
+	{
+		question:
+			"Can I keep the workflow after the Whispr trial if I don’t continue?",
+		answer: `No, the IP and workflows remain proprietary unless you subscribe. But you can see it working live in your system during the trial.`,
 	},
 	{
 		question: "Will I need to pay any extras?",
-		answer: `We only request an automation account like N8N, Make.com, Zapier, etc.. so we can manage your processes as collaborators. All can be explained in our 15m Intro Call.`,
+		answer: `We only request an automation account like N8N, Make.com, Zapier, etc.. so we can manage your processes as collaborators. All will be explained in our 15m Intro Call. At the Whispr free trial we'll create your Agent in our own instance, only after you'll need your own N8N hosting.`,
 	},
 	{
-		question: "How many requests can I submit at once?",
-		answer: `You can submit as many requests as you want or we can submit them for you. For our Standard Package you can have up to 1 active request at a time and for our Pro Package you can have up to 2 active requests at a time.`,
-	},
-	{
-		question: "What type of workflows are included in the plans?",
+		question: "Can I request customized workflows for General AI Automation?",
 		answer:
-			"Our Standard Package include simple workflows with basic integrations to minor intermediate ones and our Pro Package include Intermediate to minor advanced ones, including NLP-driven automation, and AI Agents.",
-	},
-	{
-		question: "Can I request customized workflows?",
-		answer:
-			"All of our AI automation workflows are tailored to your specific needs but in our Pro Package you can request more complex processes leveraging natural language processing with low-code environments. Book a 15m Intro Call with us and make sure we're the best fit.",
+			"Yes. We'll build one task at a time and you can add as many requests as you like or we'll add them for you.",
 	},
 	{
 		question: "What if I don’t like the solution provided?",
 		answer:
 			"Client satisfaction is our top priority. If you’re not fully satisfied with the initial delivery you can simply leave a comment and we'd continue revising until you are 100% satisfied.",
-	},
-	{
-		question:
-			"What if I'm no longer active and I still have revisions to be made?",
-		answer:
-			"Don't worry, revisions will be made even if you cancel your monthly subscription. However, if your revision needs an update, it can only be made by an active subscription.",
 	},
 	{
 		question: "Can these workflows integrate with my existing tools?",
@@ -198,22 +204,6 @@ export const faq = [
 		question: "How do I know if my business needs automation workflows?",
 		answer:
 			"If your team is spending too much time on repetitive tasks, missing opportunities due to delays, or struggling with inefficiencies, automation could be the answer. Book a 15m free consultation, and we’ll help you identify areas where automation can make an immediate impact.",
-	},
-	{
-		question:
-			"What makes Flowity AI different from other automation service providers?",
-		answer:
-			"Flowity AI is your AI growth system in action. The ultimate growth partner for B2B Saas and Marketing & Sales companies, not just another automation provider. Your go-to high-value solution for industries that need results fast.",
-	},
-	{
-		question: "Can I scale my workflows over time?",
-		answer:
-			"Absolutely! Our workflows are built to grow with your business. You can start small and add more advanced automation solutions as your needs evolve. We’ll work with you to adjust and expand workflows as required.",
-	},
-	{
-		question: "What support do you offer after delivering the workflow?",
-		answer:
-			"After the delivered workflows, active accounts can benefit from Flowity AI ensuring the workflows continues to run smothless and seamless to all applications and further analyze how these process can work better together for scalability, updating them as needed.",
 	},
 ];
 

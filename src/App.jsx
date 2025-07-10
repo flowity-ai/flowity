@@ -47,7 +47,7 @@ const App = () => (
 				<Features />
 				<AISection />
 				<Services />
-				<Store />
+				<Newsletter />
 				<FAQ />
 				<CTA />
 				<Footer />

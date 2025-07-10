@@ -6,36 +6,27 @@ import { check, services, bolt } from "../assets";
 
 const tabsData = [
 	{
-		label: "Standard",
+		label: "General AI Automations",
 		price: "1,999",
 		feat1: `Unlimited system requests`,
-		feat2: `Private Slack channel`,
-		feat3: `Make.com AI automations`,
+		feat2: `Private Teams and Trello`,
+		feat3: `Make.com or N8N AI automations`,
 		feat4: `On-going maintenance`,
 		url: `https://checkout.flowity.ai/b/8x2fZg1Xj3iL7q6fnAdjO08`,
 	},
 	{
-		label: "Pro",
+		label: "Pro Whispr",
 		price: "4,499",
-		feat1: `Unlimited system requests`,
-		feat2: `Private Slack channel`,
-		feat3: `N8N & AI agents`,
-		feat4: `2h training + on-going maintenance`,
+		feat1: `Custom LLM Workflow Setup`,
+		feat2: `Automated Feedback & Replies`,
+		feat3: `Weekly Content & Insight Delivery`,
+		feat4: `Dedicated Teams Channel + Support`,
 		url: `https://checkout.flowity.ai/b/eVa00D2693Klfe08wD`,
 	},
-	// {
-	// 	label: "Ignite",
-	// 	price: "999",
-	// 	feat1: `From our ready-to-go library`,
-	// 	feat2: `1 workflow implementation`,
-	// 	feat3: `Add/remove up to 2 modules`,
-	// 	feat4: `On-going Maintenance`,
-	// 	url: `https://checkout.flowity.ai/b/bIY7t5eSV5Std5S28b`,
-	// },
 ];
 
 const Services = () => {
-	const [activeTabIndex, setActiveTabIndex] = useState(0);
+	const [activeTabIndex, setActiveTabIndex] = useState(1);
 
 	return (
 		<section id="pricing" className={`md:flex-row flex-col w-full`}>
@@ -53,18 +44,9 @@ const Services = () => {
 					>
 						15m Intro Call
 					</a>{" "}
-					<b className="uppercase">now</b> and GET <b>50%</b> discount.
+					<b className="uppercase">now</b> and GET <b>7-day free</b> trial on{" "}
+					<u>Whispr</u> before you commit.
 				</p>
-				{/* <p className={`${styles.paragraph} max-w-[470px] text-center`}>
-					or <b>check</b> our{" "}
-					<a
-						href="https://store.flowity.ai"
-						className="text-logoCyan underline"
-					>
-						ready-to-go
-					</a>{" "}
-					<b>library</b>
-				</p> */}
 			</div>
 
 			<div className="flex flex-1 justify-center space-x-10 text-white mt-[50px]">

@@ -23,22 +23,19 @@ const TableValue = () => {
 								scope="col"
 								className="px-6 py-3 text-gradient text-lg foundation"
 							>
-								Solutions
+								Whispr Solutions
 							</th>
 							<th scope="col" className="px-6 py-3 text-logoCyan">
-								Customer Experience
+								Improved Conversions
 							</th>
 							<th scope="col" className="px-6 py-3 text-logoCyan">
-								Operational Efficiency
+								Time & Cost Savings
 							</th>
 							<th scope="col" className="px-6 py-3 text-logoCyan">
-								Marketing Efficiency
+								Better Customer Experience
 							</th>
 							<th scope="col" className="px-6 py-3 text-logoCyan">
-								Revenue Growth
-							</th>
-							<th scope="col" className="px-6 py-3 text-logoCyan">
-								Employee Productivity
+								Team Efficiency & Scalability
 							</th>
 						</tr>
 					</thead>
@@ -48,27 +45,19 @@ const TableValue = () => {
 								scope="row"
 								className="px-6 py-4 font-medium text-logoPurple whitespace-nowrap foundation"
 							>
-								Marketing & Lead <br /> Generation Automation
+								Branded Instant <br /> Replies
 							</th>
 							<td className="px-6 py-4">
-								Engages visitors with personalized interactions that boost
-								satisfaction.
+								Converts leads faster with timely, tone-aware replies
 							</td>
 							<td className="px-6 py-4">
-								Automates lead capture & follow-up processes, reducing manual
-								effort.
+								Saves $2K+/month vs. manual or VA-based follow-up
 							</td>
 							<td className="px-6 py-4">
-								Drives targeted campaigns with dynamic, real-time lead
-								nurturing.
+								Feels personal, fast, and native to the brand
 							</td>
 							<td className="px-6 py-4">
-								Increases conversion rates by turning clicks into high-quality
-								leads.
-							</td>
-							<td className="px-6 py-4">
-								Frees staff from routine tasks, allowing focus on strategic
-								initiatives.
+								Removes repetitive reply-writing from support & sales teams
 							</td>
 						</tr>
 						<tr className="odd:bg-white odd:dark:bg-gray-900/50 even:bg-gray-50/50 even:dark:bg-gray-800/50 border-b dark:border-gray-700/50">
@@ -76,25 +65,20 @@ const TableValue = () => {
 								scope="row"
 								className="px-6 py-4 font-medium whitespace-nowrap text-logoPurple foundation"
 							>
-								Sales Outreach & <br /> Personalized <br /> Communication
+								Feedback <br /> Intelligence <br /> Engine
 							</th>
 							<td className="px-6 py-4">
-								Creates tailored communications that build trust and enhance CX.
+								Enables faster product and marketing decisions based on real
+								needs
 							</td>
 							<td className="px-6 py-4">
-								Streamlines multi-channel outreach, ensuring consistent
-								follow-ups.
+								Reduces 90% of manual feedback sorting time
 							</td>
 							<td className="px-6 py-4">
-								Optimizes messaging with data-driven insights for better
-								engagement.
+								Makes users feel heard and shapes the product around them
 							</td>
 							<td className="px-6 py-4">
-								Accelerates deal cycles, boosting conversion rates and sales
-								revenue.
-							</td>
-							<td className="px-6 py-4">
-								Reduces repetitive outreach tasks, enhancing focus on strategy.
+								Scales research without adding PM/analyst roles
 							</td>
 						</tr>
 						<tr className="odd:bg-white odd:dark:bg-gray-900/50 even:bg-gray-50/50 even:dark:bg-gray-800/50 border-b dark:border-gray-700/50">
@@ -102,27 +86,41 @@ const TableValue = () => {
 								scope="row"
 								className="px-6 py-4 font-medium whitespace-nowrap text-logoPurple foundation"
 							>
-								Automated Content <br /> Personalization
+								Content- <br /> from- <br /> Conversations
 							</th>
 							<td className="px-6 py-4">
-								Delivers dynamic, personalized content that enhances user
-								satisfaction.
+								Drives inbound leads with content crafted from real user
+								language
 							</td>
 							<td className="px-6 py-4">
-								Automates content creation and scheduling, reducing manual
-								intervention.
+								Eliminates need for copywriters or freelancers for basic posts
 							</td>
 							<td className="px-6 py-4">
-								Tailors marketing messages to individual audience segments
-								effectively.
+								Communicates clearly and often across all touchpoints
 							</td>
 							<td className="px-6 py-4">
-								Boosts revenue through higher engagement, conversion, and
-								retention rates.
+								Multiplies content output without scaling the team
+							</td>
+						</tr>
+						<tr className="odd:bg-white odd:dark:bg-gray-900/50 even:bg-gray-50/50 even:dark:bg-gray-800/50 border-b dark:border-gray-700/50">
+							<th
+								scope="row"
+								className="px-6 py-4 font-medium whitespace-nowrap text-logoPurple foundation"
+							>
+								Self-Learning <br /> Loop
+							</th>
+							<td className="px-6 py-4">
+								Improves reply relevance, boosting lead and customer trust over
+								time
 							</td>
 							<td className="px-6 py-4">
-								Streamlines creative processes so teams can focus on strategic
-								content planning.
+								Reduces follow-up churn and corrections long term
+							</td>
+							<td className="px-6 py-4">
+								Creates more helpful and consistent replies every week
+							</td>
+							<td className="px-6 py-4">
+								System improves over time with no added human cost
 							</td>
 						</tr>
 					</tbody>

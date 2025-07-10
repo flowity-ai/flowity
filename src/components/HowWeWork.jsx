@@ -43,15 +43,13 @@ const Services = () => {
 					<p className={`${styles.paragraph} ml-2`}>How We Work</p>
 				</div>
 				<h2 className="text-center">
-					Streamlined Solutions, <br /> Tailored to You
+					From Insight to Automation <br /> Without Overcomplicating
 				</h2>
 				<p
 					className={`${styles.paragraph} max-w-[700px] mt-6 mb-6 text-center`}
 				>
-					At Flowity AI, simplicity powers success. Our process ensures a smooth
-					journey from idea to implementation. You focus on growing your
-					business while we handle the rest, delivering impactful AI-driven
-					automation workflows effortlessly.
+					We keep things lean, fast, and focused on results. Here’s how you go
+					from idea to full Whispr integration:
 				</p>
 			</div>
 			<div className="flex md:flex-row flex-col">

@@ -30,6 +30,10 @@ const Wrap = styled.div`
 	span {
 		margin-right: 1.5rem;
 	}
+
+	@media only screen and (min-width: 600px) {
+		font-size: 1rem;
+	}
 `;
 
 const Dropdown = styled.div`
@@ -43,10 +47,11 @@ const Dropdown = styled.div`
 
 	p {
 		font-size: 1rem;
-		padding: 10px 40px 10px 40px;
+		padding: 10px 20px;
 
 		@media only screen and (min-width: 600px) {
 			font-size: 1.2rem;
+			padding: 10px 40px 10px 40px;
 		}
 	}
 `;
@@ -71,9 +76,9 @@ const FAQ = () => {
 							return (
 								<>
 									<Wrap onClick={() => toggle(index)} key={index}>
-										<h2 className="font-poppins font-semibold text-[22px] md:text-[24px] text-white leading-[30.8px] md:leading-[50.8px] p-[1em]">
+										<p className="font-poppins font-semibold text-[18px] md:text-[22px] text-white leading-[30.8px] md:leading-[50.8px] p-[1em]">
 											{item.question}
-										</h2>
+										</p>
 										<span> {clicked === index ? <FiMinus /> : <FiPlus />}</span>
 									</Wrap>
 									{clicked === index ? (
