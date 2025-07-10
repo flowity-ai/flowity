@@ -93,23 +93,23 @@ export const workModel = [
 	{
 		id: "model-1",
 		value: "1",
-		title: "Onboarding",
+		title: "Discovery Intro Call",
 		content:
-			"We begin with an in-depth discovery session to understand your needs and tools. Together, we identify repetitive tasks and opportunities for AI-driven automation, setting a strong foundation for impactful solutions.",
+			"We walk you through how Whispr works, review your current systems, and determine if you're a strong fit for what we offer. No fluff, just clarity. Deployment in days, not months. No dev or analyst team needed.",
 	},
 	{
 		id: "model-2",
 		value: "2",
-		title: "Development",
+		title: "Onboarding & Strategy Setup",
 		content:
-			"Our team gets to work, leveraging cutting-edge AI and NLP technology to craft tailored automation workflows. With a focus on precision and efficiency, we build solutions designed to elevate your operations.",
+			"Once aligned, we collect your brand assets, workflows, and preferred channels. Then we map the feedback loops and define the content or insights Whispr will automate for you.",
 	},
 	{
 		id: "model-3",
 		value: "3",
-		title: "Refinement",
+		title: "Build, Deliver, Refine",
 		content:
-			"After initial implementation, we fine-tune workflows based on your feedback, ensuring the solution integrates seamlessly into your business and delivers maximum impact.",
+			"We build your Whispr system using LLM, N8N, and NLP, test in your environment, and refine based on your team’s feedback, ensuring it feels like your voice and fits your ops.",
 	},
 ];
 
