@@ -34,8 +34,7 @@ const Features = () => (
 			</div>
 			<h2>Fast, Reliable, and Hassle-Free</h2>
 			<p className={`${styles.paragraph} max-w-[470px] mt-6 mb-6 text-center`}>
-				Provide input and see your vision come to life seamlessly. Foster
-				creativity with time-saving tools and adaptable solutions.
+				What’s Inside | What You’re Actually Getting with Whispr
 			</p>
 		</div>
 		<div

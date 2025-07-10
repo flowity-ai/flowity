@@ -116,37 +116,36 @@ export const workModel = [
 export const stats = [
 	{
 		id: "stats-1",
-		title: "Fast Turnaround",
-		content:
-			"Get results quickly with rapid AI workflow setups—tasks built and running in days, not weeks.",
+		title: "Rapid Setup",
+		content: "Get your automation launched in 5–7 days, not weeks.",
 		icon: bolt,
 	},
 	{
 		id: "stats-2",
-		title: "Flexible Solutions",
+		title: "Smart Output Actions",
 		content:
-			"Enjoy customizable AI workflows that adapt to your evolving business needs, without over-complicating your operations.",
+			"Automatically creates: branded replies, content snippets, summaries, or tags into CRM.",
 		icon: flexible,
 	},
 	{
 		id: "stats-3",
-		title: "Predictable Pricing",
+		title: "Predictable Subscription",
 		content:
-			"Get all the value you need with a fixed monthly rate—no surprise costs, just reliable and scalable solutions.",
+			"One flat monthly rate with all updates, refinements, and support included.",
 		icon: pricing,
 	},
 	{
 		id: "stats-4",
-		title: "Seamless Integrations",
+		title: "Input Channel Integrations",
 		content:
-			"Integrate with your existing tools effortlessly, creating smooth workflows without disrupting your current operations.",
+			"Collects feedback and messages from: forms, email, Typeform, Google Sheets, etc.",
 		icon: integrations,
 	},
 	{
 		id: "stats-5",
 		title: "NLP-Powered Efficiency",
 		content:
-			"Leveraging natural language processing, turning customer feedback and interactions into actionable insights for better decision-making.",
+			"Sentiment analysis, intent detection, and tone-aware content generation using your favorite LLM.",
 		icon: nlp,
 	},
 
@@ -154,7 +153,7 @@ export const stats = [
 		id: "stats-6",
 		title: "Scalable Solutions",
 		content:
-			"Whether you're a small business or growing fast, our solutions are built to scale and adapt to your evolving needs.",
+			"Connects seamless with your tools for smooth worfklow automations.",
 		icon: scalable,
 	},
 ];
