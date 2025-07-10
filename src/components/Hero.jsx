@@ -25,12 +25,15 @@ const Hero = () => {
 				<p
 					className={`${styles.paragraph} max-w-[650px] mt-6 mb-6 text-center`}
 				>
-					A growth partner that drives revenue, efficiency, and peace of mind.{" "}
+					Flowity AI's <b>Whispr</b> turns your customer conversations,
+					feedback, and inbound messages into on-brand content, instant replies,
+					and decision-ready insights, without hiring. <br />
 					<br />
-					We help B2B SaaS and Marketing & Sales companies turn leads into loyal
-					customers on autopilot with AI-driven outreach, automated content
-					systems, and hyper-personalized engagement — driving 5-10X ROI
-					effortlessly.
+					<i class="">
+						Built for B2B SaaS, digital-first agencies, and product-led startups
+						who want to scale content, support, and product feedback on
+						autopilot.
+					</i>
 				</p>
 
 				<Button />
