@@ -182,14 +182,12 @@ const Solutions = () => {
 							<img src={spark} alt="Sparkles" className="w-[22px] h-[22px]" />
 							<p className={`${styles.paragraph} ml-2`}>Our Solutions</p>
 						</div>
-						<h2 className={styles.heading2}>
-							A Personalized AI Sales & Marketing Machine
-						</h2>
+						<h2 className={styles.heading2}>Why Whispr?</h2>
 						<p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-							We help B2B SaaS and marketing-driven companies scale faster,
-							smarter, and leaner through intelligent automation. Our systems
-							are built to eliminate manual work, increase conversions, and
-							accelerate revenue—without growing your team.
+							Because you deserve more than just automation. You get
+							lightning-fast setup, zero bloat, LLMs that sound like you,
+							seamless plug-and-play with your stack, and a fixed price that
+							scales your revenue, not your stress.
 						</p>
 					</>
 				)}

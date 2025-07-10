@@ -82,7 +82,7 @@ export const features = [
 		id: "feature-4",
 		sparkle: "Not just tools",
 		h2: "A feedback loop that gets smarter every time",
-		icon: automation,
+		icon: priority,
 		title: "Self-Learning Loop",
 		content:
 			"The more messages Whispr processes, the better it becomes at matching tone, intent, and user needs — through auto-finetuning and tagging.",
@@ -160,37 +160,35 @@ export const stats = [
 
 export const faq = [
 	{
+		question: "What’s included in the 7-day trial?",
+		answer: `You get a fully functional mini-version of Whispr tailored to your business: 1 live automation workflow (e.g., replies or feedback insights), 1 branded reply or content examples, 1 customer feedback summary report, Temporary access to a Microsoft Teams channel for communication.`,
+	},
+	{
+		question: "Is it really free?",
+		answer: `Yes, only put credits for your own LLM. There’s no charge during the 7-day period. If you decide not to continue, you pay nothing.`,
+	},
+	{
 		question: "What happens after payment?",
-		answer: `After payment, you'll be redirected to fill out a small form and set up our Onboarding meeting where we'll address your processes and strategize your automations. After Onboarding we'll send you an email for you ClickUp space and get ready to start adding projects immediately or we'll add them for you.`,
+		answer: `After payment, you'll be redirected to fill out a small form and book our Onboarding meeting where we'll address your processes and strategize your automations.`,
+	},
+	{
+		question:
+			"Can I keep the workflow after the Whispr trial if I don’t continue?",
+		answer: `No, the IP and workflows remain proprietary unless you subscribe. But you can see it working live in your system during the trial.`,
 	},
 	{
 		question: "Will I need to pay any extras?",
-		answer: `We only request an automation account like N8N, Make.com, Zapier, etc.. so we can manage your processes as collaborators. All can be explained in our 15m Intro Call.`,
+		answer: `We only request an automation account like N8N, Make.com, Zapier, etc.. so we can manage your processes as collaborators. All will be explained in our 15m Intro Call. At the Whispr free trial we'll create your Agent in our own instance, only after you'll need your own N8N hosting.`,
 	},
 	{
-		question: "How many requests can I submit at once?",
-		answer: `You can submit as many requests as you want or we can submit them for you. For our Standard Package you can have up to 1 active request at a time and for our Pro Package you can have up to 2 active requests at a time.`,
-	},
-	{
-		question: "What type of workflows are included in the plans?",
+		question: "Can I request customized workflows for General AI Automation?",
 		answer:
-			"Our Standard Package include simple workflows with basic integrations to minor intermediate ones and our Pro Package include Intermediate to minor advanced ones, including NLP-driven automation, and AI Agents.",
-	},
-	{
-		question: "Can I request customized workflows?",
-		answer:
-			"All of our AI automation workflows are tailored to your specific needs but in our Pro Package you can request more complex processes leveraging natural language processing with low-code environments. Book a 15m Intro Call with us and make sure we're the best fit.",
+			"Yes. We'll build one task at a time and you can add as many requests as you like or we'll add them for you.",
 	},
 	{
 		question: "What if I don’t like the solution provided?",
 		answer:
 			"Client satisfaction is our top priority. If you’re not fully satisfied with the initial delivery you can simply leave a comment and we'd continue revising until you are 100% satisfied.",
-	},
-	{
-		question:
-			"What if I'm no longer active and I still have revisions to be made?",
-		answer:
-			"Don't worry, revisions will be made even if you cancel your monthly subscription. However, if your revision needs an update, it can only be made by an active subscription.",
 	},
 	{
 		question: "Can these workflows integrate with my existing tools?",
@@ -206,22 +204,6 @@ export const faq = [
 		question: "How do I know if my business needs automation workflows?",
 		answer:
 			"If your team is spending too much time on repetitive tasks, missing opportunities due to delays, or struggling with inefficiencies, automation could be the answer. Book a 15m free consultation, and we’ll help you identify areas where automation can make an immediate impact.",
-	},
-	{
-		question:
-			"What makes Flowity AI different from other automation service providers?",
-		answer:
-			"Flowity AI is your AI growth system in action. The ultimate growth partner for B2B Saas and Marketing & Sales companies, not just another automation provider. Your go-to high-value solution for industries that need results fast.",
-	},
-	{
-		question: "Can I scale my workflows over time?",
-		answer:
-			"Absolutely! Our workflows are built to grow with your business. You can start small and add more advanced automation solutions as your needs evolve. We’ll work with you to adjust and expand workflows as required.",
-	},
-	{
-		question: "What support do you offer after delivering the workflow?",
-		answer:
-			"After the delivered workflows, active accounts can benefit from Flowity AI ensuring the workflows continues to run smothless and seamless to all applications and further analyze how these process can work better together for scalability, updating them as needed.",
 	},
 ];
 

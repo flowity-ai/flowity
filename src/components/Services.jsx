@@ -44,8 +44,8 @@ const Services = () => {
 					>
 						15m Intro Call
 					</a>{" "}
-					<b className="uppercase">now</b> and GET <b>7-day free</b> trial
-					before you commit.
+					<b className="uppercase">now</b> and GET <b>7-day free</b> trial on{" "}
+					<u>Whispr</u> before you commit.
 				</p>
 			</div>
 

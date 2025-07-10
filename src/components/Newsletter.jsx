@@ -13,7 +13,7 @@ const Newsletter = () => (
 				<p className={`${styles.paragraph} ml-2`}>Flow Nexus AI Newsletter</p>
 			</div>
 			<h2 className={styles.heading2}>
-				Automate Smarter with Flowity Insights
+				Automate Smarter with Flowity AI Insights
 			</h2>
 
 			<div className="flex flex-row flex-wrap mt-10">
@@ -30,7 +30,7 @@ const Newsletter = () => (
 			</div>
 		</div>
 
-		<div className={`${layout.sectionInfo} px-6 mb-3`}>
+		<div className={`${layout.sectionInfo} px-0 md-px-6 mb-3`}>
 			<p className={`${styles.paragraph} mt-6 text-start`}>
 				<b>Guide to Automating Your Business with AI.</b> Subscribe for
 				actionable insights on AI workflows, exclusive offers, workflow tips, AI
