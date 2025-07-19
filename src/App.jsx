@@ -20,6 +20,7 @@ import {
 	HowWeWork,
 	TableValue,
 	Store,
+	FlowChart,
 } from "./components";
 
 const App = () => (
@@ -40,6 +41,7 @@ const App = () => (
 
 		<div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
 			<div className={`${styles.boxWidth}`}>
+				<FlowChart />
 				<Clients />
 				<Solutions />
 				<TableValue />

@@ -15,6 +15,7 @@ import HowWeWork from "./HowWeWork";
 import FAQ from "./FAQ";
 import TableValue from "./TableValue";
 import Store from "./Store";
+import FlowChart from "./FlowChart";
 
 export {
 	Navbar,
@@ -34,4 +35,5 @@ export {
 	FAQ,
 	TableValue,
 	Store,
+	FlowChart,
 };
