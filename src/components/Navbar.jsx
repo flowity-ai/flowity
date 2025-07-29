@@ -8,6 +8,29 @@ const Navbar = () => {
 	const [active, setActive] = useState("Home");
 	const [toggle, setToggle] = useState(false);
 
+	const handleNavClick = (e, navId) => {
+		e.preventDefault();
+		setActive(navId);
+		
+		const element = document.getElementById(navId);
+		if (element) {
+			// Adjust offset based on the section
+			let navbarHeight = 80;
+			
+			// Add extra offset for pricing section specifically
+			if (navId === "pricing") {
+				navbarHeight = 120; // More offset for pricing section
+			}
+			
+			const elementPosition = element.offsetTop - navbarHeight;
+			
+			window.scrollTo({
+				top: elementPosition,
+				behavior: 'smooth'
+			});
+		}
+	};
+
 	return (
 		<nav className="w-full py-6 navbar flex">
 			<div className="foundation flex flex-1 items-center content-center">
@@ -30,7 +53,11 @@ const Navbar = () => {
 							} ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
 							onClick={() => setActive(nav.title)}
 						>
-							<a href={`#${nav.id}`} className="cursor-pointer">
+							<a 
+								href={`#${nav.id}`} 
+								className="cursor-pointer"
+								onClick={(e) => handleNavClick(e, nav.id)}
+							>
 								{nav.title}
 							</a>
 						</li>
@@ -82,7 +109,11 @@ const Navbar = () => {
 									} ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
 									onClick={() => setActive(nav.title)}
 								>
-									<a className="cursor-pointer" href={`#${nav.id}`}>
+									<a 
+										className="cursor-pointer" 
+										href={`#${nav.id}`}
+										onClick={(e) => handleNavClick(e, nav.id)}
+									>
 										{nav.title}
 									</a>
 								</li>
