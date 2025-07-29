@@ -16,6 +16,9 @@ import FAQ from "./FAQ";
 import TableValue from "./TableValue";
 import Store from "./Store";
 import FlowChart from "./FlowChart";
+import PulseDeck from "./PulseDeck";
+import Calculator from "./Calculator";
+import Whispr from "./Whispr";
 
 export {
 	Navbar,
@@ -36,4 +39,7 @@ export {
 	TableValue,
 	Store,
 	FlowChart,
+	PulseDeck,
+	Calculator,
+	Whispr,
 };

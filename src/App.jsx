@@ -2,60 +2,20 @@ import React from "react";
 import "./App.css";
 import "./fonts/foundation.ttf";
 import styles from "./style";
-import {
-	Ninescode,
-	Solutions,
-	Clients,
-	CTA,
-	Footer,
-	Navbar,
-	Stats,
-	Testimonials,
-	FAQ,
-	Hero,
-	Features,
-	Newsletter,
-	AISection,
-	Services,
-	HowWeWork,
-	TableValue,
-	Store,
-	FlowChart,
-} from "./components";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import HomeComponent from "./components/HomeComponent";
+import PulseDeck from "./components/PulseDeck";
 
 const App = () => (
-	<div className="bg-primary w-full overflow-clip">
-		<div
-			className={`${styles.paddingX} ${styles.flexCenter} sticky top-0 z-[99999] nav-bg`}
-		>
-			<div className={`${styles.boxWidth}`}>
-				<Navbar />
-			</div>
-		</div>
-
-		<div className={`bg-primary ${styles.flexStart}`}>
-			<div className={`${styles.boxWidth}`}>
-				<Hero />
-			</div>
-		</div>
-
-		<div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-			<div className={`${styles.boxWidth}`}>
-				<FlowChart />
-				<Clients />
-				<Solutions />
-				<TableValue />
-				<HowWeWork />
-				<Features />
-				<AISection />
-				<Services />
-				<Newsletter />
-				<FAQ />
-				<CTA />
-				<Footer />
-			</div>
-		</div>
-	</div>
+	<Router>
+		<Routes>
+			<Route path="/" element={<Layout />}>
+				<Route index element={<HomeComponent />} />
+				<Route path="pulsedeck" element={<PulseDeck />} />
+			</Route>
+		</Routes>
+	</Router>
 );
 
 export default App;
