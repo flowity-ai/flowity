@@ -6,7 +6,7 @@ import { check, services, bolt } from "../assets";
 
 const tabsData = [
 	{
-		label: "General AI Automations",
+		label: "Standard AI Automation",
 		price: "1,999",
 		feat1: `Unlimited system requests`,
 		feat2: `Private Teams and Trello`,
@@ -15,7 +15,7 @@ const tabsData = [
 		url: `https://checkout.flowity.ai/b/8x2fZg1Xj3iL7q6fnAdjO08`,
 	},
 	{
-		label: "Pro Whispr",
+		label: "Pro Whispr Agent",
 		price: "4,499",
 		feat1: `Custom LLM Workflow Setup`,
 		feat2: `Automated Feedback & Replies`,

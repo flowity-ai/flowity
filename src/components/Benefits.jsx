@@ -263,8 +263,8 @@ const Benefits = () => {
 								What You <span className="text-logoPurple">Gain</span>
 							</h3>
 							<div className="space-y-10">
-								<div className="flex items-start">
-									<div className="bg-gradient-to-br from-logoPurple/50 to-logoPurple/20 p-3 rounded-lg mr-6">
+								<div className="flex flex-col items-start text-left md:flex-row md:items-start md:text-left">
+									<div className="bg-gradient-to-br from-logoPurple/50 to-logoPurple/20 p-3 rounded-lg mb-4 md:mr-6 md:mb-0 self-start">
 										<FiShield className="w-8 h-8 text-logoPurple" />
 									</div>
 									<div>
@@ -286,8 +286,8 @@ const Benefits = () => {
 									</div>
 								</div>
 
-								<div className="flex items-start">
-									<div className="bg-gradient-to-br from-logoCyan/50 to-logoCyan/20 p-3 rounded-lg mr-6">
+								<div className="flex flex-col items-start text-left md:flex-row md:items-start md:text-left">
+									<div className="bg-gradient-to-br from-logoCyan/50 to-logoCyan/20 p-3 rounded-lg mb-4 md:mr-6 md:mb-0 self-start">
 										<FiTrendingUp className="w-8 h-8 text-logoCyan" />
 									</div>
 									<div>
@@ -319,8 +319,8 @@ const Benefits = () => {
 									</div>
 								</div>
 
-								<div className="flex items-start">
-									<div className="bg-gradient-to-br from-logoPurple/50 to-logoPurple/20 p-3 rounded-lg mr-6">
+								<div className="flex flex-col items-start text-left md:flex-row md:items-start md:text-left">
+									<div className="bg-gradient-to-br from-logoPurple/50 to-logoPurple/20 p-3 rounded-lg mb-4 md:mr-6 md:mb-0 self-start">
 										<FiDollarSign className="w-8 h-8 text-logoPurple" />
 									</div>
 									<div>
@@ -361,8 +361,8 @@ const Benefits = () => {
 								How It <span className="text-logoCyan">Works</span>
 							</h3>
 							<div className="space-y-10">
-								<div className="flex items-start">
-									<div className="bg-gradient-to-br from-logoPurple/50 to-logoPurple/20 p-3 rounded-lg mr-6">
+								<div className="flex flex-col items-start text-left md:flex-row md:items-start md:text-left">
+									<div className="bg-gradient-to-br from-logoPurple/50 to-logoPurple/20 p-3 rounded-lg mb-4 md:mr-6 md:mb-0 self-start">
 										<span className="text-xl font-bold text-white w-8 h-8 flex items-center justify-center">
 											1
 										</span>
@@ -374,7 +374,7 @@ const Benefits = () => {
 										<p className="text-gray-400 mb-4">
 											Automated ingestion from all customer touchpoints:
 										</p>
-										<div className="flex flex-wrap gap-2">
+										<div className="flex flex-wrap gap-2 justify-start">
 											<span className="px-3 py-1 bg-gray-800/50 rounded-full text-sm border border-gray-700">
 												Slack
 											</span>
@@ -394,8 +394,8 @@ const Benefits = () => {
 									</div>
 								</div>
 
-								<div className="flex items-start">
-									<div className="bg-gradient-to-br from-logoCyan/50 to-logoCyan/20 p-3 rounded-lg mr-6">
+								<div className="flex flex-col items-start text-left md:flex-row md:items-start md:text-left">
+									<div className="bg-gradient-to-br from-logoCyan/50 to-logoCyan/20 p-3 rounded-lg mb-4 md:mr-6 md:mb-0 self-start">
 										<span className="text-xl font-bold text-white w-8 h-8 flex items-center justify-center">
 											2
 										</span>
@@ -433,8 +433,8 @@ const Benefits = () => {
 									</div>
 								</div>
 
-								<div className="flex items-start">
-									<div className="bg-gradient-to-br from-logoPurple/50 to-logoPurple/20 p-3 rounded-lg mr-6">
+								<div className="flex flex-col items-start text-left md:flex-row md:items-start md:text-left">
+									<div className="bg-gradient-to-br from-logoPurple/50 to-logoPurple/20 p-3 rounded-lg mb-4 md:mr-6 md:mb-0 self-start">
 										<span className="text-xl font-bold text-white w-8 h-8 flex items-center justify-center">
 											3
 										</span>
@@ -447,15 +447,15 @@ const Benefits = () => {
 											Ready-to-use insights for leadership teams:
 										</p>
 										<div className="space-y-3">
-											<div className="flex items-center">
+											<div className="flex items-center justify-start">
 												<div className="w-3 h-3 rounded-full bg-logoCyan mr-3"></div>
 												<span>Pulse Deck™ - Board-ready presentations</span>
 											</div>
-											<div className="flex items-center">
+											<div className="flex items-center justify-start">
 												<div className="w-3 h-3 rounded-full bg-logoPurple mr-3"></div>
 												<span>MRR Impact Dashboards</span>
 											</div>
-											<div className="flex items-center">
+											<div className="flex items-center justify-start">
 												<div className="w-3 h-3 rounded-full bg-green-500 mr-3"></div>
 												<span>Real-time Slack Alerts</span>
 											</div>

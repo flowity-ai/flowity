@@ -303,13 +303,10 @@ const HowWeWork = () => {
 										</div>
 										<div className="flex flex-wrap gap-2">
 											<div className="bg-gray-900 text-xs py-1 px-2 rounded">
-												n8n
+												N8N
 											</div>
 											<div className="bg-gray-900 text-xs py-1 px-2 rounded">
-												Zapier
-											</div>
-											<div className="bg-gray-900 text-xs py-1 px-2 rounded">
-												Make
+												N8N Agents
 											</div>
 										</div>
 									</div>
