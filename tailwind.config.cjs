@@ -16,6 +16,7 @@ module.exports = {
 				poppins: ["Poppins", "sans-serif"],
 			},
 			animation: {
+				bounce: "bounce 1s infinite",
 				"text-slide-2":
 					"text-slide-2 5s cubic-bezier(0.83, 0, 0.17, 1) infinite",
 				"text-slide-3":
@@ -26,6 +27,16 @@ module.exports = {
 					"text-slide-5 12.5s cubic-bezier(0.83, 0, 0.17, 1) infinite",
 			},
 			keyframes: {
+				bounce: {
+					"0%, 100%": {
+						transform: "translateY(0)",
+						animationTimingFunction: "cubic-bezier(0.8, 0, 1, 1)",
+					},
+					"50%": {
+						transform: "translateY(-25%)",
+						animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
+					},
+				},
 				"text-slide-2": {
 					"0%, 40%": {
 						transform: "translateY(0%)",

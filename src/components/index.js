@@ -19,6 +19,15 @@ import FlowChart from "./FlowChart";
 import PulseDeck from "./PulseDeck";
 import Calculator from "./Calculator";
 import Whispr from "./Whispr";
+import HeroSection from "./HeroSection";
+import ValueSection from "./ValueSection";
+import ProductsSection from "./ProductSection";
+import CTASection from "./CTASection";
+import ROISection from "./ROISection";
+import PulseReport from "./PulseReport";
+import AutomationSuite from "./AutomationSuite";
+import HomeComponent from "./HomeComponent";
+import VirtualAssistant from "./VirtualAssistant";
 
 export {
 	Navbar,
@@ -42,4 +51,13 @@ export {
 	PulseDeck,
 	Calculator,
 	Whispr,
+	HeroSection,
+	ValueSection,
+	ProductsSection,
+	CTASection,
+	ROISection,
+	PulseReport,
+	AutomationSuite,
+	HomeComponent,
+	VirtualAssistant,
 };

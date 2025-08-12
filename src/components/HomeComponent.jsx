@@ -11,21 +11,23 @@ import Services from "./Services";
 import Newsletter from "./Newsletter";
 import FAQ from "./FAQ";
 import CTA from "./CTA";
-import Benefits from "./Benefits";
-import Whispr from "./Whispr";
+import HeroSection from "./HeroSection";
+import ValueSection from "./ValueSection";
+import ProductsSection from "./ProductSection";
+import CTASection from "./CTASection";
+import ROISection from "./ROISection";
 
 const HomeComponent = () => (
 	<>
 		<Hero />
-		<Clients />
-		<Benefits />
-		<Solutions />
 		<HowWeWork />
-		<Whispr />
+		<ValueSection />
+		<ProductsSection />
+		<ROISection />
 		<Services />
 		<Newsletter />
+		<CTASection />
 		<FAQ />
-		<CTA />
 	</>
 );
 

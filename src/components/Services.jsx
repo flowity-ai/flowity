@@ -6,22 +6,31 @@ import { check, services, bolt } from "../assets";
 
 const tabsData = [
 	{
-		label: "Standard AI Automation",
+		label: "AI Automations",
 		price: "1,999",
 		feat1: `Unlimited system requests`,
 		feat2: `Private Teams and Trello`,
 		feat3: `Make.com or N8N AI automations`,
 		feat4: `On-going maintenance`,
-		url: `https://checkout.flowity.ai/b/8x2fZg1Xj3iL7q6fnAdjO08`,
+		url: `https://checkout.flowity.ai/b/6oUfZggSd7z1eSyejwdjO09`,
 	},
 	{
-		label: "Pro Whispr Agent",
-		price: "4,499",
+		label: "Whispr",
+		price: "999",
 		feat1: `Custom LLM Workflow Setup`,
 		feat2: `Automated Feedback & Replies`,
 		feat3: `Weekly Content & Insight Delivery`,
 		feat4: `Dedicated Teams Channel + Support`,
-		url: `https://checkout.flowity.ai/b/eVa00D2693Klfe08wD`,
+		url: `https://checkout.flowity.ai/b/28E8wO31ncTl4dU1wKdjO0a`,
+	},
+	{
+		label: "Virtual Assistant",
+		price: "0",
+		feat1: `Custom LLM Workflow Setup`,
+		feat2: `Automated Feedback & Replies`,
+		feat3: `Weekly Content & Insight Delivery`,
+		feat4: `Dedicated Teams Channel + Support`,
+		call: "https://cal.com/flowityai/onboarding",
 	},
 ];
 
@@ -87,7 +96,9 @@ const Services = () => {
 							</p>
 							<div>
 								<h3 className="text-[18px] md:text-[20px] pt-5 font-medium tracking-wide leading-[25px]">
-									{tabsData[activeTabIndex].label}
+									{tabsData[activeTabIndex].label === "Whispr"
+										? "Whispr Beta"
+										: tabsData[activeTabIndex].label}
 								</h3>{" "}
 								<br />
 								<p className="font-poppins font-medium text-[28px] md:text-[45px] foundation mt-3">
@@ -154,12 +165,21 @@ const Services = () => {
 								</ul>
 							</div>
 						</div>
-						<a href={tabsData[activeTabIndex].url} className="w-full">
+						<a
+							href={
+								tabsData[activeTabIndex].label === "Virtual Assistant"
+									? tabsData[activeTabIndex].call
+									: tabsData[activeTabIndex].url
+							}
+							className="w-full"
+						>
 							<button
 								type="button"
 								className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-gradient-to-r from-logoPurple to-logoCyan rounded-[10px] outline-none ${styles} w-full md:w-auto md:mx-auto`}
 							>
-								Get Started
+								{tabsData[activeTabIndex].label === "Virtual Assistant"
+									? "Coming Soon"
+									: "Get Started"}
 							</button>
 						</a>
 					</div>

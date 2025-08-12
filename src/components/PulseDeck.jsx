@@ -27,9 +27,11 @@ const PulseDeck = () => {
 						your revenue is at risk and where your next growth opportunity lies.
 					</p>
 					<div className="flex justify-center gap-4">
-						<button className="bg-gradient-to-r from-logoCyan to-logoPurple hover:from-logoCyan/90 hover:to-logoPurple/90 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-logoCyan/20">
-							Get Sample Report
-						</button>
+						<a href="/pulse-report">
+							<button className="bg-gradient-to-r from-logoCyan to-logoPurple hover:from-logoCyan/90 hover:to-logoPurple/90 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-logoCyan/20">
+								Get Sample Report
+							</button>
+						</a>
 					</div>
 				</div>
 
@@ -174,7 +176,7 @@ const PulseDeck = () => {
 							Pulse Deck™
 						</h2>
 						<p className="text-xl text-gray-400 mb-8">
-							We transform thousands of customer interactions into crystal-cher
+							We transform thousands of customer interactions into crystal-clear
 							strategic insights that drive revenue.
 						</p>
 
@@ -293,9 +295,11 @@ const PulseDeck = () => {
 						<button className="bg-gradient-to-r from-logoCyan to-logoPurple hover:from-logoCyan/90 hover:to-logoPurple/90 text-white font-semibold py-4 px-12 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-logoCyan/30">
 							Request Your Custom Report
 						</button>
-						<button className="bg-gray-800 hover:bg-gray-700 text-white font-semibold py-4 px-12 rounded-lg border border-gray-700 transition duration-300">
-							View Demo Report
-						</button>
+						<a href="/pulse-report">
+							<button className="bg-gray-800 hover:bg-gray-700 text-white font-semibold py-4 px-12 rounded-lg border border-gray-700 transition duration-300">
+								View Demo Report
+							</button>
+						</a>
 					</div>
 				</div>
 			</div>
