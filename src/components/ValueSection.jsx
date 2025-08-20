@@ -243,25 +243,25 @@ export default function ValueSection() {
 					</p>
 				</div>
 
-				<div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-10">
+				<div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
 					{values.map((value, index) => (
 						<div
 							key={index}
-							className="bg-gradient-to-b from-gray-800/30 to-gray-900/10 backdrop-blur-lg border border-gray-700 rounded-2xl p-8 transform transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-purple-900/10"
+							className="bg-gradient-to-b from-gray-800/30 to-gray-900/10 backdrop-blur-lg border border-gray-700 rounded-2xl p-8 lg:p-10 transform transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:shadow-purple-900/10"
 						>
-							<div className="mb-6">
+							<div className="mb-8">
 								<div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-r from-[#9C83F7]/10 to-[#1CD8DE]/10 border border-cyan-400/20">
 									{value.icon}
 								</div>
 							</div>
-							<h3 className="text-2xl font-bold text-white mb-4">
+							<h3 className="text-2xl font-bold text-white mb-6">
 								{value.title}
 							</h3>
-							<p className="text-gray-300 leading-relaxed">
+							<p className="text-gray-300 leading-relaxed mb-8">
 								{value.description}
 							</p>
-							<div className="mt-8 pt-6 border-t border-gray-800">
-								<div className="flex flex-wrap gap-2">
+							<div className="pt-6 border-t border-gray-800">
+								<div className="flex flex-wrap gap-3">
 									{[
 										"Sentiment mapping",
 										"Topic modeling",
@@ -314,7 +314,7 @@ export default function ValueSection() {
 								business needs while maintaining enterprise-grade security and
 								compliance standards.
 							</p>
-							<div className="flex items-center space-x-4">
+							<div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
 								<div className="flex items-center text-cyan-300">
 									<svg
 										className="w-5 h-5 mr-1.5"

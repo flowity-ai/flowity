@@ -16,10 +16,13 @@ import ValueSection from "./ValueSection";
 import ProductsSection from "./ProductSection";
 import CTASection from "./CTASection";
 import ROISection from "./ROISection";
+import ValuePropositionSection from "./ValuePropositionSection";
+import ProcessFlow from "./ProcessFlow";
 
 const HomeComponent = () => (
 	<>
 		<Hero />
+		<ValuePropositionSection />
 		<HowWeWork />
 		<ValueSection />
 		<ProductsSection />

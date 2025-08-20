@@ -3,6 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@media print {
+  .navbar, .footer {
+    display: none !important; /* hides nav/footer in PDF */
+  }
+
+  .page-break {
+    page-break-inside: avoid; /* prevents splitting content in the middle */
+    break-inside: avoid;      /* modern standard */
+  }
+}
+
 #automationSuite {
 	@layer utilities {
 	.animation-delay-2000 {

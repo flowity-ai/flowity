@@ -28,6 +28,10 @@ import PulseReport from "./PulseReport";
 import AutomationSuite from "./AutomationSuite";
 import HomeComponent from "./HomeComponent";
 import VirtualAssistant from "./VirtualAssistant";
+import FlowityLandingPage from "./FlowityLandingPage";
+import ValuePropositionCard from "./ValuePropositionCard";
+import ValuePropositionSection from "./ValuePropositionSection";
+import ProcessFlow from "./ProcessFlow";
 
 export {
 	Navbar,
@@ -60,4 +64,8 @@ export {
 	AutomationSuite,
 	HomeComponent,
 	VirtualAssistant,
+	FlowityLandingPage,
+	ValuePropositionCard,
+	ValuePropositionSection,
+	ProcessFlow,
 };

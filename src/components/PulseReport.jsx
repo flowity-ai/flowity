@@ -1,10 +1,34 @@
 import React from "react";
 
+const downloadPDF = async () => {
+	try {
+		const response = await fetch("http://localhost:5000/download-pdf", {
+			mode: "cors",
+		});
+		if (!response.ok) throw new Error("Network response was not ok");
+
+		const blob = await response.blob();
+		const url = window.URL.createObjectURL(blob);
+		const a = document.createElement("a");
+		a.href = url;
+		a.download = "Executive_Report.pdf";
+		document.body.appendChild(a);
+		a.click();
+		a.remove();
+		window.URL.revokeObjectURL(url);
+	} catch (error) {
+		console.error("Error downloading PDF:", error);
+	}
+};
+
 const PulseReport = () => {
 	return (
-		<div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-gray-900 text-gray-100 p-4 md:p-8 font-sans">
+		<div
+			id="report"
+			className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-950 to-gray-900 text-gray-100 p-4 md:p-8 font-sans"
+		>
 			{/* Hero Section */}
-			<div className="min-h-[90vh] flex flex-col justify-center items-center text-center mb-16 py-10 relative overflow-hidden">
+			<div className="report-section page-break min-h-[90vh] flex flex-col justify-center items-center text-center mb-16 py-10 relative overflow-hidden">
 				{/* Background Elements */}
 				<div className="absolute inset-0 bg-grid-pattern bg-[length:80px_80px] opacity-[0.03]"></div>
 				<div className="absolute inset-0 bg-gradient-radial from-logoPurple/10 via-transparent to-transparent"></div>
@@ -65,6 +89,10 @@ const PulseReport = () => {
 								<span className="mx-2">•</span>
 								<span>v3.2.1</span>
 							</div>
+						</div>
+						{/* PDF Button */}
+						<div className="text-center mt-8">
+							<button onClick={downloadPDF}>Download PDF</button>
 						</div>
 					</div>
 				</div>
@@ -237,7 +265,7 @@ const PulseReport = () => {
 						</div>
 					</div>
 
-					<div className="md:w-1/3">
+					<div className="report-section page-break md:w-1/3">
 						<div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm p-6 rounded-2xl border border-logoCyan/30 h-full">
 							<h3 className="text-xl font-semibold mb-4 text-logoCyan">
 								Sentiment Analysis
@@ -312,7 +340,7 @@ const PulseReport = () => {
 			</div>
 
 			{/* KPI Dashboard */}
-			<div className="max-w-6xl mx-auto mb-20">
+			<div className="report-section page-break max-w-6xl mx-auto mb-20">
 				<div className="flex items-center justify-between mb-8 pb-4 border-b border-logoCyan/30">
 					<div className="flex items-center">
 						<div className="w-10 h-10 rounded-full bg-logoPurple/20 flex items-center justify-center mr-4">
@@ -453,7 +481,7 @@ const PulseReport = () => {
 			</div>
 
 			{/* Action Intelligence */}
-			<div className="max-w-6xl mx-auto mb-20">
+			<div className="report-section page-break max-w-6xl mx-auto mb-20">
 				<div className="flex items-center justify-between mb-8 pb-4 border-b border-logoPurple/30">
 					<div className="flex items-center">
 						<div className="w-10 h-10 rounded-full bg-logoCyan/20 flex items-center justify-center mr-4">
@@ -481,7 +509,7 @@ const PulseReport = () => {
 					</div>
 				</div>
 
-				<div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+				<div className="report-section page-break grid grid-cols-1 lg:grid-cols-3 gap-8">
 					{/* What Happened */}
 					<div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm p-6 rounded-2xl border border-red-500/30">
 						<div className="flex items-start mb-5">
@@ -545,7 +573,7 @@ const PulseReport = () => {
 					</div>
 
 					{/* What We Did */}
-					<div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm p-6 rounded-2xl border border-logoCyan/30">
+					<div className="report-section page-break bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm p-6 rounded-2xl border border-logoCyan/30">
 						<div className="flex items-start mb-5">
 							<div className="mr-4">
 								<div className="w-12 h-12 rounded-full bg-logoCyan/20 flex items-center justify-center">
@@ -602,7 +630,7 @@ const PulseReport = () => {
 					</div>
 
 					{/* What's Next */}
-					<div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm p-6 rounded-2xl border border-logoPurple/30">
+					<div className="report-section page-break bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm p-6 rounded-2xl border border-logoPurple/30">
 						<div className="flex items-start mb-5">
 							<div className="mr-4">
 								<div className="w-12 h-12 rounded-full bg-logoPurple/20 flex items-center justify-center">
@@ -655,7 +683,7 @@ const PulseReport = () => {
 					</div>
 				</div>
 
-				<div className="mt-8 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm p-6 rounded-2xl border border-logoCyan/30">
+				<div className="report-section page-break mt-8 bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm p-6 rounded-2xl border border-logoCyan/30">
 					<div className="flex items-center mb-3">
 						<div className="w-8 h-8 rounded-full bg-logoCyan/20 flex items-center justify-center mr-3">
 							<svg
@@ -685,7 +713,7 @@ const PulseReport = () => {
 			</div>
 
 			{/* ROI & Recommendations */}
-			<div className="max-w-6xl mx-auto">
+			<div className="report-section page-break max-w-6xl mx-auto">
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
 					{/* ROI Impact */}
 					<div>
@@ -919,7 +947,7 @@ const PulseReport = () => {
 			</div>
 
 			{/* Footer */}
-			<div className="max-w-6xl mx-auto py-10 border-t border-gray-800 text-center">
+			<div className="report-section page-break max-w-6xl mx-auto py-10 border-t border-gray-800 text-center">
 				<div className="flex flex-col md:flex-row justify-between items-center">
 					<div className="mb-4 md:mb-0">
 						<div className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-logoPurple to-logoCyan">
